@@ -1,0 +1,3166 @@
+---------------------------------------------------------------
+[ 2018-09-03T01:05:38+08:00 ] 172.24.189.12 106.11.156.186 GET /download/index/windows.html?page=2
+[ info ] 39.104.67.26/download/index/windows.html?page=2 [è¿è¡Œæ—¶é—´ï¼š0.515632s][ååç‡ï¼š1.94req/s] [å†…å­˜æ¶ˆè€—ï¼š2,195.66kb] [æ–‡ä»¶åŠ è½½ï¼š44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'download',
+    1 => 'index',
+    2 => 'windows',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn,en-us,zh-tw,en-gb,en;',
+  'host' => '39.104.67.26',
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'YisouSpider',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ RUN ] app\download\controller\Index->windows[ C:\thinkphp\application\download\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\thinkphp/application/download\view\index\windows.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_downloadwindowsfile` [ RunTime:0.140626s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qs_downloadwindowsfile` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_downloadwindowsfile` ORDER BY id asc LIMIT 6,6 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T09:59:53+08:00 ] 172.24.189.12 218.68.107.173 GET /
+[ info ] 39.104.67.26:8901/ [è¿è¡Œæ—¶é—´ï¼š0.453122s][ååç‡ï¼š2.21req/s] [å†…å­˜æ¶ˆè€—ï¼š2,105.41kb] [æ–‡ä»¶åŠ è½½ï¼š41]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\thinkphp\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/index\view\index\index.html [ array (
+  0 => 'event',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_event` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_event` ORDER BY id asc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T10:00:44+08:00 ] 172.24.189.12 218.68.107.173 GET /
+[ info ] 39.104.67.26:8901/ [è¿è¡Œæ—¶é—´ï¼š0.046874s][ååç‡ï¼š21.33req/s] [å†…å­˜æ¶ˆè€—ï¼š2,105.46kb] [æ–‡ä»¶åŠ è½½ï¼š41]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=b7ikkmf4hcpa6r91gn36r39jp3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\thinkphp\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/index\view\index\index.html [ array (
+  0 => 'event',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_event` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_event` ORDER BY id asc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T10:01:21+08:00 ] 172.24.189.12 218.68.107.173 GET /platform/user/index.html
+[ info ] 39.104.67.26:8901/platform/user/index.html [è¿è¡Œæ—¶é—´ï¼š0.093750s][ååç‡ï¼š10.67req/s] [å†…å­˜æ¶ˆè€—ï¼š1,303.96kb] [æ–‡ä»¶åŠ è½½ï¼š33]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=b7ikkmf4hcpa6r91gn36r39jp3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\platform\controller\User->index[ C:\thinkphp\application\platform\controller\User.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-03T10:05:07+08:00 ] 172.24.189.12 218.68.107.173 POST /platform/user/login
+[ info ] 39.104.67.26:8901/platform/user/login [è¿è¡Œæ—¶é—´ï¼š0.156249s][ååç‡ï¼š6.40req/s] [å†…å­˜æ¶ˆè€—ï¼š2,291.00kb] [æ–‡ä»¶åŠ è½½ï¼š44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://39.104.67.26:8901/platform/user/index.html',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'host' => '39.104.67.26:8901',
+  'content-length' => '33',
+  'connection' => 'Keep-Alive',
+  'cache-control' => 'no-cache',
+  'cookie' => 'PHPSESSID=b7ikkmf4hcpa6r91gn36r39jp3',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'bkrc12345',
+  'password' => '12345',
+)
+[ info ] [ RUN ] app\platform\controller\User->login[ C:\thinkphp\application\platform\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_user` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT `id` FROM `qs_user` WHERE  `username` = 'bkrc12345' LIMIT 1 [ RunTime:0.031249s ]
+[ sql ] [ SQL ] SELECT `password` FROM `qs_user` WHERE  `username` = 'bkrc12345' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `qs_user`  SET `last_login_ip`='218.68.107.173',`last_login_time`='2018-09-03 10:05:07'  WHERE  `username` = 'bkrc12345' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T10:05:09+08:00 ] 172.24.189.12 218.68.107.173 POST /platform/user/login
+[ info ] 39.104.67.26:8901/platform/user/login [è¿è¡Œæ—¶é—´ï¼š0.046874s][ååç‡ï¼š21.33req/s] [å†…å­˜æ¶ˆè€—ï¼š2,291.00kb] [æ–‡ä»¶åŠ è½½ï¼š44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://39.104.67.26:8901/platform/user/index.html',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'host' => '39.104.67.26:8901',
+  'content-length' => '33',
+  'connection' => 'Keep-Alive',
+  'cache-control' => 'no-cache',
+  'cookie' => 'PHPSESSID=b7ikkmf4hcpa6r91gn36r39jp3',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'bkrc12345',
+  'password' => '12345',
+)
+[ info ] [ RUN ] app\platform\controller\User->login[ C:\thinkphp\application\platform\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_user` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `id` FROM `qs_user` WHERE  `username` = 'bkrc12345' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `password` FROM `qs_user` WHERE  `username` = 'bkrc12345' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `qs_user`  SET `last_login_ip`='218.68.107.173',`last_login_time`='2018-09-03 10:05:09'  WHERE  `username` = 'bkrc12345' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T10:05:10+08:00 ] 172.24.189.12 218.68.107.173 GET /platform/user/index/index
+[ info ] 39.104.67.26:8901/platform/user/index/index [è¿è¡Œæ—¶é—´ï¼š0.031249s][ååç‡ï¼š32.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,366.11kb] [æ–‡ä»¶åŠ è½½ï¼š34]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/platform/user/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=b7ikkmf4hcpa6r91gn36r39jp3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\platform\controller\User->index[ C:\thinkphp\application\platform\controller\User.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-03T10:05:10+08:00 ] 172.24.189.12 218.68.107.173 GET /platform/index/index.html
+[ info ] 39.104.67.26:8901/platform/index/index.html [è¿è¡Œæ—¶é—´ï¼š0.124999s][ååç‡ï¼š8.00req/s] [å†…å­˜æ¶ˆè€—ï¼š2,089.70kb] [æ–‡ä»¶åŠ è½½ï¼š42]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/platform/user/index/index',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=b7ikkmf4hcpa6r91gn36r39jp3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\platform\controller\Index->index[ C:\thinkphp\application\platform\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\index\index.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_application` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_application` WHERE  `uid` = 122 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_device` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_device` WHERE  `aid` = 44 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T10:05:10+08:00 ] 172.24.189.12 218.68.107.173 GET /platform/index/welcome.html
+[ info ] 39.104.67.26:8901/platform/index/welcome.html [è¿è¡Œæ—¶é—´ï¼š0.078124s][ååç‡ï¼š12.80req/s] [å†…å­˜æ¶ˆè€—ï¼š2,027.98kb] [æ–‡ä»¶åŠ è½½ï¼š41]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/platform/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=b7ikkmf4hcpa6r91gn36r39jp3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\platform\controller\Index->welcome[ C:\thinkphp\application\platform\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\index\welcome.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015624s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_application` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_application` WHERE  `uid` = 122 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_device` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_device` WHERE  `aid` = 44 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T10:05:52+08:00 ] 172.24.189.12 218.68.107.173 GET /platform/show/deviceshow/aid/44.html
+[ info ] 39.104.67.26:8901/platform/show/deviceshow/aid/44.html [è¿è¡Œæ—¶é—´ï¼š0.249999s][ååç‡ï¼š4.00req/s] [å†…å­˜æ¶ˆè€—ï¼š2,299.65kb] [æ–‡ä»¶åŠ è½½ï¼š44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'show',
+    2 => 'deviceshow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/platform/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=b7ikkmf4hcpa6r91gn36r39jp3',
+)
+[ info ] [ PARAM ] array (
+  'aid' => '44',
+)
+[ info ] [ RUN ] app\platform\controller\Show->deviceshow[ C:\thinkphp\application\platform\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\show\deviceshow.html [ array (
+  0 => 'aid',
+  1 => 'devicelist',
+  2 => 'type',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_device` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qs_experiment_device` WHERE  `aid` = 44 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_device` WHERE  `aid` = 44 ORDER BY `tid`  asc,`id`  desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_type_store` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_type_store` [ RunTime:0.031250s ]
+---------------------------------------------------------------
+[ 2018-09-03T10:05:57+08:00 ] 172.24.189.12 218.68.107.173 GET /platform/show/select/serial/oDLaZPKw/devicetype/5.html
+[ info ] 39.104.67.26:8901/platform/show/select/serial/oDLaZPKw/devicetype/5.html [è¿è¡Œæ—¶é—´ï¼š0.328122s][ååç‡ï¼š3.05req/s] [å†…å­˜æ¶ˆè€—ï¼š2,265.70kb] [æ–‡ä»¶åŠ è½½ï¼š44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'show',
+    2 => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/platform/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=b7ikkmf4hcpa6r91gn36r39jp3',
+)
+[ info ] [ PARAM ] array (
+  'serial' => 'oDLaZPKw',
+  'devicetype' => '5',
+)
+[ info ] [ RUN ] app\platform\controller\Show->select[ C:\thinkphp\application\platform\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\show\show5.html [ array (
+  0 => 'datas',
+  1 => 'type',
+  2 => 'serial',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_type_store` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_type_store` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_wendu` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qs_wendu` WHERE  `serial` = 'oDLaZPKw' LIMIT 1 [ RunTime:0.265624s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_wendu` WHERE  `serial` = 'oDLaZPKw' ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T10:07:43+08:00 ] 172.24.189.12 218.68.107.173 GET /platform/show/select/serial/oDLaZPKw/devicetype/5.html
+[ info ] 39.104.67.26:8901/platform/show/select/serial/oDLaZPKw/devicetype/5.html [è¿è¡Œæ—¶é—´ï¼š0.078126s][ååç‡ï¼š12.80req/s] [å†…å­˜æ¶ˆè€—ï¼š2,265.70kb] [æ–‡ä»¶åŠ è½½ï¼š44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'show',
+    2 => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/platform/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=b7ikkmf4hcpa6r91gn36r39jp3',
+)
+[ info ] [ PARAM ] array (
+  'serial' => 'oDLaZPKw',
+  'devicetype' => '5',
+)
+[ info ] [ RUN ] app\platform\controller\Show->select[ C:\thinkphp\application\platform\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\show\show5.html [ array (
+  0 => 'datas',
+  1 => 'type',
+  2 => 'serial',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_type_store` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_type_store` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_wendu` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qs_wendu` WHERE  `serial` = 'oDLaZPKw' LIMIT 1 [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_wendu` WHERE  `serial` = 'oDLaZPKw' ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T10:07:58+08:00 ] 172.24.189.12 218.68.107.173 GET /platform/show/select/serial/oDLaZPKw/devicetype/5.html?page=13
+[ info ] 39.104.67.26:8901/platform/show/select/serial/oDLaZPKw/devicetype/5.html?page=13 [è¿è¡Œæ—¶é—´ï¼š0.062501s][ååç‡ï¼š16.00req/s] [å†…å­˜æ¶ˆè€—ï¼š2,266.05kb] [æ–‡ä»¶åŠ è½½ï¼š44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'show',
+    2 => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/platform/show/select/serial/oDLaZPKw/devicetype/5.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=b7ikkmf4hcpa6r91gn36r39jp3',
+)
+[ info ] [ PARAM ] array (
+  'page' => '13',
+  'serial' => 'oDLaZPKw',
+  'devicetype' => '5',
+)
+[ info ] [ RUN ] app\platform\controller\Show->select[ C:\thinkphp\application\platform\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\show\show5.html [ array (
+  0 => 'datas',
+  1 => 'type',
+  2 => 'serial',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_type_store` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_type_store` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_wendu` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qs_wendu` WHERE  `serial` = 'oDLaZPKw' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_wendu` WHERE  `serial` = 'oDLaZPKw' ORDER BY id desc LIMIT 120,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T10:08:04+08:00 ] 172.24.189.12 218.68.107.173 GET /platform/show/select/serial/oDLaZPKw/devicetype/5.html?page=15
+[ info ] 39.104.67.26:8901/platform/show/select/serial/oDLaZPKw/devicetype/5.html?page=15 [è¿è¡Œæ—¶é—´ï¼š0.062501s][ååç‡ï¼š16.00req/s] [å†…å­˜æ¶ˆè€—ï¼š2,257.99kb] [æ–‡ä»¶åŠ è½½ï¼š44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'show',
+    2 => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/platform/show/select/serial/oDLaZPKw/devicetype/5.html?page=13',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=b7ikkmf4hcpa6r91gn36r39jp3',
+)
+[ info ] [ PARAM ] array (
+  'page' => '15',
+  'serial' => 'oDLaZPKw',
+  'devicetype' => '5',
+)
+[ info ] [ RUN ] app\platform\controller\Show->select[ C:\thinkphp\application\platform\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\show\show5.html [ array (
+  0 => 'datas',
+  1 => 'type',
+  2 => 'serial',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_type_store` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_type_store` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_wendu` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qs_wendu` WHERE  `serial` = 'oDLaZPKw' LIMIT 1 [ RunTime:0.015626s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_wendu` WHERE  `serial` = 'oDLaZPKw' ORDER BY id desc LIMIT 140,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T10:10:08+08:00 ] 172.24.189.12 218.68.107.173 GET /platform/show/select/serial/oDLaZPKw/devicetype/5.html?page=1
+[ info ] 39.104.67.26:8901/platform/show/select/serial/oDLaZPKw/devicetype/5.html?page=1 [è¿è¡Œæ—¶é—´ï¼š0.062501s][ååç‡ï¼š16.00req/s] [å†…å­˜æ¶ˆè€—ï¼š2,266.12kb] [æ–‡ä»¶åŠ è½½ï¼š44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'show',
+    2 => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/platform/show/select/serial/oDLaZPKw/devicetype/5.html?page=15',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=b7ikkmf4hcpa6r91gn36r39jp3',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'serial' => 'oDLaZPKw',
+  'devicetype' => '5',
+)
+[ info ] [ RUN ] app\platform\controller\Show->select[ C:\thinkphp\application\platform\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\show\show5.html [ array (
+  0 => 'datas',
+  1 => 'type',
+  2 => 'serial',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_type_store` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_type_store` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_wendu` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qs_wendu` WHERE  `serial` = 'oDLaZPKw' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_wendu` WHERE  `serial` = 'oDLaZPKw' ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T10:10:26+08:00 ] 172.24.189.12 218.68.107.173 GET /platform/show/select/serial/oDLaZPKw/devicetype/5.html
+[ info ] 39.104.67.26:8901/platform/show/select/serial/oDLaZPKw/devicetype/5.html [è¿è¡Œæ—¶é—´ï¼š0.062501s][ååç‡ï¼š16.00req/s] [å†…å­˜æ¶ˆè€—ï¼š2,265.70kb] [æ–‡ä»¶åŠ è½½ï¼š44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'show',
+    2 => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/platform/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=b7ikkmf4hcpa6r91gn36r39jp3',
+)
+[ info ] [ PARAM ] array (
+  'serial' => 'oDLaZPKw',
+  'devicetype' => '5',
+)
+[ info ] [ RUN ] app\platform\controller\Show->select[ C:\thinkphp\application\platform\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\show\show5.html [ array (
+  0 => 'datas',
+  1 => 'type',
+  2 => 'serial',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_type_store` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_type_store` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_wendu` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qs_wendu` WHERE  `serial` = 'oDLaZPKw' LIMIT 1 [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_wendu` WHERE  `serial` = 'oDLaZPKw' ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T10:12:31+08:00 ] 172.24.189.12 220.181.132.195 GET /
+[ info ] 39.104.67.26:8901/ [è¿è¡Œæ—¶é—´ï¼š0.093751s][ååç‡ï¼š10.67req/s] [å†…å­˜æ¶ˆè€—ï¼š2,136.57kb] [æ–‡ä»¶åŠ è½½ï¼š45]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\thinkphp\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/index\view\index\index.html [ array (
+  0 => 'event',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_event` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_event` ORDER BY id asc [ RunTime:0.000000s ]
+[ error ] [4]è¯­æ³•é”™è¯¯: unexpected '}'[xÚíTën£F~™HŞühÄ%i‚RWÅ8Æƒ‰Áæ2?vƒ=Æ—Ô‡ïHb§Rß H–a.g¾ó]æ&™N’üP|ÿñ}r…Õş÷ûûœñşÛ{7ùãï?\'w7æør{7™N_¬ùt:y¾éû~:ùíÿçòLÿÚ7!ûöÎb¼XœltV‡®ÒcS Ì.‰<«Ÿ°ot‘lô(iSCåk[2’aJ‡ıYCr»Œ2R˜Zú¨eXŒ2K=¥FKûD^bk4%’[ã±Çª äkMMC_¥oš›}ĞiWG™+]K%¯¹çNêÙ<™ùÊ¯VšcÃy–-‡¹ªâuôEõ3CsÖx‹_¾l5ô‹ÅåéŒE9ô”yÑ¬å
+Î)¯y•]éâ¥p<CŸÙS…4›÷×ÇKT™[µ|íT8gVâ„RäØEà=¤‘¾£œOaıçØ›3Ëˆ¤œBIi±w_:k×°7Êm)ğÚâ½·ò¿ÎCóğ[¡H{¹ô¦±G Ñ ÀQì5ÒØƒ¾ö°)(Z
+cËFë;8÷xŒ2»ÂçÓbğn‰Ôˆk”€N”É¡Î`qæ6ĞÛçY+çı¬—œGĞTd‘ì
+«K¿€x¯µYŸŠsƒŞæà²³¸G 6ğRãì‰ó}óµâK®àK"‹õÅë!p®0mAÿÔbóà{[È ş:1]
+---------------------------------------------------------------
+[ 2018-09-03T10:13:04+08:00 ] 172.24.189.12 113.10.244.66 GET /
+[ info ] 39.104.67.26:8901/ [è¿è¡Œæ—¶é—´ï¼š0.078126s][ååç‡ï¼š12.80req/s] [å†…å­˜æ¶ˆè€—ï¼š2,136.83kb] [æ–‡ä»¶åŠ è½½ï¼š45]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'cache-control' => 'max-age=259200',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\thinkphp\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/index\view\index\index.html [ array (
+  0 => 'event',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_event` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_event` ORDER BY id asc [ RunTime:0.000000s ]
+[ error ] [4]è¯­æ³•é”™è¯¯: unexpected '}'[xÚíTën£F~™HŞühÄ%i‚RWÅ8Æƒ‰Áæ2?vƒ=Æ—Ô‡ïHb§Rß H–a.g¾ó]æ&™N’üP|ÿñ}r…Õş÷ûûœñşÛ{7ùãï?\'w7æør{7™N_¬ùt:y¾éû~:ùíÿçòLÿÚ7!ûöÎb¼XœltV‡®ÒcS Ì.‰<«Ÿ°ot‘lô(iSCåk[2’aJ‡ıYCr»Œ2R˜Zú¨eXŒ2K=¥FKûD^bk4%’[ã±Çª äkMMC_¥oš›}ĞiWG™+]K%¯¹çNêÙ<™ùÊ¯VšcÃy–-‡¹ªâuôEõ3CsÖx‹_¾l5ô‹ÅåéŒE9ô”yÑ¬å
+Î)¯y•]éâ¥p<CŸÙS…4›÷×ÇKT™[µ|íT8gVâ„RäØEà=¤‘¾£œOaıçØ›3Ëˆ¤œBIi±w_:k×°7Êm)ğÚâ½·ò¿ÎCóğ[¡H{¹ô¦±G Ñ ÀQì5ÒØƒ¾ö°)(Z
+cËFë;8÷xŒ2»ÂçÓbğn‰Ôˆk”€N”É¡Î`qæ6ĞÛçY+çı¬—œGĞTd‘ì
+«K¿€x¯µYŸŠsƒŞæà²³¸G 6ğRãì‰ó}óµâK®àK"‹õÅë!p®0mAÿÔbóà{[È ş:1]
+---------------------------------------------------------------
+[ 2018-09-03T10:13:09+08:00 ] 172.24.189.12 218.68.107.173 GET /
+[ info ] 39.104.67.26:8901/ [è¿è¡Œæ—¶é—´ï¼š0.046876s][ååç‡ï¼š21.33req/s] [å†…å­˜æ¶ˆè€—ï¼š2,116.17kb] [æ–‡ä»¶åŠ è½½ï¼š41]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=b7ikkmf4hcpa6r91gn36r39jp3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\thinkphp\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/index\view\index\index.html [ array (
+  0 => 'userdata',
+  1 => 'event',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_user` [ RunTime:0.015626s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_user` WHERE  `id` = 122 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_event` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_event` ORDER BY id asc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T10:13:23+08:00 ] 172.24.189.12 218.68.107.173 GET /
+[ info ] 39.104.67.26:8901/ [è¿è¡Œæ—¶é—´ï¼š0.062501s][ååç‡ï¼š16.00req/s] [å†…å­˜æ¶ˆè€—ï¼š2,116.17kb] [æ–‡ä»¶åŠ è½½ï¼š41]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=b7ikkmf4hcpa6r91gn36r39jp3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\thinkphp\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/index\view\index\index.html [ array (
+  0 => 'userdata',
+  1 => 'event',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_user` WHERE  `id` = 122 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_event` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_event` ORDER BY id asc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T10:13:35+08:00 ] 172.24.189.12 218.68.107.173 GET /platform/user/index.html
+[ info ] 39.104.67.26:8901/platform/user/index.html [è¿è¡Œæ—¶é—´ï¼š0.031250s][ååç‡ï¼š32.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,366.04kb] [æ–‡ä»¶åŠ è½½ï¼š34]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=b7ikkmf4hcpa6r91gn36r39jp3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\platform\controller\User->index[ C:\thinkphp\application\platform\controller\User.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-03T10:13:35+08:00 ] 172.24.189.12 218.68.107.173 GET /platform/index/index.html
+[ info ] 39.104.67.26:8901/platform/index/index.html [è¿è¡Œæ—¶é—´ï¼š0.062500s][ååç‡ï¼š16.00req/s] [å†…å­˜æ¶ˆè€—ï¼š2,089.70kb] [æ–‡ä»¶åŠ è½½ï¼š42]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/platform/user/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=b7ikkmf4hcpa6r91gn36r39jp3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\platform\controller\Index->index[ C:\thinkphp\application\platform\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\index\index.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_application` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_application` WHERE  `uid` = 122 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_device` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_device` WHERE  `aid` = 44 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T10:13:36+08:00 ] 172.24.189.12 218.68.107.173 GET /platform/index/welcome.html
+[ info ] 39.104.67.26:8901/platform/index/welcome.html [è¿è¡Œæ—¶é—´ï¼š0.046876s][ååç‡ï¼š21.33req/s] [å†…å­˜æ¶ˆè€—ï¼š2,027.98kb] [æ–‡ä»¶åŠ è½½ï¼š41]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/platform/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=b7ikkmf4hcpa6r91gn36r39jp3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\platform\controller\Index->welcome[ C:\thinkphp\application\platform\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\index\welcome.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_application` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_application` WHERE  `uid` = 122 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_device` [ RunTime:0.015626s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_device` WHERE  `aid` = 44 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T10:13:40+08:00 ] 172.24.189.12 218.68.107.173 GET /platform/user/logout.html
+[ info ] 39.104.67.26:8901/platform/user/logout.html [è¿è¡Œæ—¶é—´ï¼š0.031251s][ååç‡ï¼š32.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,383.45kb] [æ–‡ä»¶åŠ è½½ï¼š35]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'user',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/platform/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=b7ikkmf4hcpa6r91gn36r39jp3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\platform\controller\User->logout[ C:\thinkphp\application\platform\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-03T10:13:40+08:00 ] 172.24.189.12 218.68.107.173 GET /platform/user/index.html
+[ info ] 39.104.67.26:8901/platform/user/index.html [è¿è¡Œæ—¶é—´ï¼š0.031250s][ååç‡ï¼š32.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,304.35kb] [æ–‡ä»¶åŠ è½½ï¼š33]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/platform/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=b7ikkmf4hcpa6r91gn36r39jp3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\platform\controller\User->index[ C:\thinkphp\application\platform\controller\User.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-03T10:13:57+08:00 ] 172.24.189.12 218.68.107.173 POST /platform/user/login
+[ info ] 39.104.67.26:8901/platform/user/login [è¿è¡Œæ—¶é—´ï¼š0.062501s][ååç‡ï¼š16.00req/s] [å†…å­˜æ¶ˆè€—ï¼š2,291.00kb] [æ–‡ä»¶åŠ è½½ï¼š44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://39.104.67.26:8901/platform/user/index.html',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'host' => '39.104.67.26:8901',
+  'content-length' => '33',
+  'connection' => 'Keep-Alive',
+  'cache-control' => 'no-cache',
+  'cookie' => 'PHPSESSID=b7ikkmf4hcpa6r91gn36r39jp3',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'bkrc12345',
+  'password' => '12345',
+)
+[ info ] [ RUN ] app\platform\controller\User->login[ C:\thinkphp\application\platform\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `qs_user` WHERE  `username` = 'bkrc12345' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `password` FROM `qs_user` WHERE  `username` = 'bkrc12345' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `qs_user`  SET `last_login_ip`='218.68.107.173',`last_login_time`='2018-09-03 10:13:57'  WHERE  `username` = 'bkrc12345' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T10:14:00+08:00 ] 172.24.189.12 218.68.107.173 POST /platform/user/login
+[ info ] 39.104.67.26:8901/platform/user/login [è¿è¡Œæ—¶é—´ï¼š0.062500s][ååç‡ï¼š16.00req/s] [å†…å­˜æ¶ˆè€—ï¼š2,291.00kb] [æ–‡ä»¶åŠ è½½ï¼š44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://39.104.67.26:8901/platform/user/index.html',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'host' => '39.104.67.26:8901',
+  'content-length' => '33',
+  'connection' => 'Keep-Alive',
+  'cache-control' => 'no-cache',
+  'cookie' => 'PHPSESSID=b7ikkmf4hcpa6r91gn36r39jp3',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'bkrc12345',
+  'password' => '12345',
+)
+[ info ] [ RUN ] app\platform\controller\User->login[ C:\thinkphp\application\platform\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `qs_user` WHERE  `username` = 'bkrc12345' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `password` FROM `qs_user` WHERE  `username` = 'bkrc12345' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `qs_user`  SET `last_login_ip`='218.68.107.173',`last_login_time`='2018-09-03 10:14:00'  WHERE  `username` = 'bkrc12345' [ RunTime:0.015625s ]
+---------------------------------------------------------------
+[ 2018-09-03T10:14:00+08:00 ] 172.24.189.12 218.68.107.173 GET /platform/user/index/index
+[ info ] 39.104.67.26:8901/platform/user/index/index [è¿è¡Œæ—¶é—´ï¼š0.031251s][ååç‡ï¼š32.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,366.11kb] [æ–‡ä»¶åŠ è½½ï¼š34]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/platform/user/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=b7ikkmf4hcpa6r91gn36r39jp3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\platform\controller\User->index[ C:\thinkphp\application\platform\controller\User.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-03T10:14:00+08:00 ] 172.24.189.12 218.68.107.173 GET /platform/index/index.html
+[ info ] 39.104.67.26:8901/platform/index/index.html [è¿è¡Œæ—¶é—´ï¼š0.046876s][ååç‡ï¼š21.33req/s] [å†…å­˜æ¶ˆè€—ï¼š2,089.70kb] [æ–‡ä»¶åŠ è½½ï¼š42]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/platform/user/index/index',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=b7ikkmf4hcpa6r91gn36r39jp3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\platform\controller\Index->index[ C:\thinkphp\application\platform\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\index\index.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_application` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_application` WHERE  `uid` = 122 ORDER BY `id`  ASC [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_device` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_device` WHERE  `aid` = 44 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T10:14:00+08:00 ] 172.24.189.12 218.68.107.173 GET /platform/index/welcome.html
+[ info ] 39.104.67.26:8901/platform/index/welcome.html [è¿è¡Œæ—¶é—´ï¼š0.062501s][ååç‡ï¼š16.00req/s] [å†…å­˜æ¶ˆè€—ï¼š2,027.98kb] [æ–‡ä»¶åŠ è½½ï¼š41]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/platform/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=b7ikkmf4hcpa6r91gn36r39jp3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\platform\controller\Index->welcome[ C:\thinkphp\application\platform\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\index\welcome.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_application` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_application` WHERE  `uid` = 122 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_device` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_device` WHERE  `aid` = 44 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T10:14:23+08:00 ] 172.24.189.12 218.68.107.173 GET /platform/show/select/serial/oDLaZPKw/devicetype/5.html
+[ info ] 39.104.67.26:8901/platform/show/select/serial/oDLaZPKw/devicetype/5.html [è¿è¡Œæ—¶é—´ï¼š0.062501s][ååç‡ï¼š16.00req/s] [å†…å­˜æ¶ˆè€—ï¼š2,265.70kb] [æ–‡ä»¶åŠ è½½ï¼š44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'show',
+    2 => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/platform/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=b7ikkmf4hcpa6r91gn36r39jp3',
+)
+[ info ] [ PARAM ] array (
+  'serial' => 'oDLaZPKw',
+  'devicetype' => '5',
+)
+[ info ] [ RUN ] app\platform\controller\Show->select[ C:\thinkphp\application\platform\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\show\show5.html [ array (
+  0 => 'datas',
+  1 => 'type',
+  2 => 'serial',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_type_store` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_type_store` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_wendu` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qs_wendu` WHERE  `serial` = 'oDLaZPKw' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_wendu` WHERE  `serial` = 'oDLaZPKw' ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T10:14:54+08:00 ] 172.24.189.12 218.68.107.173 GET /platform/show/select/serial/oDLaZPKw/devicetype/5.html
+[ info ] 39.104.67.26:8901/platform/show/select/serial/oDLaZPKw/devicetype/5.html [è¿è¡Œæ—¶é—´ï¼š0.062500s][ååç‡ï¼š16.00req/s] [å†…å­˜æ¶ˆè€—ï¼š2,265.70kb] [æ–‡ä»¶åŠ è½½ï¼š44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'show',
+    2 => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/platform/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=b7ikkmf4hcpa6r91gn36r39jp3',
+)
+[ info ] [ PARAM ] array (
+  'serial' => 'oDLaZPKw',
+  'devicetype' => '5',
+)
+[ info ] [ RUN ] app\platform\controller\Show->select[ C:\thinkphp\application\platform\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\show\show5.html [ array (
+  0 => 'datas',
+  1 => 'type',
+  2 => 'serial',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_type_store` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_type_store` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_wendu` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qs_wendu` WHERE  `serial` = 'oDLaZPKw' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_wendu` WHERE  `serial` = 'oDLaZPKw' ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T10:15:52+08:00 ] 172.24.189.12 218.68.107.173 GET /platform/show/select/serial/oDLaZPKw/devicetype/5.html
+[ info ] 39.104.67.26:8901/platform/show/select/serial/oDLaZPKw/devicetype/5.html [è¿è¡Œæ—¶é—´ï¼š0.062501s][ååç‡ï¼š16.00req/s] [å†…å­˜æ¶ˆè€—ï¼š2,265.70kb] [æ–‡ä»¶åŠ è½½ï¼š44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'show',
+    2 => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/platform/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=b7ikkmf4hcpa6r91gn36r39jp3',
+)
+[ info ] [ PARAM ] array (
+  'serial' => 'oDLaZPKw',
+  'devicetype' => '5',
+)
+[ info ] [ RUN ] app\platform\controller\Show->select[ C:\thinkphp\application\platform\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\show\show5.html [ array (
+  0 => 'datas',
+  1 => 'type',
+  2 => 'serial',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_type_store` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_type_store` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_wendu` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qs_wendu` WHERE  `serial` = 'oDLaZPKw' LIMIT 1 [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_wendu` WHERE  `serial` = 'oDLaZPKw' ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T10:15:53+08:00 ] 172.24.189.12 218.68.107.173 GET /platform/show/select/serial/oDLaZPKw/devicetype/5.html
+[ info ] 39.104.67.26:8901/platform/show/select/serial/oDLaZPKw/devicetype/5.html [è¿è¡Œæ—¶é—´ï¼š0.062500s][ååç‡ï¼š16.00req/s] [å†…å­˜æ¶ˆè€—ï¼š2,265.70kb] [æ–‡ä»¶åŠ è½½ï¼š44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'show',
+    2 => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/platform/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=b7ikkmf4hcpa6r91gn36r39jp3',
+)
+[ info ] [ PARAM ] array (
+  'serial' => 'oDLaZPKw',
+  'devicetype' => '5',
+)
+[ info ] [ RUN ] app\platform\controller\Show->select[ C:\thinkphp\application\platform\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\show\show5.html [ array (
+  0 => 'datas',
+  1 => 'type',
+  2 => 'serial',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_type_store` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_type_store` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_wendu` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qs_wendu` WHERE  `serial` = 'oDLaZPKw' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_wendu` WHERE  `serial` = 'oDLaZPKw' ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T10:24:23+08:00 ] 172.24.189.12 101.199.112.55 GET /platform/user/index/index
+[ info ] 39.104.67.26:8901/platform/user/index/index [è¿è¡Œæ—¶é—´ï¼š0.046876s][ååç‡ï¼š21.33req/s] [å†…å­˜æ¶ˆè€—ï¼š1,350.38kb] [æ–‡ä»¶åŠ è½½ï¼š37]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\platform\controller\User->index[ C:\thinkphp\application\platform\controller\User.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]è¯­æ³•é”™è¯¯: unexpected '}'[xÚíTën£F~™HŞühÄ%i‚RWÅ8Æƒ‰Áæ2?vƒ=Æ—Ô‡ïHb§Rß H–a.g¾ó]æ&™N’üP|ÿñ}r…Õş÷ûûœñşÛ{7ùãï?\'w7æør{7™N_¬ùt:y¾éû~:ùíÿçòLÿÚ7!ûöÎb¼XœltV‡®ÒcS Ì.‰<«Ÿ°ot‘lô(iSCåk[2’aJ‡ıYCr»Œ2R˜Zú¨eXŒ2K=¥FKûD^bk4%’[ã±Çª äkMMC_¥oš›}ĞiWG™+]K%¯¹çNêÙ<™ùÊ¯VšcÃy–-‡¹ªâuôEõ3CsÖx‹_¾l5ô‹ÅåéŒE9ô”yÑ¬å
+Î)¯y•]éâ¥p<CŸÙS…4›÷×ÇKT™[µ|íT8gVâ„RäØEà=¤‘¾£œOaıçØ›3Ëˆ¤œBIi±w_:k×°7Êm)ğÚâ½·ò¿ÎCóğ[¡H{¹ô¦±G Ñ ÀQì5ÒØƒ¾ö°)(Z
+cËFë;8÷xŒ2»ÂçÓbğn‰Ôˆk”€N”É¡Î`qæ6ĞÛçY+çı¬—œGĞTd‘ì
+«K¿€x¯µYŸŠsƒŞæà²³¸G 6ğRãì‰ó}óµâK®àK"‹õÅë!p®0mAÿÔbóà{[È ş:1]
+---------------------------------------------------------------
+[ 2018-09-03T10:24:49+08:00 ] 172.24.189.12 218.68.107.173 GET /
+[ info ] 39.104.67.26:8901/ [è¿è¡Œæ—¶é—´ï¼š0.062501s][ååç‡ï¼š16.00req/s] [å†…å­˜æ¶ˆè€—ï¼š2,105.41kb] [æ–‡ä»¶åŠ è½½ï¼š41]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\thinkphp\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/index\view\index\index.html [ array (
+  0 => 'event',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_event` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_event` ORDER BY id asc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T10:25:06+08:00 ] 172.24.189.12 123.1.189.203 GET /platform/user/index/index
+[ info ] 39.104.67.26:8901/platform/user/index/index [è¿è¡Œæ—¶é—´ï¼š0.078126s][ååç‡ï¼š12.80req/s] [å†…å­˜æ¶ˆè€—ï¼š1,350.54kb] [æ–‡ä»¶åŠ è½½ï¼š37]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'cache-control' => 'max-age=259200',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\platform\controller\User->index[ C:\thinkphp\application\platform\controller\User.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]è¯­æ³•é”™è¯¯: unexpected '}'[xÚíTën£F~™HŞühÄ%i‚RWÅ8Æƒ‰Áæ2?vƒ=Æ—Ô‡ïHb§Rß H–a.g¾ó]æ&™N’üP|ÿñ}r…Õş÷ûûœñşÛ{7ùãï?\'w7æør{7™N_¬ùt:y¾éû~:ùíÿçòLÿÚ7!ûöÎb¼XœltV‡®ÒcS Ì.‰<«Ÿ°ot‘lô(iSCåk[2’aJ‡ıYCr»Œ2R˜Zú¨eXŒ2K=¥FKûD^bk4%’[ã±Çª äkMMC_¥oš›}ĞiWG™+]K%¯¹çNêÙ<™ùÊ¯VšcÃy–-‡¹ªâuôEõ3CsÖx‹_¾l5ô‹ÅåéŒE9ô”yÑ¬å
+Î)¯y•]éâ¥p<CŸÙS…4›÷×ÇKT™[µ|íT8gVâ„RäØEà=¤‘¾£œOaıçØ›3Ëˆ¤œBIi±w_:k×°7Êm)ğÚâ½·ò¿ÎCóğ[¡H{¹ô¦±G Ñ ÀQì5ÒØƒ¾ö°)(Z
+cËFë;8÷xŒ2»ÂçÓbğn‰Ôˆk”€N”É¡Î`qæ6ĞÛçY+çı¬—œGĞTd‘ì
+«K¿€x¯µYŸŠsƒŞæà²³¸G 6ğRãì‰ó}óµâK®àK"‹õÅë!p®0mAÿÔbóà{[È ş:1]
+---------------------------------------------------------------
+[ 2018-09-03T10:25:56+08:00 ] 172.24.189.12 42.236.10.117 GET /platform/user/index.html
+[ info ] 39.104.67.26:8901/platform/user/index.html [è¿è¡Œæ—¶é—´ï¼š0.046876s][ååç‡ï¼š21.33req/s] [å†…å­˜æ¶ˆè€—ï¼š1,303.91kb] [æ–‡ä»¶åŠ è½½ï¼š33]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\platform\controller\User->index[ C:\thinkphp\application\platform\controller\User.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-03T10:26:41+08:00 ] 172.24.189.12 218.68.107.173 GET /platform/user/index.html
+[ info ] 39.104.67.26:8901/platform/user/index.html [è¿è¡Œæ—¶é—´ï¼š0.031251s][ååç‡ï¼š32.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,303.96kb] [æ–‡ä»¶åŠ è½½ï¼š33]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=t3ol13tavuhrq3hre1dpeut743',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\platform\controller\User->index[ C:\thinkphp\application\platform\controller\User.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-03T10:26:56+08:00 ] 172.24.189.12 218.68.107.173 GET /
+[ info ] 39.104.67.26:8901/ [è¿è¡Œæ—¶é—´ï¼š0.062501s][ååç‡ï¼š16.00req/s] [å†…å­˜æ¶ˆè€—ï¼š2,105.98kb] [æ–‡ä»¶åŠ è½½ï¼š41]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0.0; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-Hans-CN,en-US;q=0.8',
+  'dnt' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\thinkphp\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/index\view\index\index.html [ array (
+  0 => 'event',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_event` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_event` ORDER BY id asc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T10:27:11+08:00 ] 172.24.189.12 218.68.107.173 POST /platform/user/login
+[ info ] 39.104.67.26:8901/platform/user/login [è¿è¡Œæ—¶é—´ï¼š0.062501s][ååç‡ï¼š16.00req/s] [å†…å­˜æ¶ˆè€—ï¼š2,291.00kb] [æ–‡ä»¶åŠ è½½ï¼š44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://39.104.67.26:8901/platform/user/index.html',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'host' => '39.104.67.26:8901',
+  'content-length' => '33',
+  'connection' => 'Keep-Alive',
+  'cache-control' => 'no-cache',
+  'cookie' => 'PHPSESSID=t3ol13tavuhrq3hre1dpeut743',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'bkrc12345',
+  'password' => '12345',
+)
+[ info ] [ RUN ] app\platform\controller\User->login[ C:\thinkphp\application\platform\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_user` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `id` FROM `qs_user` WHERE  `username` = 'bkrc12345' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `password` FROM `qs_user` WHERE  `username` = 'bkrc12345' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `qs_user`  SET `last_login_ip`='218.68.107.173',`last_login_time`='2018-09-03 10:27:11'  WHERE  `username` = 'bkrc12345' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T10:27:15+08:00 ] 172.24.189.12 218.68.107.173 GET /platform/user/index/index
+[ info ] 39.104.67.26:8901/platform/user/index/index [è¿è¡Œæ—¶é—´ï¼š0.031251s][ååç‡ï¼š32.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,366.11kb] [æ–‡ä»¶åŠ è½½ï¼š34]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/platform/user/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=t3ol13tavuhrq3hre1dpeut743',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\platform\controller\User->index[ C:\thinkphp\application\platform\controller\User.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-03T10:27:15+08:00 ] 172.24.189.12 218.68.107.173 GET /platform/index/index.html
+[ info ] 39.104.67.26:8901/platform/index/index.html [è¿è¡Œæ—¶é—´ï¼š0.046875s][ååç‡ï¼š21.33req/s] [å†…å­˜æ¶ˆè€—ï¼š2,089.70kb] [æ–‡ä»¶åŠ è½½ï¼š42]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/platform/user/index/index',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=t3ol13tavuhrq3hre1dpeut743',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\platform\controller\Index->index[ C:\thinkphp\application\platform\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\index\index.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_application` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_application` WHERE  `uid` = 122 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_device` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_device` WHERE  `aid` = 44 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T10:27:17+08:00 ] 172.24.189.12 218.68.107.173 GET /platform/index/welcome.html
+[ info ] 39.104.67.26:8901/platform/index/welcome.html [è¿è¡Œæ—¶é—´ï¼š0.062501s][ååç‡ï¼š16.00req/s] [å†…å­˜æ¶ˆè€—ï¼š2,027.98kb] [æ–‡ä»¶åŠ è½½ï¼š41]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/platform/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=t3ol13tavuhrq3hre1dpeut743',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\platform\controller\Index->welcome[ C:\thinkphp\application\platform\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\index\welcome.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_application` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_application` WHERE  `uid` = 122 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_device` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_device` WHERE  `aid` = 44 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T10:27:43+08:00 ] 172.24.189.12 218.68.107.173 GET /platform/user/index.html
+[ info ] 39.104.67.26:8901/platform/user/index.html [è¿è¡Œæ—¶é—´ï¼š0.015625s][ååç‡ï¼š64.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,304.80kb] [æ–‡ä»¶åŠ è½½ï¼š33]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0.0; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://39.104.67.26:8901/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-Hans-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=v00me4o6t0iild5j54c5vv1663',
+  'dnt' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\platform\controller\User->index[ C:\thinkphp\application\platform\controller\User.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-03T10:27:51+08:00 ] 172.24.189.12 218.68.107.173 GET /platform/index/index.html
+[ info ] 39.104.67.26:8901/platform/index/index.html [è¿è¡Œæ—¶é—´ï¼š0.046876s][ååç‡ï¼š21.33req/s] [å†…å­˜æ¶ˆè€—ï¼š2,089.70kb] [æ–‡ä»¶åŠ è½½ï¼š42]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/platform/user/index/index',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=t3ol13tavuhrq3hre1dpeut743',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\platform\controller\Index->index[ C:\thinkphp\application\platform\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\index\index.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_application` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_application` WHERE  `uid` = 122 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_device` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_device` WHERE  `aid` = 44 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T10:27:52+08:00 ] 172.24.189.12 218.68.107.173 GET /platform/index/welcome.html
+[ info ] 39.104.67.26:8901/platform/index/welcome.html [è¿è¡Œæ—¶é—´ï¼š0.062501s][ååç‡ï¼š16.00req/s] [å†…å­˜æ¶ˆè€—ï¼š2,027.98kb] [æ–‡ä»¶åŠ è½½ï¼š41]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/platform/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=t3ol13tavuhrq3hre1dpeut743',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\platform\controller\Index->welcome[ C:\thinkphp\application\platform\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\index\welcome.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_application` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_application` WHERE  `uid` = 122 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_device` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_device` WHERE  `aid` = 44 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T10:27:56+08:00 ] 172.24.189.12 218.68.107.173 POST /platform/user/login
+[ info ] 39.104.67.26:8901/platform/user/login [è¿è¡Œæ—¶é—´ï¼š0.046876s][ååç‡ï¼š21.33req/s] [å†…å­˜æ¶ˆè€—ï¼š2,291.44kb] [æ–‡ä»¶åŠ è½½ï¼š44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'content-length' => '33',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://39.104.67.26:8901',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0.0; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://39.104.67.26:8901/platform/user/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-Hans-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=v00me4o6t0iild5j54c5vv1663',
+  'dnt' => '1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'bkrc12345',
+  'password' => '12345',
+)
+[ info ] [ RUN ] app\platform\controller\User->login[ C:\thinkphp\application\platform\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_user` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `id` FROM `qs_user` WHERE  `username` = 'bkrc12345' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `password` FROM `qs_user` WHERE  `username` = 'bkrc12345' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `qs_user`  SET `last_login_ip`='218.68.107.173',`last_login_time`='2018-09-03 10:27:56'  WHERE  `username` = 'bkrc12345' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T10:27:59+08:00 ] 172.24.189.12 218.68.107.173 GET /platform/user/index/index
+[ info ] 39.104.67.26:8901/platform/user/index/index [è¿è¡Œæ—¶é—´ï¼š0.015625s][ååç‡ï¼š64.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,367.01kb] [æ–‡ä»¶åŠ è½½ï¼š34]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0.0; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://39.104.67.26:8901/platform/user/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-Hans-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=v00me4o6t0iild5j54c5vv1663',
+  'dnt' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\platform\controller\User->index[ C:\thinkphp\application\platform\controller\User.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-03T10:27:59+08:00 ] 172.24.189.12 218.68.107.173 GET /platform/index/index.html
+[ info ] 39.104.67.26:8901/platform/index/index.html [è¿è¡Œæ—¶é—´ï¼š0.046876s][ååç‡ï¼š21.33req/s] [å†…å­˜æ¶ˆè€—ï¼š2,090.37kb] [æ–‡ä»¶åŠ è½½ï¼š42]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0.0; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://39.104.67.26:8901/platform/user/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-Hans-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=v00me4o6t0iild5j54c5vv1663',
+  'dnt' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\platform\controller\Index->index[ C:\thinkphp\application\platform\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\index\index.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_application` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_application` WHERE  `uid` = 122 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_device` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_device` WHERE  `aid` = 44 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T10:28:00+08:00 ] 172.24.189.12 218.68.107.173 GET /platform/index/welcome.html
+[ info ] 39.104.67.26:8901/platform/index/welcome.html [è¿è¡Œæ—¶é—´ï¼š0.062500s][ååç‡ï¼š16.00req/s] [å†…å­˜æ¶ˆè€—ï¼š2,028.69kb] [æ–‡ä»¶åŠ è½½ï¼š41]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0.0; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://39.104.67.26:8901/platform/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-Hans-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=v00me4o6t0iild5j54c5vv1663',
+  'dnt' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\platform\controller\Index->welcome[ C:\thinkphp\application\platform\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\index\welcome.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_application` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_application` WHERE  `uid` = 122 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_device` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_device` WHERE  `aid` = 44 ORDER BY `id`  ASC [ RunTime:0.015625s ]
+---------------------------------------------------------------
+[ 2018-09-03T10:28:06+08:00 ] 172.24.189.12 218.68.107.173 GET /platform/show/select/serial/oDLaZPKw/devicetype/5.html
+[ info ] 39.104.67.26:8901/platform/show/select/serial/oDLaZPKw/devicetype/5.html [è¿è¡Œæ—¶é—´ï¼š0.062501s][ååç‡ï¼š16.00req/s] [å†…å­˜æ¶ˆè€—ï¼š2,266.32kb] [æ–‡ä»¶åŠ è½½ï¼š44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'show',
+    2 => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0.0; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://39.104.67.26:8901/platform/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-Hans-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=v00me4o6t0iild5j54c5vv1663',
+  'dnt' => '1',
+)
+[ info ] [ PARAM ] array (
+  'serial' => 'oDLaZPKw',
+  'devicetype' => '5',
+)
+[ info ] [ RUN ] app\platform\controller\Show->select[ C:\thinkphp\application\platform\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\show\show5.html [ array (
+  0 => 'datas',
+  1 => 'type',
+  2 => 'serial',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_type_store` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_type_store` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_wendu` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qs_wendu` WHERE  `serial` = 'oDLaZPKw' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_wendu` WHERE  `serial` = 'oDLaZPKw' ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T10:28:07+08:00 ] 172.24.189.12 218.68.107.173 GET /platform/show/deviceshow/aid/44.html
+[ info ] 39.104.67.26:8901/platform/show/deviceshow/aid/44.html [è¿è¡Œæ—¶é—´ï¼š0.062501s][ååç‡ï¼š16.00req/s] [å†…å­˜æ¶ˆè€—ï¼š2,299.65kb] [æ–‡ä»¶åŠ è½½ï¼š44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'show',
+    2 => 'deviceshow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/platform/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=t3ol13tavuhrq3hre1dpeut743',
+)
+[ info ] [ PARAM ] array (
+  'aid' => '44',
+)
+[ info ] [ RUN ] app\platform\controller\Show->deviceshow[ C:\thinkphp\application\platform\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\show\deviceshow.html [ array (
+  0 => 'aid',
+  1 => 'devicelist',
+  2 => 'type',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_device` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qs_experiment_device` WHERE  `aid` = 44 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_device` WHERE  `aid` = 44 ORDER BY `tid`  asc,`id`  desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_type_store` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_type_store` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T10:28:30+08:00 ] 172.24.189.12 218.68.107.173 GET /platform/show/select/serial/oDLaZPKw/devicetype/5.html
+[ info ] 39.104.67.26:8901/platform/show/select/serial/oDLaZPKw/devicetype/5.html [è¿è¡Œæ—¶é—´ï¼š0.062501s][ååç‡ï¼š16.00req/s] [å†…å­˜æ¶ˆè€—ï¼š2,265.70kb] [æ–‡ä»¶åŠ è½½ï¼š44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'show',
+    2 => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/platform/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=t3ol13tavuhrq3hre1dpeut743',
+)
+[ info ] [ PARAM ] array (
+  'serial' => 'oDLaZPKw',
+  'devicetype' => '5',
+)
+[ info ] [ RUN ] app\platform\controller\Show->select[ C:\thinkphp\application\platform\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\show\show5.html [ array (
+  0 => 'datas',
+  1 => 'type',
+  2 => 'serial',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_type_store` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_type_store` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_wendu` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qs_wendu` WHERE  `serial` = 'oDLaZPKw' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_wendu` WHERE  `serial` = 'oDLaZPKw' ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T10:28:38+08:00 ] 172.24.189.12 218.68.107.173 GET /platform/show/select/serial/oDLaZPKw/devicetype/5.html
+[ info ] 39.104.67.26:8901/platform/show/select/serial/oDLaZPKw/devicetype/5.html [è¿è¡Œæ—¶é—´ï¼š0.062501s][ååç‡ï¼š16.00req/s] [å†…å­˜æ¶ˆè€—ï¼š2,266.64kb] [æ–‡ä»¶åŠ è½½ï¼š44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'show',
+    2 => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0.0; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://39.104.67.26:8901/platform/show/select/serial/oDLaZPKw/devicetype/5.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-Hans-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=v00me4o6t0iild5j54c5vv1663',
+  'dnt' => '1',
+)
+[ info ] [ PARAM ] array (
+  'serial' => 'oDLaZPKw',
+  'devicetype' => '5',
+)
+[ info ] [ RUN ] app\platform\controller\Show->select[ C:\thinkphp\application\platform\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\show\show5.html [ array (
+  0 => 'datas',
+  1 => 'type',
+  2 => 'serial',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_type_store` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_type_store` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_wendu` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qs_wendu` WHERE  `serial` = 'oDLaZPKw' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_wendu` WHERE  `serial` = 'oDLaZPKw' ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T10:38:24+08:00 ] 172.24.189.12 218.68.107.173 GET /
+[ info ] 39.104.67.26:8901/ [è¿è¡Œæ—¶é—´ï¼š0.062501s][ååç‡ï¼š16.00req/s] [å†…å­˜æ¶ˆè€—ï¼š2,105.94kb] [æ–‡ä»¶åŠ è½½ï¼š41]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0.0; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-Hans-CN,en-US;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\thinkphp\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/index\view\index\index.html [ array (
+  0 => 'event',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_event` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_event` ORDER BY id asc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T10:39:04+08:00 ] 172.24.189.12 218.68.107.173 GET /platform/user/index.html
+[ info ] 39.104.67.26:8901/platform/user/index.html [è¿è¡Œæ—¶é—´ï¼š0.031251s][ååç‡ï¼š32.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,304.70kb] [æ–‡ä»¶åŠ è½½ï¼š33]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0.0; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://39.104.67.26:8901/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-Hans-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=kno6i2rajvjvt9i3b20v1kia70',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\platform\controller\User->index[ C:\thinkphp\application\platform\controller\User.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-03T10:39:30+08:00 ] 172.24.189.12 218.68.107.173 POST /platform/user/login
+[ info ] 39.104.67.26:8901/platform/user/login [è¿è¡Œæ—¶é—´ï¼š0.062501s][ååç‡ï¼š16.00req/s] [å†…å­˜æ¶ˆè€—ï¼š2,291.27kb] [æ–‡ä»¶åŠ è½½ï¼š44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'content-length' => '33',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://39.104.67.26:8901',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0.0; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://39.104.67.26:8901/platform/user/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-Hans-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=kno6i2rajvjvt9i3b20v1kia70',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'bkrc12345',
+  'password' => '12345',
+)
+[ info ] [ RUN ] app\platform\controller\User->login[ C:\thinkphp\application\platform\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `qs_user` WHERE  `username` = 'bkrc12345' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `password` FROM `qs_user` WHERE  `username` = 'bkrc12345' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `qs_user`  SET `last_login_ip`='218.68.107.173',`last_login_time`='2018-09-03 10:39:30'  WHERE  `username` = 'bkrc12345' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T10:39:34+08:00 ] 172.24.189.12 218.68.107.173 GET /platform/user/index/index
+[ info ] 39.104.67.26:8901/platform/user/index/index [è¿è¡Œæ—¶é—´ï¼š0.031251s][ååç‡ï¼š32.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,366.91kb] [æ–‡ä»¶åŠ è½½ï¼š34]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0.0; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://39.104.67.26:8901/platform/user/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-Hans-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=kno6i2rajvjvt9i3b20v1kia70',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\platform\controller\User->index[ C:\thinkphp\application\platform\controller\User.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-03T10:39:34+08:00 ] 172.24.189.12 218.68.107.173 GET /platform/index/index.html
+[ info ] 39.104.67.26:8901/platform/index/index.html [è¿è¡Œæ—¶é—´ï¼š0.078126s][ååç‡ï¼š12.80req/s] [å†…å­˜æ¶ˆè€—ï¼š2,090.23kb] [æ–‡ä»¶åŠ è½½ï¼š42]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0.0; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://39.104.67.26:8901/platform/user/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-Hans-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=kno6i2rajvjvt9i3b20v1kia70',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\platform\controller\Index->index[ C:\thinkphp\application\platform\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\index\index.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_application` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_application` WHERE  `uid` = 122 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_device` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_device` WHERE  `aid` = 44 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T10:39:34+08:00 ] 172.24.189.12 218.68.107.173 GET /platform/index/welcome.html
+[ info ] 39.104.67.26:8901/platform/index/welcome.html [è¿è¡Œæ—¶é—´ï¼š0.062501s][ååç‡ï¼š16.00req/s] [å†…å­˜æ¶ˆè€—ï¼š2,028.52kb] [æ–‡ä»¶åŠ è½½ï¼š41]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0.0; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://39.104.67.26:8901/platform/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-Hans-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=kno6i2rajvjvt9i3b20v1kia70',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\platform\controller\Index->welcome[ C:\thinkphp\application\platform\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\index\welcome.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_application` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_application` WHERE  `uid` = 122 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_device` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_device` WHERE  `aid` = 44 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T10:39:51+08:00 ] 172.24.189.12 218.68.107.173 GET /platform/show/select/serial/oDLaZPKw/devicetype/5.html
+[ info ] 39.104.67.26:8901/platform/show/select/serial/oDLaZPKw/devicetype/5.html [è¿è¡Œæ—¶é—´ï¼š0.078126s][ååç‡ï¼š12.80req/s] [å†…å­˜æ¶ˆè€—ï¼š2,266.19kb] [æ–‡ä»¶åŠ è½½ï¼š44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'show',
+    2 => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0.0; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://39.104.67.26:8901/platform/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-Hans-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=kno6i2rajvjvt9i3b20v1kia70',
+)
+[ info ] [ PARAM ] array (
+  'serial' => 'oDLaZPKw',
+  'devicetype' => '5',
+)
+[ info ] [ RUN ] app\platform\controller\Show->select[ C:\thinkphp\application\platform\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\show\show5.html [ array (
+  0 => 'datas',
+  1 => 'type',
+  2 => 'serial',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_type_store` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_type_store` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_wendu` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qs_wendu` WHERE  `serial` = 'oDLaZPKw' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_wendu` WHERE  `serial` = 'oDLaZPKw' ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T11:18:35+08:00 ] 172.24.189.12 106.11.153.172 GET /download/index/android.html
+[ info ] 39.104.67.26/download/index/android.html [è¿è¡Œæ—¶é—´ï¼š0.406250s][ååç‡ï¼š2.46req/s] [å†…å­˜æ¶ˆè€—ï¼š2,195.80kb] [æ–‡ä»¶åŠ è½½ï¼š44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'download',
+    1 => 'index',
+    2 => 'android',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn,en-us,zh-tw,en-gb,en;',
+  'host' => '39.104.67.26',
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'YisouSpider',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\download\controller\Index->android[ C:\thinkphp\application\download\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\thinkphp/application/download\view\index\android.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_downloadandroidfile` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qs_downloadandroidfile` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_downloadandroidfile` ORDER BY id asc LIMIT 0,12 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T11:26:56+08:00 ] 172.24.189.12 101.199.110.114 GET /platform/user/logout.html
+[ info ] 39.104.67.26:8901/platform/user/logout.html [è¿è¡Œæ—¶é—´ï¼š0.140625s][ååç‡ï¼š7.11req/s] [å†…å­˜æ¶ˆè€—ï¼š1,429.95kb] [æ–‡ä»¶åŠ è½½ï¼š39]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'user',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\platform\controller\User->logout[ C:\thinkphp\application\platform\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]è¯­æ³•é”™è¯¯: unexpected '}'[xÚíTën£F~™HŞühÄ%i‚RWÅ8Æƒ‰Áæ2?vƒ=Æ—Ô‡ïHb§Rß H–a.g¾ó]æ&™N’üP|ÿñ}r…Õş÷ûûœñşÛ{7ùãï?\'w7æør{7™N_¬ùt:y¾éû~:ùíÿçòLÿÚ7!ûöÎb¼XœltV‡®ÒcS Ì.‰<«Ÿ°ot‘lô(iSCåk[2’aJ‡ıYCr»Œ2R˜Zú¨eXŒ2K=¥FKûD^bk4%’[ã±Çª äkMMC_¥oš›}ĞiWG™+]K%¯¹çNêÙ<™ùÊ¯VšcÃy–-‡¹ªâuôEõ3CsÖx‹_¾l5ô‹ÅåéŒE9ô”yÑ¬å
+Î)¯y•]éâ¥p<CŸÙS…4›÷×ÇKT™[µ|íT8gVâ„RäØEà=¤‘¾£œOaıçØ›3Ëˆ¤œBIi±w_:k×°7Êm)ğÚâ½·ò¿ÎCóğ[¡H{¹ô¦±G Ñ ÀQì5ÒØƒ¾ö°)(Z
+cËFë;8÷xŒ2»ÂçÓbğn‰Ôˆk”€N”É¡Î`qæ6ĞÛçY+çı¬—œGĞTd‘ì
+«K¿€x¯µYŸŠsƒŞæà²³¸G 6ğRãì‰ó}óµâK®àK"‹õÅë!p®0mAÿÔbóà{[È ş:1]
+---------------------------------------------------------------
+[ 2018-09-03T11:35:26+08:00 ] 172.24.189.12 117.136.55.103 GET /platform/index/index.html
+[ info ] 39.104.67.26:8901/platform/index/index.html [è¿è¡Œæ—¶é—´ï¼š0.281250s][ååç‡ï¼š3.56req/s] [å†…å­˜æ¶ˆè€—ï¼š2,089.70kb] [æ–‡ä»¶åŠ è½½ï¼š42]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/platform/user/index/index',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=t3ol13tavuhrq3hre1dpeut743',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\platform\controller\Index->index[ C:\thinkphp\application\platform\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\index\index.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_application` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_application` WHERE  `uid` = 122 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_device` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_device` WHERE  `aid` = 44 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T11:35:29+08:00 ] 172.24.189.12 117.136.55.103 GET /platform/index/welcome.html
+[ info ] 39.104.67.26:8901/platform/index/welcome.html [è¿è¡Œæ—¶é—´ï¼š0.093750s][ååç‡ï¼š10.67req/s] [å†…å­˜æ¶ˆè€—ï¼š2,027.98kb] [æ–‡ä»¶åŠ è½½ï¼š41]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/platform/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=t3ol13tavuhrq3hre1dpeut743',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\platform\controller\Index->welcome[ C:\thinkphp\application\platform\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\index\welcome.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_application` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_application` WHERE  `uid` = 122 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_device` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_device` WHERE  `aid` = 44 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T11:35:43+08:00 ] 172.24.189.12 117.136.55.103 GET /platform/show/select/serial/oDLaZPKw/devicetype/5.html
+[ info ] 39.104.67.26:8901/platform/show/select/serial/oDLaZPKw/devicetype/5.html [è¿è¡Œæ—¶é—´ï¼š0.484375s][ååç‡ï¼š2.06req/s] [å†…å­˜æ¶ˆè€—ï¼š2,265.70kb] [æ–‡ä»¶åŠ è½½ï¼š44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'show',
+    2 => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/platform/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=t3ol13tavuhrq3hre1dpeut743',
+)
+[ info ] [ PARAM ] array (
+  'serial' => 'oDLaZPKw',
+  'devicetype' => '5',
+)
+[ info ] [ RUN ] app\platform\controller\Show->select[ C:\thinkphp\application\platform\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\show\show5.html [ array (
+  0 => 'datas',
+  1 => 'type',
+  2 => 'serial',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_type_store` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_type_store` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.046875s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_wendu` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qs_wendu` WHERE  `serial` = 'oDLaZPKw' LIMIT 1 [ RunTime:0.250000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_wendu` WHERE  `serial` = 'oDLaZPKw' ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T11:36:18+08:00 ] 172.24.189.12 117.136.55.103 GET /platform/index/index.html
+[ info ] 39.104.67.26:8901/platform/index/index.html [è¿è¡Œæ—¶é—´ï¼š0.062500s][ååç‡ï¼š16.00req/s] [å†…å­˜æ¶ˆè€—ï¼š2,089.70kb] [æ–‡ä»¶åŠ è½½ï¼š42]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/platform/user/index/index',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=t3ol13tavuhrq3hre1dpeut743',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\platform\controller\Index->index[ C:\thinkphp\application\platform\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\index\index.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_application` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_application` WHERE  `uid` = 122 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_device` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_device` WHERE  `aid` = 44 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T11:36:19+08:00 ] 172.24.189.12 117.136.55.103 GET /platform/index/welcome.html
+[ info ] 39.104.67.26:8901/platform/index/welcome.html [è¿è¡Œæ—¶é—´ï¼š0.078125s][ååç‡ï¼š12.80req/s] [å†…å­˜æ¶ˆè€—ï¼š2,027.98kb] [æ–‡ä»¶åŠ è½½ï¼š41]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/platform/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=t3ol13tavuhrq3hre1dpeut743',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\platform\controller\Index->welcome[ C:\thinkphp\application\platform\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\index\welcome.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_application` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_application` WHERE  `uid` = 122 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_device` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_device` WHERE  `aid` = 44 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T11:36:25+08:00 ] 172.24.189.12 117.136.55.103 GET /platform/show/select/serial/oDLaZPKw/devicetype/5.html
+[ info ] 39.104.67.26:8901/platform/show/select/serial/oDLaZPKw/devicetype/5.html [è¿è¡Œæ—¶é—´ï¼š0.062500s][ååç‡ï¼š16.00req/s] [å†…å­˜æ¶ˆè€—ï¼š2,265.70kb] [æ–‡ä»¶åŠ è½½ï¼š44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'show',
+    2 => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/platform/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=t3ol13tavuhrq3hre1dpeut743',
+)
+[ info ] [ PARAM ] array (
+  'serial' => 'oDLaZPKw',
+  'devicetype' => '5',
+)
+[ info ] [ RUN ] app\platform\controller\Show->select[ C:\thinkphp\application\platform\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\show\show5.html [ array (
+  0 => 'datas',
+  1 => 'type',
+  2 => 'serial',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_type_store` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_type_store` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_wendu` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qs_wendu` WHERE  `serial` = 'oDLaZPKw' LIMIT 1 [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_wendu` WHERE  `serial` = 'oDLaZPKw' ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T11:51:52+08:00 ] 172.24.189.12 117.136.55.103 GET /platform/index/index.html
+[ info ] 39.104.67.26:8901/platform/index/index.html [è¿è¡Œæ—¶é—´ï¼š0.062500s][ååç‡ï¼š16.00req/s] [å†…å­˜æ¶ˆè€—ï¼š2,089.42kb] [æ–‡ä»¶åŠ è½½ï¼š42]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=t3ol13tavuhrq3hre1dpeut743',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\platform\controller\Index->index[ C:\thinkphp\application\platform\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\index\index.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_application` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_application` WHERE  `uid` = 122 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_device` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_device` WHERE  `aid` = 44 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T11:51:52+08:00 ] 172.24.189.12 117.136.55.103 GET /platform/index/welcome.html
+[ info ] 39.104.67.26:8901/platform/index/welcome.html [è¿è¡Œæ—¶é—´ï¼š0.062500s][ååç‡ï¼š16.00req/s] [å†…å­˜æ¶ˆè€—ï¼š2,027.98kb] [æ–‡ä»¶åŠ è½½ï¼š41]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/platform/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=t3ol13tavuhrq3hre1dpeut743',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\platform\controller\Index->welcome[ C:\thinkphp\application\platform\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\index\welcome.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_application` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_application` WHERE  `uid` = 122 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_device` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_device` WHERE  `aid` = 44 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T11:51:58+08:00 ] 172.24.189.12 117.136.55.103 GET /platform/show/select/serial/oDLaZPKw/devicetype/5.html
+[ info ] 39.104.67.26:8901/platform/show/select/serial/oDLaZPKw/devicetype/5.html [è¿è¡Œæ—¶é—´ï¼š0.062500s][ååç‡ï¼š16.00req/s] [å†…å­˜æ¶ˆè€—ï¼š2,265.70kb] [æ–‡ä»¶åŠ è½½ï¼š44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'show',
+    2 => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/platform/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=t3ol13tavuhrq3hre1dpeut743',
+)
+[ info ] [ PARAM ] array (
+  'serial' => 'oDLaZPKw',
+  'devicetype' => '5',
+)
+[ info ] [ RUN ] app\platform\controller\Show->select[ C:\thinkphp\application\platform\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\show\show5.html [ array (
+  0 => 'datas',
+  1 => 'type',
+  2 => 'serial',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_type_store` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_type_store` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_wendu` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qs_wendu` WHERE  `serial` = 'oDLaZPKw' LIMIT 1 [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_wendu` WHERE  `serial` = 'oDLaZPKw' ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T11:52:39+08:00 ] 172.24.189.12 101.199.120.145 GET /
+[ info ] 39.104.67.26:8901/ [è¿è¡Œæ—¶é—´ï¼š0.125000s][ååç‡ï¼š8.00req/s] [å†…å­˜æ¶ˆè€—ï¼š2,105.61kb] [æ–‡ä»¶åŠ è½½ï¼š41]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\thinkphp\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/index\view\index\index.html [ array (
+  0 => 'event',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_event` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_event` ORDER BY id asc [ RunTime:0.031250s ]
+---------------------------------------------------------------
+[ 2018-09-03T14:35:06+08:00 ] 172.24.189.12 106.11.157.166 GET /
+[ info ] 39.104.67.26/ [è¿è¡Œæ—¶é—´ï¼š0.062499s][ååç‡ï¼š16.00req/s] [å†…å­˜æ¶ˆè€—ï¼š2,105.11kb] [æ–‡ä»¶åŠ è½½ï¼š41]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn,en-us,zh-tw,en-gb,en;',
+  'host' => '39.104.67.26',
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'YisouSpider',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\thinkphp\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/index\view\index\index.html [ array (
+  0 => 'event',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_event` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_event` ORDER BY id asc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-03T20:20:38+08:00 ] 172.24.189.12 220.181.132.197 GET /platform/index/index.html
+[ info ] 39.104.67.26:8901/platform/index/index.html [è¿è¡Œæ—¶é—´ï¼š0.531246s][ååç‡ï¼š1.88req/s] [å†…å­˜æ¶ˆè€—ï¼š1,412.61kb] [æ–‡ä»¶åŠ è½½ï¼š40]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]è¯­æ³•é”™è¯¯: unexpected '}'[xÚíTën£F~™HŞühÄ%i‚RWÅ8Æƒ‰Áæ2?vƒ=Æ—Ô‡ïHb§Rß H–a.g¾ó]æ&™N’üP|ÿñ}r…Õş÷ûûœñşÛ{7ùãï?\'w7æør{7™N_¬ùt:y¾éû~:ùíÿçòLÿÚ7!ûöÎb¼XœltV‡®ÒcS Ì.‰<«Ÿ°ot‘lô(iSCåk[2’aJ‡ıYCr»Œ2R˜Zú¨eXŒ2K=¥FKûD^bk4%’[ã±Çª äkMMC_¥oš›}ĞiWG™+]K%¯¹çNêÙ<™ùÊ¯VšcÃy–-‡¹ªâuôEõ3CsÖx‹_¾l5ô‹ÅåéŒE9ô”yÑ¬å
+Î)¯y•]éâ¥p<CŸÙS…4›÷×ÇKT™[µ|íT8gVâ„RäØEà=¤‘¾£œOaıçØ›3Ëˆ¤œBIi±w_:k×°7Êm)ğÚâ½·ò¿ÎCóğ[¡H{¹ô¦±G Ñ ÀQì5ÒØƒ¾ö°)(Z
+cËFë;8÷xŒ2»ÂçÓbğn‰Ôˆk”€N”É¡Î`qæ6ĞÛçY+çı¬—œGĞTd‘ì
+«K¿€x¯µYŸŠsƒŞæà²³¸G 6ğRãì‰ó}óµâK®àK"‹õÅë!p®0mAÿÔbóà{[È ş:1]
+---------------------------------------------------------------
+[ 2018-09-03T20:21:13+08:00 ] 172.24.189.12 123.1.157.254 GET /platform/index/index.html
+[ info ] 39.104.67.26:8901/platform/index/index.html [è¿è¡Œæ—¶é—´ï¼š0.531247s][ååç‡ï¼š1.88req/s] [å†…å­˜æ¶ˆè€—ï¼š1,412.67kb] [æ–‡ä»¶åŠ è½½ï¼š40]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'cache-control' => 'max-age=259200',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]è¯­æ³•é”™è¯¯: unexpected '}'[xÚíTën£F~™HŞühÄ%i‚RWÅ8Æƒ‰Áæ2?vƒ=Æ—Ô‡ïHb§Rß H–a.g¾ó]æ&™N’üP|ÿñ}r…Õş÷ûûœñşÛ{7ùãï?\'w7æør{7™N_¬ùt:y¾éû~:ùíÿçòLÿÚ7!ûöÎb¼XœltV‡®ÒcS Ì.‰<«Ÿ°ot‘lô(iSCåk[2’aJ‡ıYCr»Œ2R˜Zú¨eXŒ2K=¥FKûD^bk4%’[ã±Çª äkMMC_¥oš›}ĞiWG™+]K%¯¹çNêÙ<™ùÊ¯VšcÃy–-‡¹ªâuôEõ3CsÖx‹_¾l5ô‹ÅåéŒE9ô”yÑ¬å
+Î)¯y•]éâ¥p<CŸÙS…4›÷×ÇKT™[µ|íT8gVâ„RäØEà=¤‘¾£œOaıçØ›3Ëˆ¤œBIi±w_:k×°7Êm)ğÚâ½·ò¿ÎCóğ[¡H{¹ô¦±G Ñ ÀQì5ÒØƒ¾ö°)(Z
+cËFë;8÷xŒ2»ÂçÓbğn‰Ôˆk”€N”É¡Î`qæ6ĞÛçY+çı¬—œGĞTd‘ì
+«K¿€x¯µYŸŠsƒŞæà²³¸G 6ğRãì‰ó}óµâK®àK"‹õÅë!p®0mAÿÔbóà{[È ş:1]

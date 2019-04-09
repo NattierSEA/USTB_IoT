@@ -1,0 +1,173 @@
+---------------------------------------------------------------
+[ 2018-09-21T06:23:51+08:00 ] 172.24.189.12 106.11.156.190 GET /download/index/index/index/index/index/index/index/panqiushi_ustb@163.com
+[ info ] 39.104.67.26/download/index/index/index/index/index/index/index/panqiushi_ustb@163.com [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,357.84kb] [文件加载：34]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'download',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn,en-us,zh-tw,en-gb,en;',
+  'host' => '39.104.67.26',
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'YisouSpider',
+)
+[ info ] [ PARAM ] array (
+  'index' => 'panqiushi_ustb@163.com',
+)
+[ info ] [ RUN ] app\download\controller\Index->index[ C:\thinkphp\application\download\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\thinkphp/application/download\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-21T07:54:23+08:00 ] 172.24.189.12 106.11.157.179 GET /index/index/index.html
+[ info ] 39.104.67.26/index/index/index.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,105.30kb] [文件加载：41]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn,en-us,zh-tw,en-gb,en;',
+  'host' => '39.104.67.26',
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'YisouSpider',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\thinkphp\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/index\view\index\index.html [ array (
+  0 => 'event',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_event` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_event` ORDER BY id asc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-21T12:19:55+08:00 ] 172.24.189.12 106.11.153.52 GET /index/index/panqiushi_ustb@163.com
+[ info ] 39.104.67.26:8901/index/index/panqiushi_ustb@163.com [运行时间：0.031251s][吞吐率：32.00req/s] [内存消耗：1,323.38kb] [文件加载：35]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'panqiushi_ustb@163.com',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-21T15:30:56+08:00 ] 172.24.189.12 106.11.158.172 GET /download/index/index/index/index/index/index/index/index/index/index/index/panqiushi_ustb@163.com
+[ info ] 39.104.67.26/download/index/index/index/index/index/index/index/index/index/index/index/panqiushi_ustb@163.com [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：1,357.89kb] [文件加载：34]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'download',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn,en-us,zh-tw,en-gb,en;',
+  'host' => '39.104.67.26',
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'YisouSpider',
+)
+[ info ] [ PARAM ] array (
+  'index' => 'panqiushi_ustb@163.com',
+)
+[ info ] [ RUN ] app\download\controller\Index->index[ C:\thinkphp\application\download\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\thinkphp/application/download\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-21T15:50:56+08:00 ] 172.24.189.12 106.11.155.188 GET /download/index/windows.html
+[ info ] 39.104.67.26/download/index/windows.html [运行时间：0.046874s][吞吐率：21.33req/s] [内存消耗：2,201.55kb] [文件加载：44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'download',
+    1 => 'index',
+    2 => 'windows',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn,en-us,zh-tw,en-gb,en;',
+  'host' => '39.104.67.26',
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'YisouSpider',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\download\controller\Index->windows[ C:\thinkphp\application\download\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\thinkphp/application/download\view\index\windows.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_downloadwindowsfile` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qs_downloadwindowsfile` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_downloadwindowsfile` ORDER BY id asc LIMIT 0,6 [ RunTime:0.000000s ]

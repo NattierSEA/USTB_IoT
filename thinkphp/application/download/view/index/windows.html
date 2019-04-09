@@ -1,0 +1,47 @@
+﻿{include file="public/head"}
+
+
+<!--Page Header-->
+<section class="page_header padding-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 page-content">
+        <h1>WPF桌面应用</h1>
+        <p>使用WPF基于.Net 4.0开发的桌面应用，免安装并可快速进行实验，请确保您的电脑装有.Net framework 4.0。</p>
+        <div class="page_nav">
+      <span>您的位置:</span> <a href="{:url('download/index/index')}">下载中心</a> <span><i class="fa fa-angle-double-right"></i>Windows</span>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Page Header-->
+
+<!-- Courses -->
+<section id="course_all" class="padding-bottom">
+  <div class="container">
+    <div class="row">
+	
+	{volist	name="data"	id="v"}
+      <div class="col-sm-6 col-md-4">
+        <div class="course margin_top wow fadeIn" data-wow-delay="400ms">
+          <div class="image bottom25">
+            <img src="{$v.picture}" alt="Course" class="border_radius">
+          </div>
+          <h3 class="bottom10"><a href="{:url('download/index/index')}">{$v.name}</a></h3>
+          <p class="bottom20" style="height:120px">{$v.brief}</p>
+          <a class="btn_common yellow border_radius" href="{:url('download/index/download?fileid='.$v['name'])}">下载</a>
+        </div>
+      </div>
+    {/volist}
+	  <div class="page">
+            <div>
+                {$data->render()}
+            </div>
+       </div>
+    </div>
+  </div>
+</section>
+<!-- Courses ends -->
+
+{include file="public/foot"}

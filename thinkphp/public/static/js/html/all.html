@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+<title>NB-IoT检测</title>
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+</head>
+<body>
+  <div >
+    <form action="clear.php" method="POST">
+      <button type="submit" name="submit" value="insert">清空</button>
+    </form>
+    <table cellspacing="0" border="0" width="100%" bordercolor="#000000" align="center">
+      <tr align="center">
+        <td width="20%">时间</td>
+        <td width="16%">节点号</td>
+        <td width="13%">温度</td >
+        <td width="13%">湿度</td>
+        <td width="13%">光照强度</td>
+        <td width="13%">空气质量</td>
+        <td width="12%">传输协议</td>
+      </tr>
+      <?php
+      $mysqli = mysqli_connect("localhost", "root", "root", "mysql");
+      
+      if (mysqli_connect_errno()) {
+      printf("Connect failed: %s\n", mysqli_connect_error());
+      exit();
+      }
+      else {
+      $sql = "SELECT * FROM Sensor ORDER BY id DESC";
+      $res = mysqli_query($mysqli, $sql);
+      if ($res) 
+      {
+      while ($newArray = mysqli_fetch_array($res, MYSQLI_ASSOC)) 
+      {
+			$time  = $newArray['time'];
+			$nodenum = $newArray['nodenum'];
+			$temperature = $newArray['temperature'];
+			$humidity = $newArray['humidity'];
+			$light = $newArray['light'];
+			$air = $newArray['air'];
+			$msgtype = $newArray['msgtype'];
+            if($nodenum<100)
+			echo "<tr align=\"center\"><td>".$time."</td><td>".$nodenum."</td><td>".$temperature." ℃</td><td>".$humidity." %RH</td><td>".$light." lx</td><td>".$air." ppm</td><td>".$msgtype."</td></tr>";
+       }
+       } 
+       else
+       {
+		printf("Could not retrieve records: %s\n", mysqli_error($mysqli));
+        }
+        mysqli_free_result($res);
+        mysqli_close($mysqli);
+     }
+     ?>
+    </table>
+    <hr color="#666666" >
+    <table cellspacing="0" border="0" width="100%" bordercolor="#000000" align="center">
+      <tr align="center">
+        <td width="20%">记录次数</td>
+        <td width="20%">节点号</td width="20%">
+        <td width="30%">继电器</td>
+        <td width="30%">舵机角度</td>
+      </tr>
+      <?php
+      $mysqli = mysqli_connect("localhost", "root", "root", "mysql");
+      
+      if (mysqli_connect_errno()) {
+      printf("Connect failed: %s\n", mysqli_connect_error());
+      exit();
+      }
+      else {
+      $sql = "SELECT * FROM Executor";
+      $res = mysqli_query($mysqli, $sql);
+      if ($res) 
+      {
+      while ($newArray = mysqli_fetch_array($res, MYSQLI_ASSOC)) 
+      {
+			$id  = $newArray['id'];
+			$node = $newArray['node'];
+			$relay = $newArray['relay'];
+			$steer = $newArray['steer'];
+			echo "<tr align=\"center\"><td>".$id."</td><td>".$node."</td><td>".$relay."</td><td>".$steer."</td></tr>";
+       }
+       } 
+        mysqli_free_result($res);
+        mysqli_close($mysqli);
+     }
+     ?>
+    </table>
+    <hr color="#666666" >
+    <table cellspacing="0" border="0" width="100%" bordercolor="#000000" align="center">
+      <tr align="center">
+        <td width="20%">读卡记录</td>
+        <td width="30%">节点号</td width="20%">
+        <td width="30%">卡号</td>
+        <td width="20%"></td>
+      </tr>
+      <?php
+      $mysqli = mysqli_connect("localhost", "root", "root", "mysql");
+      
+      if (mysqli_connect_errno()) {
+      printf("Connect failed: %s\n", mysqli_connect_error());
+      exit();
+      }
+      else {
+      $sql = "SELECT * FROM RFID";
+      $res = mysqli_query($mysqli, $sql);
+      if ($res) 
+      {
+      while ($newArray = mysqli_fetch_array($res, MYSQLI_ASSOC)) 
+      {
+			$id  = $newArray['id'];
+			$node = $newArray['node'];
+			$number = $newArray['number'];
+			echo "<tr align=\"center\"><td>".$id."</td><td>".$node."</td><td>".$number."</td></tr>";
+       }
+       } 
+        mysqli_free_result($res);
+        mysqli_close($mysqli);
+     }
+     ?>
+    </table>
+    <hr color="#666666" >
+  </div>
+</body>
+</html>

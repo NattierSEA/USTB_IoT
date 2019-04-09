@@ -1,0 +1,202 @@
+{include file="public/head"}
+    <body>
+
+<div class="x-body" style="width:70%; margin: 0 auto">
+        <button onclick="javascript:location.reload()" class="layui-btn layui-btn-small layui-btn-normal">刷新</button>
+        
+        
+       {$table}
+
+        
+       
+          </tbody>
+        </table>
+        </div>
+
+	</body>	
+	<script>
+	
+	layui.use(['laydate','form'], function(){
+        var laydate = layui.laydate;
+        //执行一个laydate实例
+        laydate.render({
+          elem: '#start' //指定元素
+        });
+        //执行一个laydate实例
+        laydate.render({
+          elem: '#end' //指定元素
+        });
+      });
+
+	  function On(id){
+        layer.confirm('确认要打开吗？',function(index){
+            //捉到所有被选中的，发异步进行删除
+            $.post("{:url('platform/control/sendon')}", {id: id}, function(data, textStatus, xhr) {
+          /*optional stuff to do after success */
+              console.log(data);
+              if(data.code==1){
+                  layer.msg(data.msg,{icon:1,time:1000},function(){
+				  location.replace(location);
+                  });
+              }else{
+                  layer.msg(data.msg,{icon:2,time:1000});
+              }
+            
+            });
+        });
+      }
+	  function Off(id){
+        layer.confirm('确认要关闭吗？',function(index){
+            //捉到所有被选中的，发异步进行删除
+            $.post("{:url('platform/control/sendoff')}", {id: id}, function(data, textStatus, xhr) {
+          /*optional stuff to do after success */
+              console.log(data);
+              if(data.code==1){
+                  layer.msg(data.msg,{icon:1,time:1000},function(){
+				  location.replace(location);
+                  });
+              }else{
+                  layer.msg(data.msg,{icon:2,time:1000});
+              }
+            
+            });
+        });
+      }
+	  
+	  function managemotor(serial){
+	    var pwm = document.getElementById('pwm'+serial).value;
+		
+        layer.confirm('确认发送设置吗？',function(index){
+            //捉到所有被选中的，发异步进行删除
+            $.post("{:url('platform/control/pwmmotor')}", {id: serial,pwm: pwm}, function(data, textStatus, xhr) {
+          /*optional stuff to do after success */
+              console.log(data);
+              if(data.code==1){
+			  layer.msg(data.msg,{icon:1,time:1000},function(){
+			    location.reload();
+                  });
+			  }else{
+                  layer.msg(data.msg,{icon:2,time:1000});
+              }
+            
+            });
+        });
+      }
+	  
+	  function managesteer(serial){
+	    var pwm = document.getElementById('pwm'+serial).value;
+		
+        layer.confirm('确认发送设置吗？',function(index){
+            //捉到所有被选中的，发异步进行删除
+            $.post("{:url('platform/control/steer')}", {id: serial,pwm: pwm}, function(data, textStatus, xhr) {
+          /*optional stuff to do after success */
+              console.log(data);
+              if(data.code==1){
+			  layer.msg(data.msg,{icon:1,time:1000},function(){
+			    location.reload()
+                  });  
+              }else{
+                  layer.msg(data.msg,{icon:2,time:1000});
+              }
+            
+            });
+        });
+      }
+	  function manageled(serial){
+	    var red = document.getElementById('red'+serial).value;
+	    var green = document.getElementById('green'+serial).value;
+	    var blue = document.getElementById('blue'+serial).value;
+		
+        layer.confirm('确认发送设置吗？',function(index){
+            //捉到所有被选中的，发异步进行删除
+            $.post("{:url('platform/control/rgbled')}", {id: serial,red: red, green: green, blue: blue}, function(data, textStatus, xhr) {
+          /*optional stuff to do after success */
+              console.log(data);
+              if(data.code==1){
+			  layer.msg(data.msg,{icon:1,time:1000},function(){
+                    location.reload();
+                  });
+              }else{
+                  layer.msg(data.msg,{icon:2,time:1000});
+              }
+            
+            });
+        });
+      }
+	  function managelock(m,serial){
+		
+        layer.confirm('确认发送设置吗？',function(index){
+            //捉到所有被选中的，发异步进行删除
+            $.post("{:url('platform/control/lock')}", {id: serial,m: m}, function(data, textStatus, xhr) {
+          /*optional stuff to do after success */
+              console.log(data);
+              if(data.code==1){
+			  layer.msg(data.msg,{icon:1,time:1000},function(){
+			    location.reload()
+                  });
+              }else{
+                  layer.msg(data.msg,{icon:2,time:1000});
+              }
+            
+            });
+        });
+      }
+	  function managefan(serial){
+	    var pwm = document.getElementById('pwm'+serial).value;
+		
+        layer.confirm('确认发送设置吗？',function(index){
+            //捉到所有被选中的，发异步进行删除
+            $.post("{:url('platform/control/fan')}", {id: serial,pwm: pwm}, function(data, textStatus, xhr) {
+          /*optional stuff to do after success */
+              console.log(data);
+              if(data.code==1){
+			  layer.msg(data.msg,{icon:1,time:1000},function(){
+			    location.reload()
+                  });
+              }else{
+                  layer.msg(data.msg,{icon:2,time:1000});
+              }
+            
+            });
+        });
+      }
+	  function managewarn(m,serial){
+		
+        layer.confirm('确认发送设置吗？',function(index){
+            //捉到所有被选中的，发异步进行删除
+            $.post("{:url('platform/control/warner')}", {id: serial,m: m}, function(data, textStatus, xhr) {
+          /*optional stuff to do after success */
+              console.log(data);
+              if(data.code==1){
+			  layer.msg(data.msg,{icon:1,time:1000},function(){
+			    location.reload()
+                  });
+              }else{
+                  layer.msg(data.msg,{icon:2,time:1000});
+              }
+            
+            });
+        });
+      }
+	  function managerelay(m,serial){
+		
+        layer.confirm('确认发送设置吗？',function(index){
+            //捉到所有被选中的，发异步进行删除
+            $.post("{:url('platform/control/relay')}", {id: serial,m: m}, function(data, textStatus, xhr) {
+          /*optional stuff to do after success */
+              console.log(data);
+              if(data.code==1){
+			  
+			  layer.msg(data.msg,{icon:1,time:1000},function(){
+			    location.reload();
+                  });
+			  
+              }else{
+                  layer.msg(data.msg,{icon:2,time:1000});
+              }
+            
+            });
+        });
+      }
+    </script> 
+{include file="public/foot"}

@@ -1,0 +1,2010 @@
+---------------------------------------------------------------
+[ 2018-07-03T00:43:03+08:00 ] 172.24.189.12 106.11.157.176 GET /newdata/index/sensor.html
+[ info ] 39.104.67.26/newdata/index/sensor.html [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：1,377.44kb] [文件加载：36]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'newdata',
+    1 => 'index',
+    2 => 'sensor',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn,en-us,zh-tw,en-gb,en;',
+  'host' => '39.104.67.26',
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'YisouSpider',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-03T00:43:03+08:00 ] 172.24.189.12 106.11.157.176 GET /newdata/user/login.html
+[ info ] 39.104.67.26/newdata/user/login.html [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：1,331.05kb] [文件加载：34]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'newdata',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26',
+  'user-agent' => 'YisouSpider',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\newdata\controller\User->login[ C:\thinkphp\application\newdata\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-03T00:43:03+08:00 ] 172.24.189.12 106.11.157.176 GET /newdata/user/index.html
+[ info ] 39.104.67.26/newdata/user/index.html [运行时间：0.015625s][吞吐率：64.00req/s] [内存消耗：1,302.36kb] [文件加载：33]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'newdata',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26',
+  'user-agent' => 'YisouSpider',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\newdata\controller\User->index[ C:\thinkphp\application\newdata\controller\User.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/newdata\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-03T06:23:07+08:00 ] 172.24.189.12 106.11.156.163 GET /download/index/index/index/index/index/index
+[ info ] 39.104.67.26/download/index/index/index/index/index/index [运行时间：0.015625s][吞吐率：64.00req/s] [内存消耗：1,357.64kb] [文件加载：34]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'download',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn,en-us,zh-tw,en-gb,en;',
+  'host' => '39.104.67.26',
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'YisouSpider',
+)
+[ info ] [ PARAM ] array (
+  'index' => 'index',
+)
+[ info ] [ RUN ] app\download\controller\Index->index[ C:\thinkphp\application\download\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\thinkphp/application/download\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-03T12:18:11+08:00 ] 172.24.189.12 106.11.154.161 GET /download/index/index/index/index/index/index/index/index
+[ info ] 39.104.67.26/download/index/index/index/index/index/index/index/index [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：1,357.65kb] [文件加载：34]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'download',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn,en-us,zh-tw,en-gb,en;',
+  'host' => '39.104.67.26',
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'YisouSpider',
+)
+[ info ] [ PARAM ] array (
+  'index' => 'index',
+)
+[ info ] [ RUN ] app\download\controller\Index->index[ C:\thinkphp\application\download\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\thinkphp/application/download\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-03T13:03:32+08:00 ] 172.24.189.12 117.136.0.229 GET /
+[ info ] 39.104.67.26:8901/ [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,105.79kb] [文件加载：41]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept-language' => 'zh-CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\thinkphp\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/index\view\index\index.html [ array (
+  0 => 'event',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_event` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_event` ORDER BY id asc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-03T13:03:46+08:00 ] 172.24.189.12 117.136.0.229 GET /
+[ info ] 39.104.67.26:8901/ [运行时间：0.046876s][吞吐率：21.33req/s] [内存消耗：2,105.84kb] [文件加载：41]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept-language' => 'zh-CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=l2jren1hthsk5b39dgl1uac196',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\thinkphp\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/index\view\index\index.html [ array (
+  0 => 'event',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_event` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_event` ORDER BY id asc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-03T13:04:41+08:00 ] 172.24.189.12 61.148.244.18 GET /
+[ info ] 39.104.67.26:8901/ [运行时间：0.046876s][吞吐率：21.33req/s] [内存消耗：2,105.75kb] [文件加载：41]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.0; zh-cn; FRD-AL10 Build/HUAWEIFRD-AL10) AppleWebKit/537.36 (KHTML, like Gecko) MQQBrowser/7.3 Chrome/37.0.0.0 Mobile Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\thinkphp\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/index\view\index\index.html [ array (
+  0 => 'event',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_event` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_event` ORDER BY id asc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-03T13:05:40+08:00 ] 172.24.189.12 101.226.79.234 GET /
+[ info ] 39.104.67.26:8901/ [运行时间：0.046876s][吞吐率：21.33req/s] [内存消耗：2,105.22kb] [文件加载：41]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\thinkphp\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/index\view\index\index.html [ array (
+  0 => 'event',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_event` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_event` ORDER BY id asc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-03T13:05:57+08:00 ] 172.24.189.12 117.136.0.229 GET /
+[ info ] 39.104.67.26:8901/ [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：2,105.80kb] [文件加载：41]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\thinkphp\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/index\view\index\index.html [ array (
+  0 => 'event',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_event` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_event` ORDER BY id asc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-03T13:08:15+08:00 ] 172.24.189.12 61.148.244.18 GET /platform/user/index.html
+[ info ] 39.104.67.26:8901/platform/user/index.html [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：1,304.41kb] [文件加载：33]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.0; zh-cn; FRD-AL10 Build/HUAWEIFRD-AL10) AppleWebKit/537.36 (KHTML, like Gecko) MQQBrowser/7.3 Chrome/37.0.0.0 Mobile Safari/537.36',
+  'referer' => 'http://39.104.67.26:8901/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=cto6fn3370vod0aih621631ta0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\platform\controller\User->index[ C:\thinkphp\application\platform\controller\User.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-03T13:08:38+08:00 ] 172.24.189.12 61.148.244.18 POST /platform/user/login
+[ info ] 39.104.67.26:8901/platform/user/login [运行时间：0.062501s][吞吐率：16.00req/s] [内存消耗：2,291.31kb] [文件加载：44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'content-length' => '34',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://39.104.67.26:8901',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.0; zh-cn; FRD-AL10 Build/HUAWEIFRD-AL10) AppleWebKit/537.36 (KHTML, like Gecko) MQQBrowser/7.3 Chrome/37.0.0.0 Mobile Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://39.104.67.26:8901/platform/user/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=cto6fn3370vod0aih621631ta0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'bkrciot',
+  'password' => '12345678',
+)
+[ info ] [ RUN ] app\platform\controller\User->login[ C:\thinkphp\application\platform\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `qs_user` WHERE  `username` = 'bkrciot' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `password` FROM `qs_user` WHERE  `username` = 'bkrciot' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `qs_user`  SET `last_login_ip`='61.148.244.18',`last_login_time`='2018-07-03 01:08:38'  WHERE  `username` = 'bkrciot' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-03T13:08:41+08:00 ] 172.24.189.12 61.148.244.18 GET /platform/user/index/index
+[ info ] 39.104.67.26:8901/platform/user/index/index [运行时间：0.015626s][吞吐率：64.00req/s] [内存消耗：1,366.62kb] [文件加载：34]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.0; zh-cn; FRD-AL10 Build/HUAWEIFRD-AL10) AppleWebKit/537.36 (KHTML, like Gecko) MQQBrowser/7.3 Chrome/37.0.0.0 Mobile Safari/537.36',
+  'referer' => 'http://39.104.67.26:8901/platform/user/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=cto6fn3370vod0aih621631ta0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\platform\controller\User->index[ C:\thinkphp\application\platform\controller\User.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-03T13:08:42+08:00 ] 172.24.189.12 61.148.244.18 GET /platform/index/index.html
+[ info ] 39.104.67.26:8901/platform/index/index.html [运行时间：0.046876s][吞吐率：21.33req/s] [内存消耗：2,117.47kb] [文件加载：42]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.0; zh-cn; FRD-AL10 Build/HUAWEIFRD-AL10) AppleWebKit/537.36 (KHTML, like Gecko) MQQBrowser/7.3 Chrome/37.0.0.0 Mobile Safari/537.36',
+  'referer' => 'http://39.104.67.26:8901/platform/user/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=cto6fn3370vod0aih621631ta0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\platform\controller\Index->index[ C:\thinkphp\application\platform\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\index\index.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_application` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_application` WHERE  `uid` = 112 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_device` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_device` WHERE  `aid` = 32 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-03T13:08:42+08:00 ] 172.24.189.12 61.148.244.18 GET /platform/index/welcome.html
+[ info ] 39.104.67.26:8901/platform/index/welcome.html [运行时间：0.062501s][吞吐率：16.00req/s] [内存消耗：2,055.77kb] [文件加载：41]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.0; zh-cn; FRD-AL10 Build/HUAWEIFRD-AL10) AppleWebKit/537.36 (KHTML, like Gecko) MQQBrowser/7.3 Chrome/37.0.0.0 Mobile Safari/537.36',
+  'referer' => 'http://39.104.67.26:8901/platform/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=cto6fn3370vod0aih621631ta0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\platform\controller\Index->welcome[ C:\thinkphp\application\platform\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\index\welcome.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015626s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_application` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_application` WHERE  `uid` = 112 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_device` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_device` WHERE  `aid` = 32 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-03T13:09:02+08:00 ] 172.24.189.12 61.148.244.18 GET /platform/show/select/serial/e0gwLPGq/devicetype/5.html
+[ info ] 39.104.67.26:8901/platform/show/select/serial/e0gwLPGq/devicetype/5.html [运行时间：0.062501s][吞吐率：16.00req/s] [内存消耗：2,266.10kb] [文件加载：44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'show',
+    2 => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.0; zh-cn; FRD-AL10 Build/HUAWEIFRD-AL10) AppleWebKit/537.36 (KHTML, like Gecko) MQQBrowser/7.3 Chrome/37.0.0.0 Mobile Safari/537.36',
+  'referer' => 'http://39.104.67.26:8901/platform/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=cto6fn3370vod0aih621631ta0',
+)
+[ info ] [ PARAM ] array (
+  'serial' => 'e0gwLPGq',
+  'devicetype' => '5',
+)
+[ info ] [ RUN ] app\platform\controller\Show->select[ C:\thinkphp\application\platform\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\show\show5.html [ array (
+  0 => 'datas',
+  1 => 'type',
+  2 => 'serial',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_type_store` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_type_store` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_wendu` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qs_wendu` WHERE  `serial` = 'e0gwLPGq' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_wendu` WHERE  `serial` = 'e0gwLPGq' ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-03T13:09:14+08:00 ] 172.24.189.12 61.148.244.18 GET /platform/show/select/serial/e0gwLPGq/devicetype/5.html
+[ info ] 39.104.67.26:8901/platform/show/select/serial/e0gwLPGq/devicetype/5.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,266.34kb] [文件加载：44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'show',
+    2 => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.0; zh-cn; FRD-AL10 Build/HUAWEIFRD-AL10) AppleWebKit/537.36 (KHTML, like Gecko) MQQBrowser/7.3 Chrome/37.0.0.0 Mobile Safari/537.36',
+  'referer' => 'http://39.104.67.26:8901/platform/show/select/serial/e0gwLPGq/devicetype/5.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=cto6fn3370vod0aih621631ta0',
+)
+[ info ] [ PARAM ] array (
+  'serial' => 'e0gwLPGq',
+  'devicetype' => '5',
+)
+[ info ] [ RUN ] app\platform\controller\Show->select[ C:\thinkphp\application\platform\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\show\show5.html [ array (
+  0 => 'datas',
+  1 => 'type',
+  2 => 'serial',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_type_store` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_type_store` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_wendu` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qs_wendu` WHERE  `serial` = 'e0gwLPGq' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_wendu` WHERE  `serial` = 'e0gwLPGq' ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-03T13:09:16+08:00 ] 172.24.189.12 101.227.131.207 GET /platform/user/index.html
+[ info ] 39.104.67.26:8901/platform/user/index.html [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：1,303.39kb] [文件加载：33]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\platform\controller\User->index[ C:\thinkphp\application\platform\controller\User.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-03T13:09:17+08:00 ] 172.24.189.12 61.148.244.18 GET /platform/show/select/serial/e0gwLPGq/devicetype/5.html
+[ info ] 39.104.67.26:8901/platform/show/select/serial/e0gwLPGq/devicetype/5.html [运行时间：0.062501s][吞吐率：16.00req/s] [内存消耗：2,266.34kb] [文件加载：44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'show',
+    2 => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.0; zh-cn; FRD-AL10 Build/HUAWEIFRD-AL10) AppleWebKit/537.36 (KHTML, like Gecko) MQQBrowser/7.3 Chrome/37.0.0.0 Mobile Safari/537.36',
+  'referer' => 'http://39.104.67.26:8901/platform/show/select/serial/e0gwLPGq/devicetype/5.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=cto6fn3370vod0aih621631ta0',
+)
+[ info ] [ PARAM ] array (
+  'serial' => 'e0gwLPGq',
+  'devicetype' => '5',
+)
+[ info ] [ RUN ] app\platform\controller\Show->select[ C:\thinkphp\application\platform\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\show\show5.html [ array (
+  0 => 'datas',
+  1 => 'type',
+  2 => 'serial',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_type_store` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_type_store` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_wendu` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qs_wendu` WHERE  `serial` = 'e0gwLPGq' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_wendu` WHERE  `serial` = 'e0gwLPGq' ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-03T13:09:34+08:00 ] 172.24.189.12 61.148.244.18 GET /platform/show/select/serial/PBvidNpB/devicetype/4.html
+[ info ] 39.104.67.26:8901/platform/show/select/serial/PBvidNpB/devicetype/4.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,262.85kb] [文件加载：44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'show',
+    2 => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.0; zh-cn; FRD-AL10 Build/HUAWEIFRD-AL10) AppleWebKit/537.36 (KHTML, like Gecko) MQQBrowser/7.3 Chrome/37.0.0.0 Mobile Safari/537.36',
+  'referer' => 'http://39.104.67.26:8901/platform/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=cto6fn3370vod0aih621631ta0',
+)
+[ info ] [ PARAM ] array (
+  'serial' => 'PBvidNpB',
+  'devicetype' => '4',
+)
+[ info ] [ RUN ] app\platform\controller\Show->select[ C:\thinkphp\application\platform\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\show\show4.html [ array (
+  0 => 'datas',
+  1 => 'type',
+  2 => 'serial',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_type_store` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_type_store` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_airfan` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qs_airfan` WHERE  `serial` = 'PBvidNpB' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_airfan` WHERE  `serial` = 'PBvidNpB' ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-03T13:09:40+08:00 ] 172.24.189.12 61.148.244.18 POST /platform/control/sendon.html
+[ info ] 39.104.67.26:8901/platform/control/sendon.html [运行时间：0.031251s][吞吐率：32.00req/s] [内存消耗：2,062.74kb] [文件加载：41]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'control',
+    2 => 'sendon',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'content-length' => '11',
+  'accept' => '*/*',
+  'origin' => 'http://39.104.67.26:8901',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.0; zh-cn; FRD-AL10 Build/HUAWEIFRD-AL10) AppleWebKit/537.36 (KHTML, like Gecko) MQQBrowser/7.3 Chrome/37.0.0.0 Mobile Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://39.104.67.26:8901/platform/show/select/serial/PBvidNpB/devicetype/4.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=cto6fn3370vod0aih621631ta0',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'PBvidNpB',
+)
+[ info ] [ RUN ] app\platform\controller\Control->sendon[ C:\thinkphp\application\platform\controller\Control.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_client` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_client` WHERE  `serial` = 'PBvidNpB' ORDER BY id desc LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-03T13:09:41+08:00 ] 172.24.189.12 101.226.79.244 GET /platform/user/index/index
+[ info ] 39.104.67.26:8901/platform/user/index/index [运行时间：0.015625s][吞吐率：64.00req/s] [内存消耗：1,303.52kb] [文件加载：33]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) 			Chrome/55.0.2883.95 Safari/537.36',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\platform\controller\User->index[ C:\thinkphp\application\platform\controller\User.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-03T13:09:42+08:00 ] 172.24.189.12 117.135.173.80 GET /platform/index/index.html
+[ info ] 39.104.67.26:8901/platform/index/index.html [运行时间：0.031251s][吞吐率：32.00req/s] [内存消耗：1,365.26kb] [文件加载：36]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) 			Chrome/55.0.2883.95 Safari/537.36',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-03T13:09:45+08:00 ] 172.24.189.12 61.148.244.18 POST /platform/control/sendon.html
+[ info ] 39.104.67.26:8901/platform/control/sendon.html [运行时间：0.046876s][吞吐率：21.33req/s] [内存消耗：2,062.74kb] [文件加载：41]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'control',
+    2 => 'sendon',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'content-length' => '11',
+  'accept' => '*/*',
+  'origin' => 'http://39.104.67.26:8901',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.0; zh-cn; FRD-AL10 Build/HUAWEIFRD-AL10) AppleWebKit/537.36 (KHTML, like Gecko) MQQBrowser/7.3 Chrome/37.0.0.0 Mobile Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://39.104.67.26:8901/platform/show/select/serial/PBvidNpB/devicetype/4.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=cto6fn3370vod0aih621631ta0',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'PBvidNpB',
+)
+[ info ] [ RUN ] app\platform\controller\Control->sendon[ C:\thinkphp\application\platform\controller\Control.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_client` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_client` WHERE  `serial` = 'PBvidNpB' ORDER BY id desc LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-03T13:10:18+08:00 ] 172.24.189.12 117.136.0.229 GET /platform/user/index.html
+[ info ] 39.104.67.26:8901/platform/user/index.html [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：1,304.53kb] [文件加载：33]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://39.104.67.26:8901/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2utv9637sk3512i5k11q8f2081',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\platform\controller\User->index[ C:\thinkphp\application\platform\controller\User.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-03T13:11:40+08:00 ] 172.24.189.12 117.136.0.229 POST /platform/user/login
+[ info ] 39.104.67.26:8901/platform/user/login [运行时间：0.062501s][吞吐率：16.00req/s] [内存消耗：2,291.16kb] [文件加载：44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'content-length' => '34',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://39.104.67.26:8901',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://39.104.67.26:8901/platform/user/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2utv9637sk3512i5k11q8f2081',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'bkrciot',
+  'password' => '12345678',
+)
+[ info ] [ RUN ] app\platform\controller\User->login[ C:\thinkphp\application\platform\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_user` [ RunTime:0.015626s ]
+[ sql ] [ SQL ] SELECT `id` FROM `qs_user` WHERE  `username` = 'bkrciot' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `password` FROM `qs_user` WHERE  `username` = 'bkrciot' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `qs_user`  SET `last_login_ip`='117.136.0.229',`last_login_time`='2018-07-03 01:11:40'  WHERE  `username` = 'bkrciot' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-03T13:11:43+08:00 ] 172.24.189.12 117.136.0.229 GET /platform/user/index/index
+[ info ] 39.104.67.26:8901/platform/user/index/index [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：1,366.75kb] [文件加载：34]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://39.104.67.26:8901/platform/user/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2utv9637sk3512i5k11q8f2081',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\platform\controller\User->index[ C:\thinkphp\application\platform\controller\User.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-03T13:11:43+08:00 ] 172.24.189.12 117.136.0.229 GET /platform/index/index.html
+[ info ] 39.104.67.26:8901/platform/index/index.html [运行时间：0.046876s][吞吐率：21.33req/s] [内存消耗：2,117.66kb] [文件加载：42]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://39.104.67.26:8901/platform/user/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2utv9637sk3512i5k11q8f2081',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\platform\controller\Index->index[ C:\thinkphp\application\platform\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\index\index.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_application` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_application` WHERE  `uid` = 112 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_device` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_device` WHERE  `aid` = 32 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-03T13:11:44+08:00 ] 172.24.189.12 117.136.0.229 GET /platform/index/welcome.html
+[ info ] 39.104.67.26:8901/platform/index/welcome.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,055.95kb] [文件加载：41]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://39.104.67.26:8901/platform/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2utv9637sk3512i5k11q8f2081',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\platform\controller\Index->welcome[ C:\thinkphp\application\platform\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\index\welcome.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_application` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_application` WHERE  `uid` = 112 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_device` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_device` WHERE  `aid` = 32 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-03T13:11:52+08:00 ] 172.24.189.12 117.136.0.229 GET /platform/show/select/serial/PBvidNpB/devicetype/4.html
+[ info ] 39.104.67.26:8901/platform/show/select/serial/PBvidNpB/devicetype/4.html [运行时间：0.062501s][吞吐率：16.00req/s] [内存消耗：2,262.81kb] [文件加载：44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'show',
+    2 => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://39.104.67.26:8901/platform/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2utv9637sk3512i5k11q8f2081',
+)
+[ info ] [ PARAM ] array (
+  'serial' => 'PBvidNpB',
+  'devicetype' => '4',
+)
+[ info ] [ RUN ] app\platform\controller\Show->select[ C:\thinkphp\application\platform\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\show\show4.html [ array (
+  0 => 'datas',
+  1 => 'type',
+  2 => 'serial',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_type_store` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_type_store` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_airfan` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qs_airfan` WHERE  `serial` = 'PBvidNpB' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_airfan` WHERE  `serial` = 'PBvidNpB' ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-03T13:11:58+08:00 ] 172.24.189.12 117.136.0.229 POST /platform/control/sendon.html
+[ info ] 39.104.67.26:8901/platform/control/sendon.html [运行时间：0.046876s][吞吐率：21.33req/s] [内存消耗：2,062.64kb] [文件加载：41]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'control',
+    2 => 'sendon',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'content-length' => '11',
+  'accept' => '*/*',
+  'origin' => 'http://39.104.67.26:8901',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://39.104.67.26:8901/platform/show/select/serial/PBvidNpB/devicetype/4.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2utv9637sk3512i5k11q8f2081',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'PBvidNpB',
+)
+[ info ] [ RUN ] app\platform\controller\Control->sendon[ C:\thinkphp\application\platform\controller\Control.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_client` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_client` WHERE  `serial` = 'PBvidNpB' ORDER BY id desc LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-03T13:12:02+08:00 ] 172.24.189.12 117.136.0.229 POST /platform/control/sendoff.html
+[ info ] 39.104.67.26:8901/platform/control/sendoff.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,062.70kb] [文件加载：41]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'control',
+    2 => 'sendoff',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'content-length' => '11',
+  'accept' => '*/*',
+  'origin' => 'http://39.104.67.26:8901',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://39.104.67.26:8901/platform/show/select/serial/PBvidNpB/devicetype/4.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2utv9637sk3512i5k11q8f2081',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'PBvidNpB',
+)
+[ info ] [ RUN ] app\platform\controller\Control->sendoff[ C:\thinkphp\application\platform\controller\Control.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_client` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_client` WHERE  `serial` = 'PBvidNpB' ORDER BY id desc LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-03T13:12:25+08:00 ] 172.24.189.12 117.136.0.229 GET /platform/show/select/serial/e0gwLPGq/devicetype/5.html
+[ info ] 39.104.67.26:8901/platform/show/select/serial/e0gwLPGq/devicetype/5.html [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：2,266.16kb] [文件加载：44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'show',
+    2 => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://39.104.67.26:8901/platform/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2utv9637sk3512i5k11q8f2081',
+)
+[ info ] [ PARAM ] array (
+  'serial' => 'e0gwLPGq',
+  'devicetype' => '5',
+)
+[ info ] [ RUN ] app\platform\controller\Show->select[ C:\thinkphp\application\platform\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\show\show5.html [ array (
+  0 => 'datas',
+  1 => 'type',
+  2 => 'serial',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_type_store` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_type_store` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_wendu` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qs_wendu` WHERE  `serial` = 'e0gwLPGq' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_wendu` WHERE  `serial` = 'e0gwLPGq' ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-03T13:12:31+08:00 ] 172.24.189.12 117.136.0.229 GET /platform/show/select/serial/e0gwLPGq/devicetype/5.html
+[ info ] 39.104.67.26:8901/platform/show/select/serial/e0gwLPGq/devicetype/5.html [运行时间：0.046876s][吞吐率：21.33req/s] [内存消耗：2,266.45kb] [文件加载：44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'show',
+    2 => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://39.104.67.26:8901/platform/show/select/serial/e0gwLPGq/devicetype/5.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2utv9637sk3512i5k11q8f2081',
+)
+[ info ] [ PARAM ] array (
+  'serial' => 'e0gwLPGq',
+  'devicetype' => '5',
+)
+[ info ] [ RUN ] app\platform\controller\Show->select[ C:\thinkphp\application\platform\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\show\show5.html [ array (
+  0 => 'datas',
+  1 => 'type',
+  2 => 'serial',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_type_store` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_type_store` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_wendu` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qs_wendu` WHERE  `serial` = 'e0gwLPGq' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_wendu` WHERE  `serial` = 'e0gwLPGq' ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-03T13:15:28+08:00 ] 172.24.189.12 117.136.0.229 POST /platform/control/sendon.html
+[ info ] 39.104.67.26:8901/platform/control/sendon.html [运行时间：0.046876s][吞吐率：21.33req/s] [内存消耗：2,220.00kb] [文件加载：44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'control',
+    2 => 'sendon',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'content-length' => '11',
+  'accept' => '*/*',
+  'origin' => 'http://39.104.67.26:8901',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://39.104.67.26:8901/platform/show/select/serial/PBvidNpB/devicetype/4.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2utv9637sk3512i5k11q8f2081',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'PBvidNpB',
+)
+[ info ] [ RUN ] app\platform\controller\Control->sendon[ C:\thinkphp\application\platform\controller\Control.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_client` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_client` WHERE  `serial` = 'PBvidNpB' ORDER BY id desc LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_airfan` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `qs_airfan` (`serial` , `state` , `time` , `msgtype`) VALUES ('PBvidNpB' , 1 , '2018-07-03 13:15:28' , 'TCP') [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-03T13:15:29+08:00 ] 172.24.189.12 117.136.0.229 GET /platform/show/select/serial/PBvidNpB/devicetype/4.html
+[ info ] 39.104.67.26:8901/platform/show/select/serial/PBvidNpB/devicetype/4.html [运行时间：0.062501s][吞吐率：16.00req/s] [内存消耗：2,264.02kb] [文件加载：44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'show',
+    2 => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://39.104.67.26:8901/platform/show/select/serial/PBvidNpB/devicetype/4.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2utv9637sk3512i5k11q8f2081',
+)
+[ info ] [ PARAM ] array (
+  'serial' => 'PBvidNpB',
+  'devicetype' => '4',
+)
+[ info ] [ RUN ] app\platform\controller\Show->select[ C:\thinkphp\application\platform\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\show\show4.html [ array (
+  0 => 'datas',
+  1 => 'type',
+  2 => 'serial',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_type_store` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_type_store` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_airfan` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qs_airfan` WHERE  `serial` = 'PBvidNpB' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_airfan` WHERE  `serial` = 'PBvidNpB' ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-03T13:15:32+08:00 ] 172.24.189.12 117.136.0.229 POST /platform/control/sendoff.html
+[ info ] 39.104.67.26:8901/platform/control/sendoff.html [运行时间：0.046876s][吞吐率：21.33req/s] [内存消耗：2,220.04kb] [文件加载：44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'control',
+    2 => 'sendoff',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'content-length' => '11',
+  'accept' => '*/*',
+  'origin' => 'http://39.104.67.26:8901',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://39.104.67.26:8901/platform/show/select/serial/PBvidNpB/devicetype/4.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2utv9637sk3512i5k11q8f2081',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'PBvidNpB',
+)
+[ info ] [ RUN ] app\platform\controller\Control->sendoff[ C:\thinkphp\application\platform\controller\Control.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_client` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_client` WHERE  `serial` = 'PBvidNpB' ORDER BY id desc LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_airfan` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `qs_airfan` (`serial` , `state` , `time` , `msgtype`) VALUES ('PBvidNpB' , 0 , '2018-07-03 13:15:32' , 'TCP') [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-03T13:15:33+08:00 ] 172.24.189.12 117.136.0.229 GET /platform/show/select/serial/PBvidNpB/devicetype/4.html
+[ info ] 39.104.67.26:8901/platform/show/select/serial/PBvidNpB/devicetype/4.html [运行时间：0.046876s][吞吐率：21.33req/s] [内存消耗：2,264.85kb] [文件加载：44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'show',
+    2 => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://39.104.67.26:8901/platform/show/select/serial/PBvidNpB/devicetype/4.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2utv9637sk3512i5k11q8f2081',
+)
+[ info ] [ PARAM ] array (
+  'serial' => 'PBvidNpB',
+  'devicetype' => '4',
+)
+[ info ] [ RUN ] app\platform\controller\Show->select[ C:\thinkphp\application\platform\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\show\show4.html [ array (
+  0 => 'datas',
+  1 => 'type',
+  2 => 'serial',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_type_store` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_type_store` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_airfan` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qs_airfan` WHERE  `serial` = 'PBvidNpB' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_airfan` WHERE  `serial` = 'PBvidNpB' ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-03T13:17:24+08:00 ] 172.24.189.12 117.136.0.229 GET /platform/show/select/serial/e0gwLPGq/devicetype/5.html
+[ info ] 39.104.67.26:8901/platform/show/select/serial/e0gwLPGq/devicetype/5.html [运行时间：0.062501s][吞吐率：16.00req/s] [内存消耗：2,266.45kb] [文件加载：44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'show',
+    2 => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://39.104.67.26:8901/platform/show/select/serial/e0gwLPGq/devicetype/5.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2utv9637sk3512i5k11q8f2081',
+)
+[ info ] [ PARAM ] array (
+  'serial' => 'e0gwLPGq',
+  'devicetype' => '5',
+)
+[ info ] [ RUN ] app\platform\controller\Show->select[ C:\thinkphp\application\platform\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\show\show5.html [ array (
+  0 => 'datas',
+  1 => 'type',
+  2 => 'serial',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_type_store` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_type_store` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_wendu` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qs_wendu` WHERE  `serial` = 'e0gwLPGq' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_wendu` WHERE  `serial` = 'e0gwLPGq' ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-03T13:17:29+08:00 ] 172.24.189.12 117.136.0.229 GET /platform/show/select/serial/e0gwLPGq/devicetype/5.html
+[ info ] 39.104.67.26:8901/platform/show/select/serial/e0gwLPGq/devicetype/5.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,266.45kb] [文件加载：44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'show',
+    2 => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://39.104.67.26:8901/platform/show/select/serial/e0gwLPGq/devicetype/5.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2utv9637sk3512i5k11q8f2081',
+)
+[ info ] [ PARAM ] array (
+  'serial' => 'e0gwLPGq',
+  'devicetype' => '5',
+)
+[ info ] [ RUN ] app\platform\controller\Show->select[ C:\thinkphp\application\platform\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\show\show5.html [ array (
+  0 => 'datas',
+  1 => 'type',
+  2 => 'serial',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_type_store` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_type_store` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_wendu` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qs_wendu` WHERE  `serial` = 'e0gwLPGq' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_wendu` WHERE  `serial` = 'e0gwLPGq' ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-03T13:17:32+08:00 ] 172.24.189.12 117.136.0.229 GET /platform/show/select/serial/e0gwLPGq/devicetype/5.html
+[ info ] 39.104.67.26:8901/platform/show/select/serial/e0gwLPGq/devicetype/5.html [运行时间：0.046876s][吞吐率：21.33req/s] [内存消耗：2,266.45kb] [文件加载：44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'show',
+    2 => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://39.104.67.26:8901/platform/show/select/serial/e0gwLPGq/devicetype/5.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2utv9637sk3512i5k11q8f2081',
+)
+[ info ] [ PARAM ] array (
+  'serial' => 'e0gwLPGq',
+  'devicetype' => '5',
+)
+[ info ] [ RUN ] app\platform\controller\Show->select[ C:\thinkphp\application\platform\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\show\show5.html [ array (
+  0 => 'datas',
+  1 => 'type',
+  2 => 'serial',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_type_store` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_type_store` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_wendu` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qs_wendu` WHERE  `serial` = 'e0gwLPGq' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_wendu` WHERE  `serial` = 'e0gwLPGq' ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-03T13:17:34+08:00 ] 172.24.189.12 117.136.0.229 GET /platform/show/select/serial/e0gwLPGq/devicetype/5.html
+[ info ] 39.104.67.26:8901/platform/show/select/serial/e0gwLPGq/devicetype/5.html [运行时间：0.062501s][吞吐率：16.00req/s] [内存消耗：2,266.45kb] [文件加载：44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'show',
+    2 => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://39.104.67.26:8901/platform/show/select/serial/e0gwLPGq/devicetype/5.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2utv9637sk3512i5k11q8f2081',
+)
+[ info ] [ PARAM ] array (
+  'serial' => 'e0gwLPGq',
+  'devicetype' => '5',
+)
+[ info ] [ RUN ] app\platform\controller\Show->select[ C:\thinkphp\application\platform\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\show\show5.html [ array (
+  0 => 'datas',
+  1 => 'type',
+  2 => 'serial',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_type_store` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_type_store` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_wendu` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qs_wendu` WHERE  `serial` = 'e0gwLPGq' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_wendu` WHERE  `serial` = 'e0gwLPGq' ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-03T13:17:36+08:00 ] 172.24.189.12 117.136.0.229 GET /platform/show/select/serial/e0gwLPGq/devicetype/5.html
+[ info ] 39.104.67.26:8901/platform/show/select/serial/e0gwLPGq/devicetype/5.html [运行时间：0.062501s][吞吐率：16.00req/s] [内存消耗：2,266.45kb] [文件加载：44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'show',
+    2 => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://39.104.67.26:8901/platform/show/select/serial/e0gwLPGq/devicetype/5.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2utv9637sk3512i5k11q8f2081',
+)
+[ info ] [ PARAM ] array (
+  'serial' => 'e0gwLPGq',
+  'devicetype' => '5',
+)
+[ info ] [ RUN ] app\platform\controller\Show->select[ C:\thinkphp\application\platform\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\show\show5.html [ array (
+  0 => 'datas',
+  1 => 'type',
+  2 => 'serial',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_type_store` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_type_store` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_wendu` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qs_wendu` WHERE  `serial` = 'e0gwLPGq' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_wendu` WHERE  `serial` = 'e0gwLPGq' ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-03T13:17:39+08:00 ] 172.24.189.12 117.136.0.229 GET /platform/show/select/serial/e0gwLPGq/devicetype/5.html
+[ info ] 39.104.67.26:8901/platform/show/select/serial/e0gwLPGq/devicetype/5.html [运行时间：0.046876s][吞吐率：21.33req/s] [内存消耗：2,266.45kb] [文件加载：44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'show',
+    2 => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://39.104.67.26:8901/platform/show/select/serial/e0gwLPGq/devicetype/5.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2utv9637sk3512i5k11q8f2081',
+)
+[ info ] [ PARAM ] array (
+  'serial' => 'e0gwLPGq',
+  'devicetype' => '5',
+)
+[ info ] [ RUN ] app\platform\controller\Show->select[ C:\thinkphp\application\platform\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\show\show5.html [ array (
+  0 => 'datas',
+  1 => 'type',
+  2 => 'serial',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_type_store` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_type_store` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_wendu` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qs_wendu` WHERE  `serial` = 'e0gwLPGq' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_wendu` WHERE  `serial` = 'e0gwLPGq' ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-03T13:17:42+08:00 ] 172.24.189.12 117.136.0.229 GET /platform/show/select/serial/e0gwLPGq/devicetype/5.html
+[ info ] 39.104.67.26:8901/platform/show/select/serial/e0gwLPGq/devicetype/5.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,266.45kb] [文件加载：44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'show',
+    2 => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://39.104.67.26:8901/platform/show/select/serial/e0gwLPGq/devicetype/5.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2utv9637sk3512i5k11q8f2081',
+)
+[ info ] [ PARAM ] array (
+  'serial' => 'e0gwLPGq',
+  'devicetype' => '5',
+)
+[ info ] [ RUN ] app\platform\controller\Show->select[ C:\thinkphp\application\platform\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\show\show5.html [ array (
+  0 => 'datas',
+  1 => 'type',
+  2 => 'serial',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_type_store` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_type_store` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_wendu` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qs_wendu` WHERE  `serial` = 'e0gwLPGq' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_wendu` WHERE  `serial` = 'e0gwLPGq' ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-03T13:17:44+08:00 ] 172.24.189.12 117.136.0.229 GET /platform/show/select/serial/e0gwLPGq/devicetype/5.html
+[ info ] 39.104.67.26:8901/platform/show/select/serial/e0gwLPGq/devicetype/5.html [运行时间：0.046876s][吞吐率：21.33req/s] [内存消耗：2,266.45kb] [文件加载：44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'show',
+    2 => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://39.104.67.26:8901/platform/show/select/serial/e0gwLPGq/devicetype/5.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2utv9637sk3512i5k11q8f2081',
+)
+[ info ] [ PARAM ] array (
+  'serial' => 'e0gwLPGq',
+  'devicetype' => '5',
+)
+[ info ] [ RUN ] app\platform\controller\Show->select[ C:\thinkphp\application\platform\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\show\show5.html [ array (
+  0 => 'datas',
+  1 => 'type',
+  2 => 'serial',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_type_store` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_type_store` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_wendu` [ RunTime:0.015626s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qs_wendu` WHERE  `serial` = 'e0gwLPGq' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_wendu` WHERE  `serial` = 'e0gwLPGq' ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-03T13:17:50+08:00 ] 172.24.189.12 117.136.0.229 GET /platform/index/index.html
+[ info ] 39.104.67.26:8901/platform/index/index.html [运行时间：0.062501s][吞吐率：16.00req/s] [内存消耗：2,117.73kb] [文件加载：42]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://39.104.67.26:8901/platform/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2utv9637sk3512i5k11q8f2081',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\platform\controller\Index->index[ C:\thinkphp\application\platform\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\index\index.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_application` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_application` WHERE  `uid` = 112 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_device` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_device` WHERE  `aid` = 32 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-03T13:17:50+08:00 ] 172.24.189.12 117.136.0.229 GET /platform/index/welcome.html
+[ info ] 39.104.67.26:8901/platform/index/welcome.html [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：2,055.95kb] [文件加载：41]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://39.104.67.26:8901/platform/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2utv9637sk3512i5k11q8f2081',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\platform\controller\Index->welcome[ C:\thinkphp\application\platform\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\index\welcome.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_application` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_application` WHERE  `uid` = 112 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_device` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_device` WHERE  `aid` = 32 ORDER BY `id`  ASC [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-03T13:17:54+08:00 ] 172.24.189.12 117.136.0.229 GET /platform/show/select/serial/e0gwLPGq/devicetype/5.html
+[ info ] 39.104.67.26:8901/platform/show/select/serial/e0gwLPGq/devicetype/5.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,266.16kb] [文件加载：44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'show',
+    2 => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://39.104.67.26:8901/platform/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2utv9637sk3512i5k11q8f2081',
+)
+[ info ] [ PARAM ] array (
+  'serial' => 'e0gwLPGq',
+  'devicetype' => '5',
+)
+[ info ] [ RUN ] app\platform\controller\Show->select[ C:\thinkphp\application\platform\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\show\show5.html [ array (
+  0 => 'datas',
+  1 => 'type',
+  2 => 'serial',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_type_store` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_type_store` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_wendu` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qs_wendu` WHERE  `serial` = 'e0gwLPGq' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_wendu` WHERE  `serial` = 'e0gwLPGq' ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-03T13:17:59+08:00 ] 172.24.189.12 117.136.0.229 GET /platform/show/select/serial/e0gwLPGq/devicetype/5.html
+[ info ] 39.104.67.26:8901/platform/show/select/serial/e0gwLPGq/devicetype/5.html [运行时间：0.046876s][吞吐率：21.33req/s] [内存消耗：2,266.45kb] [文件加载：44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'platform',
+    1 => 'show',
+    2 => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://39.104.67.26:8901/platform/show/select/serial/e0gwLPGq/devicetype/5.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2utv9637sk3512i5k11q8f2081',
+)
+[ info ] [ PARAM ] array (
+  'serial' => 'e0gwLPGq',
+  'devicetype' => '5',
+)
+[ info ] [ RUN ] app\platform\controller\Show->select[ C:\thinkphp\application\platform\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/platform\view\show\show5.html [ array (
+  0 => 'datas',
+  1 => 'type',
+  2 => 'serial',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_experiment_type_store` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_experiment_type_store` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_wendu` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qs_wendu` WHERE  `serial` = 'e0gwLPGq' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_wendu` WHERE  `serial` = 'e0gwLPGq' ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-03T17:46:06+08:00 ] 172.24.189.12 106.11.153.186 GET /download/index/index/index/index/index/panqiushi_ustb@163.com
+[ info ] 39.104.67.26/download/index/index/index/index/index/panqiushi_ustb@163.com [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：1,357.77kb] [文件加载：34]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'download',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn,en-us,zh-tw,en-gb,en;',
+  'host' => '39.104.67.26',
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'YisouSpider',
+)
+[ info ] [ PARAM ] array (
+  'index' => 'panqiushi_ustb@163.com',
+)
+[ info ] [ RUN ] app\download\controller\Index->index[ C:\thinkphp\application\download\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\thinkphp/application/download\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File

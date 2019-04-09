@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+<title>NB-IoT检测</title>
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<mate http-equiv="Pragma" content="no-cache">
+<mate http-equiv"Cache-Control" content="no-cache">
+<mate http-equiv="Expires" content="0">
+<script type="text/javascript">
+$(function(){
+	$("#bytime").click(function(){
+		$("#ajaxContent").load("sensor.html",{limit: 25},function(){});
+		});
+})
+</script>
+<script type="text/javascript">
+$(function(){
+	$("#bytemp").click(function(){
+		$("#ajaxContent").load("bytemp.html",{limit: 25},function(){});
+		});
+})
+</script>
+<script type="text/javascript">
+$(function(){
+	$("#byhum").click(function(){
+		$("#ajaxContent").load("byhum.html",{limit: 25},function(){});
+		});
+})
+</script>
+<script type="text/javascript">
+$(function(){
+	$("#bylight").click(function(){
+		$("#ajaxContent").load("bylight.html",{limit: 25},function(){});
+		});
+})
+</script>
+<script type="text/javascript">
+$(function(){
+	$("#byair").click(function(){
+		$("#ajaxContent").load("byair.html",{limit: 25},function(){});
+		});
+})
+</script>
+</head>
+<body onload="opener.location.reload()">
+    <form action="delete.php" method="POST">
+    <button type="submit" name="submit" value="insert">清空</button>
+  </form>
+  <table cellspacing="0" border="0" width="100%" bordercolor="#000000" align="center">
+      <tr align="center">
+        <td width="20%">接收时间</td>
+        <td width="30%">数据</td width="20%">
+        <td width="30%">协议</td>
+        <td width="20%"></td>
+      </tr>
+      <?php
+      $mysqli = mysqli_connect("localhost", "root", "root", "mysql");
+      
+      if (mysqli_connect_errno()) {
+      printf("Connect failed: %s\n", mysqli_connect_error());
+      exit();
+      }
+      else {
+      $sql = "SELECT * FROM testtable ORDER BY id DESC";
+      $res = mysqli_query($mysqli, $sql);
+      if ($res) 
+      {
+      while ($newArray = mysqli_fetch_array($res, MYSQLI_ASSOC)) 
+      {
+			$time  = $newArray['time'];
+			$testField = $newArray['testField'];
+			$msgtype = $newArray['msgtype'];
+			echo "<tr align=\"center\"><td>".$time."</td><td>".$testField."</td><td>".$msgtype."</td></tr>";
+       }
+       } 
+        mysqli_free_result($res);
+        mysqli_close($mysqli);
+     }
+     ?>
+    </table>
+</body>
+</html>

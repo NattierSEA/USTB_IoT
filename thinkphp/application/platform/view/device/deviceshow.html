@@ -1,0 +1,107 @@
+{include file="public/head"}
+    <body>
+
+<div class="x-body" style="width:70%; margin: 0 auto">
+        <button class="layui-btn layui-btn-small " 
+        onclick="x_admin_show('添加设备','{:url('platform/show/addshow?aid='.$aid)}',500,410)"></i>添加设备</button>
+        <button onclick="javascript:location.reload()" class="layui-btn layui-btn-small">刷新</button>
+	    <span class="x-right">共有<i class="i_count">{$devicelist->total()}</i>台设备</span>
+        
+        
+        <table class="layui-table">
+        <thead>
+          <tr>
+            <th>
+              <div class="header layui-form-checkbox" lay-skin="primary"><i class="layui-icon">&#xe605;</i></div>
+            </th>
+            <th>创建时间</th>
+            <th>设备序列号</th>
+            <th>设备类型</th>
+            <th>设备名称</th>
+            <th>是否启用</th>
+            <th>操作</th>
+        </thead>
+        <tbody>
+
+        {volist name="devicelist" id="vo"}
+        	<tr>
+	            <td>
+	              <div class="layui-form-checkbox" lay-skin="primary" data-id='2'><i class="layui-icon">&#xe605;</i></div>
+	            </td>
+	            <td>{$vo.createtime}</td>
+	            <td>{$vo.dserial}</td>
+	            <td><?php $n=$vo['tid'];$n=$n-1; echo $type[$n]['typename']; ?></td>
+                <td>{$vo.devicename}</td>
+	            <td>{if $vo.sta==1}
+				     是
+					 {else /}
+					 否
+					 {/if}
+				</td>
+	            <td>
+					<button class="layui-btn layui-btn-mini layui-btn-normal" onclick="x_admin_show('设备设置','{:url('platform/device/deviceedit?id='.$vo['id'])}',500,350)">设置</button>
+	             	<button onclick="delData(this,{$vo.id})" class="layui-btn layui-btn-mini layui-btn-danger">删除</button>
+	           </td>
+	        </tr>
+        {/volist}
+       
+          </tbody>
+        </table>
+	      <div class="page">
+	        <div>
+	        	{$devicelist->render()}
+	        </div>
+	      </div>
+        </div>
+
+	</body>	
+	<script>
+	
+	layui.use(['laydate','form'], function(){
+        var laydate = layui.laydate;
+        //执行一个laydate实例
+        laydate.render({
+          elem: '#start' //指定元素
+        });
+        //执行一个laydate实例
+        laydate.render({
+          elem: '#end' //指定元素
+        });
+      });
+
+      function delData1(obj,id){
+            //捉到所有被选中的，发异步进行删除
+            $.post("{:url('newdata/index/deletedata')}", {id: id}, function() {alert("删除成功");location.reload();});
+      }
+
+
+      function delAll (argument) {
+        var data = tableCheck.getData();
+        layer.confirm('确认要隐藏吗？',function(index){
+            //捉到所有被选中的，发异步进行删除
+            layer.msg('删除成功', {icon: 1});
+            $(".layui-form-checked").not('.header').parents('tr').remove();
+        });
+      }
+	  
+	  function delData(obj,id){
+        var count = $(".i_count")[0].innerText;
+        layer.confirm('确认要删除吗？',function(index){
+            //捉到所有被选中的，发异步进行删除
+            $.post("{:url('platform/device/deletedevice')}", {id: id}, function(data, textStatus, xhr) {
+          /*optional stuff to do after success */
+              console.log(data);
+              if(data.code==1){
+                  layer.msg(data.msg,{icon:1,time:1000},function(){
+                    $(obj).parents('tr').remove();
+                    $(".i_count").html(count-1);
+                  });
+              }else{
+                  layer.msg(data.msg,{icon:2,time:1000});
+              }
+            
+            });
+        });
+      }
+    </script>
+{include file="public/foot"}

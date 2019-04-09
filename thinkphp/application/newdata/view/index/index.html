@@ -1,0 +1,120 @@
+﻿{include file="public/head"}
+
+
+<!--Page Header-->
+<section class="page_header padding-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 page-content">
+        <h1>低功耗广域网数据中心</h1>
+        <p>我们为嵌入式设备提供了强大的后台支持。</p>
+        <div class="page_nav">
+      <span>您的位置:</span> <a href="{:url('newdata/index/index')}">数据中心</a> <span><i class="fa fa-angle-double-right"></i>主页</span>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!--BLOG SECTION-->
+<section id="blog" class="padding">
+  <div class="container">
+    <h2 class="hidden">Our Blog</h2>
+    <div class="row">
+      <div class="col-md-9">
+        <article class="blog_item heading_space wow fadeInLeft" data-wow-delay="300ms">
+          <div class="row">
+            <div class="col-md-5 col-sm-5 heading_space">
+              <div class="image"><img src="__images__/newdata1.jpg" alt="blog" class="border_radius"></div>
+            </div>
+            <div class="col-md-7 col-sm-7 heading_space">
+              <h2>环境监测传感器数据</h2>
+              <ul class="comment margin10">
+                <li><a href="">2017.07-2017.08</a></li>
+                <li><a href="">研发</a></li>
+              </ul>
+              <p class="margin10">搭载温湿度、光照强度和空气质量三种传感器，使用STM32F103作为主MCU，将传感器采集到的数据通过NB-IoT模块发送出去。支持UDP和COAP两种协议，并且分别对应相关的服务，将数据接收并处理。
+              </p>
+              <p class="margin10">UDP可以直接将数据通过socket通信发送到服务器上，而COAP需要经过电信运营商的云平台转发，在云服务器上搭建HTTPS服务器，通过Java编写的RESTful接口接收数据。
+              </p>
+              <a class=" btn_common btn_border margin10 border_radius" href="{:url('newdata/index/sensor')}">进入</a>
+            </div>
+          </div>
+        </article>
+        <article class="blog_item heading_space wow fadeInLeft" data-wow-delay="400ms">
+          <div class="row">
+            <div class="col-md-5 col-sm-5 heading_space">
+              <div class="image"><img src="__images__/newdata2.jpg" alt="blog" class="border_radius"></div>
+            </div>
+            <div class="col-md-7 col-sm-7 heading_space">
+              <h2>北斗GPS双模数据</h2>
+              <ul class="comment margin10">
+                <li><a href="">2018.04</a></li>
+                <li><a href="">研发</a></li>
+              </ul>
+              <p class="margin10">搭载北斗和GPS双模定位模块，使定位结果更加准确。搭配温湿度模块，在监控目标位置的同时可以同时监控温度。可应用于海量目标的定位追踪，相邻两次数据上报时间间隔较长，因此数据量也比较小。
+			  </p>
+              <p class="margin10">通讯模块提供了NB-IoT和GPRS两种模块，同一时间仅可使用一种，接口可替换。两种通讯技术分别可通过TCP和COAP发送数据，数据格式是兼容的，可记录到同一数据库中。
+              </p>
+              <a class=" btn_common btn_border margin10 border_radius" href="{:url('newdata/index/bd')}">进入</a>
+            </div>
+          </div>
+        </article>
+        <article class="blog_item heading_space wow fadeInLeft" data-wow-delay="500ms">
+          <div class="row">
+            <div class="col-md-5 col-sm-5 heading_space">
+              <div class="image"><img src="__images__/newdata3.jpg" alt="blog" class="border_radius"></div>
+            </div>
+            <div class="col-md-7 col-sm-7 heading_space">
+              <h2>旧版入口</h2>
+              <ul class="comment margin10">
+                <li><a href="">2017.08</a></li>
+                <li><a href="">研发</a></li>
+              </ul>
+              <p class="margin10">以AJAX动态加载网页的形式，读取数据库中的数据并显示。可以读取TCP、UDP和COAP协议接收到的数据，既可以作为实验数据平台使用，也可以作为网络协议的测试工具使用。
+              </p>
+              <p class="margin10">作为实验平台使用时，可以检测传感器、执行器和RFID识别模块的数据，尤其是对传感器监测时，可以按照不同的传感器数据进行排序，并以图标的形式显示出来，可具体到单个节点。
+              </p>
+              <a class=" btn_common btn_border margin10 border_radius" href="{:url('data/user/index')}">进入</a>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="col-md-3">
+        <aside class="sidebar bg_grey border-radius wow fadeIn" data-wow-delay="300ms">
+          <div class="widget heading_space">
+            <form class="widget_search border-radius">
+              <div class="input-group">
+                <input type="search" class="form-control" placeholder="输入以搜索服务" required>
+                <i class="input-group-addon icon-icons185"></i>
+              </div>
+            </form>
+          </div>
+          <div class="widget heading_space">
+            <h3 class="bottom20">关键词搜索</h3>
+            <ul class="tags">
+              <li><a href="#.">4G</a></li>
+              <li><a href="{:url('data/user/index')}">LoRa</a></li>
+              <li><a href="{:url('newdata/index/sensor')}">NB-IoT</a></li>
+              <li><a href="{:url('newdata/index/bd')}">北斗</a></li>
+              <li><a href="{:url('newdata/index/bd')}">GPS</a></li>
+              <li><a href="{:url('newdata/index/sensor')}">环境监测</a></li>
+              <li><a href="{:url('newdata/index/bd')}">房车</a></li>
+              <li><a href="{:url('newdata/index/sensor')}">低功耗广域网</a></li>
+              <li><a href="{:url('newdata/index/sensor')}">传感器</a></li>
+              <li><a href="{:url('data/user/index')}">UDP</a></li>
+              <li><a href="{:url('data/user/index')}">TCP</a></li>
+              <li><a href="{:url('newdata/index/bd')}">COAP</a></li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </div>
+</section>
+<!--BLOG SECTION-->
+
+{include file="public/foot"}
+

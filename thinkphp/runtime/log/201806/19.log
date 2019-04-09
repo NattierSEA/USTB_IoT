@@ -1,0 +1,290 @@
+---------------------------------------------------------------
+[ 2018-06-19T11:08:47+08:00 ] 172.24.189.12 61.129.7.254 GET /?nsukey=WWjz5q0PJim7y1rLCFzUP2nES3hgiIMpbnBHOr4I7LUUESLUGfBmOE3W2ec2rJnAKATKqOCFYy9K2Bq8lMvXs2FfP4ZFBDOGjwM5ShTUkBmEUCYGtzbGRIlpuEhHNrUKZRCm3X7BAMqQCTIltbBpM2FMnu2iii97ZnY2AmlKoCteP2FRY81whALOma8i5jbxdfXehwLW7hbZDJWl444PINA6fw3D3D
+[ info ] 39.104.67.26:8901/?nsukey=WWjz5q0PJim7y1rLCFzUP2nES3hgiIMpbnBHOr4I7LUUESLUGfBmOE3W2ec2rJnAKATKqOCFYy9K2Bq8lMvXs2FfP4ZFBDOGjwM5ShTUkBmEUCYGtzbGRIlpuEhHNrUKZRCm3X7BAMqQCTIltbBpM2FMnu2iii97ZnY2AmlKoCteP2FRY81whALOma8i5jbxdfXehwLW7hbZDJWl444PINA6fw3D3D [运行时间：0.046876s][吞吐率：21.33req/s] [内存消耗：2,107.61kb] [文件加载：41]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en-us,en',
+  'cache-control' => 'no-cache',
+  'connection' => 'close',
+  'cookie' => 'lang=zh',
+  'host' => '39.104.67.26:8901',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_2 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/30.0.1599.12 Mobile/11A501 Safari/8536.25 MicroMessenger/6.1.0',
+  'useragent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_2 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/30.0.1599.12 Mobile/11A501 Safari/8536.25 MicroMessenger/6.1.0',
+)
+[ info ] [ PARAM ] array (
+  'nsukey' => 'WWjz5q0PJim7y1rLCFzUP2nES3hgiIMpbnBHOr4I7LUUESLUGfBmOE3W2ec2rJnAKATKqOCFYy9K2Bq8lMvXs2FfP4ZFBDOGjwM5ShTUkBmEUCYGtzbGRIlpuEhHNrUKZRCm3X7BAMqQCTIltbBpM2FMnu2iii97ZnY2AmlKoCteP2FRY81whALOma8i5jbxdfXehwLW7hbZDJWl444PINA6fw3D3D',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\thinkphp\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/index\view\index\index.html [ array (
+  0 => 'event',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_event` [ RunTime:0.015626s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_event` ORDER BY id asc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-06-19T11:08:50+08:00 ] 172.24.189.12 61.129.7.217 GET /?nsukey=WWjz5q0PJim7y1rLCFzUP2nES3hgiIMpbnBHOr4I7LUUESLUGfBmOE3W2ec2rJnAKATKqOCFYy9K2Bq8lMvXs2FfP4ZFBDOGjwM5ShTUkBmEUCYGtzbGRIlpuEhHNrUKZRCm3X7BAMqQCTIltbBpM2FMnu2iii97ZnY2AmlKoCteP2FRY81whALOma8i5jbxdfXehwLW7hbZDJWl444PINA6fw3D3D
+[ info ] 39.104.67.26:8901/?nsukey=WWjz5q0PJim7y1rLCFzUP2nES3hgiIMpbnBHOr4I7LUUESLUGfBmOE3W2ec2rJnAKATKqOCFYy9K2Bq8lMvXs2FfP4ZFBDOGjwM5ShTUkBmEUCYGtzbGRIlpuEhHNrUKZRCm3X7BAMqQCTIltbBpM2FMnu2iii97ZnY2AmlKoCteP2FRY81whALOma8i5jbxdfXehwLW7hbZDJWl444PINA6fw3D3D [运行时间：0.062501s][吞吐率：16.00req/s] [内存消耗：2,107.66kb] [文件加载：41]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en-us,en',
+  'cache-control' => 'no-cache',
+  'connection' => 'close',
+  'cookie' => 'lang=zh',
+  'host' => '39.104.67.26:8901',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_2 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/30.0.1599.12 Mobile/11A501 Safari/8536.25 MicroMessenger/6.1.0',
+  'useragent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_2 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/30.0.1599.12 Mobile/11A501 Safari/8536.25 MicroMessenger/6.1.0',
+)
+[ info ] [ PARAM ] array (
+  'nsukey' => 'WWjz5q0PJim7y1rLCFzUP2nES3hgiIMpbnBHOr4I7LUUESLUGfBmOE3W2ec2rJnAKATKqOCFYy9K2Bq8lMvXs2FfP4ZFBDOGjwM5ShTUkBmEUCYGtzbGRIlpuEhHNrUKZRCm3X7BAMqQCTIltbBpM2FMnu2iii97ZnY2AmlKoCteP2FRY81whALOma8i5jbxdfXehwLW7hbZDJWl444PINA6fw3D3D',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\thinkphp\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/index\view\index\index.html [ array (
+  0 => 'event',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_event` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_event` ORDER BY id asc [ RunTime:0.015625s ]
+---------------------------------------------------------------
+[ 2018-06-19T11:08:52+08:00 ] 172.24.189.12 61.129.6.82 GET /?nsukey=WWjz5q0PJim7y1rLCFzUP2nES3hgiIMpbnBHOr4I7LUUESLUGfBmOE3W2ec2rJnAKATKqOCFYy9K2Bq8lMvXs2FfP4ZFBDOGjwM5ShTUkBmEUCYGtzbGRIlpuEhHNrUKZRCm3X7BAMqQCTIltbBpM2FMnu2iii97ZnY2AmlKoCteP2FRY81whALOma8i5jbxdfXehwLW7hbZDJWl444PINA6fw3D3D
+[ info ] 39.104.67.26:8901/?nsukey=WWjz5q0PJim7y1rLCFzUP2nES3hgiIMpbnBHOr4I7LUUESLUGfBmOE3W2ec2rJnAKATKqOCFYy9K2Bq8lMvXs2FfP4ZFBDOGjwM5ShTUkBmEUCYGtzbGRIlpuEhHNrUKZRCm3X7BAMqQCTIltbBpM2FMnu2iii97ZnY2AmlKoCteP2FRY81whALOma8i5jbxdfXehwLW7hbZDJWl444PINA6fw3D3D [运行时间：0.062501s][吞吐率：16.00req/s] [内存消耗：2,107.62kb] [文件加载：41]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en-us,en',
+  'cache-control' => 'no-cache',
+  'connection' => 'close',
+  'cookie' => 'lang=zh',
+  'host' => '39.104.67.26:8901',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_2 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/30.0.1599.12 Mobile/11A501 Safari/8536.25 MicroMessenger/6.1.0',
+  'useragent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_2 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/30.0.1599.12 Mobile/11A501 Safari/8536.25 MicroMessenger/6.1.0',
+)
+[ info ] [ PARAM ] array (
+  'nsukey' => 'WWjz5q0PJim7y1rLCFzUP2nES3hgiIMpbnBHOr4I7LUUESLUGfBmOE3W2ec2rJnAKATKqOCFYy9K2Bq8lMvXs2FfP4ZFBDOGjwM5ShTUkBmEUCYGtzbGRIlpuEhHNrUKZRCm3X7BAMqQCTIltbBpM2FMnu2iii97ZnY2AmlKoCteP2FRY81whALOma8i5jbxdfXehwLW7hbZDJWl444PINA6fw3D3D',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\thinkphp\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/index\view\index\index.html [ array (
+  0 => 'event',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_event` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_event` ORDER BY id asc [ RunTime:0.015626s ]
+---------------------------------------------------------------
+[ 2018-06-19T11:09:09+08:00 ] 172.24.189.12 61.151.207.252 GET /
+[ info ] 39.104.67.26:8901/ [运行时间：0.046876s][吞吐率：21.33req/s] [内存消耗：2,106.30kb] [文件加载：41]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'host' => '39.104.67.26:8901',
+  'qpr-loop' => 'V1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MI 6 Build/OPR1.170623.027) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/8.5 Mobile Safari/537.36',
+  'x-forwarded-for' => '112.224.65.217',
+  'x-forwarded-for-pound' => '112.224.65.217',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\thinkphp\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/index\view\index\index.html [ array (
+  0 => 'event',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_event` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_event` ORDER BY id asc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-06-19T11:09:45+08:00 ] 172.24.189.12 101.227.131.220 GET /
+[ info ] 39.104.67.26:8901/ [运行时间：0.046876s][吞吐率：21.33req/s] [内存消耗：2,105.40kb] [文件加载：41]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 MicroMessenger/6.5.5 NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\thinkphp\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/index\view\index\index.html [ array (
+  0 => 'event',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015626s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_event` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_event` ORDER BY id asc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-06-19T11:09:47+08:00 ] 172.24.189.12 61.151.225.241 GET /?nsukey=WWjz5q0PJim7y1rLCFzUP2nES3hgiIMpbnBHOr4I7LUUESLUGfBmOE3W2ec2rJnAKATKqOCFYy9K%2Bq8lMvXs%2FfP4ZFBDOGjwM5ShTUkBmEUCYGtzbGRIlpuEhHNrUKZRCm3X7BAMqQCTIltbBpM%2FMnu2iii97ZnY2AmlKoCteP%2FRY81whALOma8i5jbxdfXehwLW7hbZDJWl444PINA6fw%3D%3D
+[ info ] 39.104.67.26:8901/?nsukey=WWjz5q0PJim7y1rLCFzUP2nES3hgiIMpbnBHOr4I7LUUESLUGfBmOE3W2ec2rJnAKATKqOCFYy9K%2Bq8lMvXs%2FfP4ZFBDOGjwM5ShTUkBmEUCYGtzbGRIlpuEhHNrUKZRCm3X7BAMqQCTIltbBpM%2FMnu2iii97ZnY2AmlKoCteP%2FRY81whALOma8i5jbxdfXehwLW7hbZDJWl444PINA6fw%3D%3D [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,106.44kb] [文件加载：41]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.4; HUAWEI ALE-CL00 Build/HuaweiALE-CL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043024 Safari/537.36 MicroMessenger/6.5.4.1000 NetType/4G Language/zh_CN',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'nsukey' => 'WWjz5q0PJim7y1rLCFzUP2nES3hgiIMpbnBHOr4I7LUUESLUGfBmOE3W2ec2rJnAKATKqOCFYy9K+q8lMvXs/fP4ZFBDOGjwM5ShTUkBmEUCYGtzbGRIlpuEhHNrUKZRCm3X7BAMqQCTIltbBpM/Mnu2iii97ZnY2AmlKoCteP/RY81whALOma8i5jbxdfXehwLW7hbZDJWl444PINA6fw==',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\thinkphp\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/index\view\index\index.html [ array (
+  0 => 'event',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_event` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_event` ORDER BY id asc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-06-19T11:09:52+08:00 ] 172.24.189.12 101.226.79.223 GET /?nsukey=WWjz5q0PJim7y1rLCFzUP2nES3hgiIMpbnBHOr4I7LUUESLUGfBmOE3W2ec2rJnAKATKqOCFYy9K%2Bq8lMvXs%2FfP4ZFBDOGjwM5ShTUkBmEUCYGtzbGRIlpuEhHNrUKZRCm3X7BAMqQCTIltbBpM%2FMnu2iii97ZnY2AmlKoCteP%2FRY81whALOma8i5jbxdfXehwLW7hbZDJWl444PINA6fw%3D%3D
+[ info ] 39.104.67.26:8901/?nsukey=WWjz5q0PJim7y1rLCFzUP2nES3hgiIMpbnBHOr4I7LUUESLUGfBmOE3W2ec2rJnAKATKqOCFYy9K%2Bq8lMvXs%2FfP4ZFBDOGjwM5ShTUkBmEUCYGtzbGRIlpuEhHNrUKZRCm3X7BAMqQCTIltbBpM%2FMnu2iii97ZnY2AmlKoCteP%2FRY81whALOma8i5jbxdfXehwLW7hbZDJWl444PINA6fw%3D%3D [运行时间：0.031251s][吞吐率：32.00req/s] [内存消耗：2,106.22kb] [文件加载：41]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 6.0.1; zh-cn; OPPO R9s Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/38.0.0.0 Mobile Safari/537.36 OppoBrowser/4.2.8',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'nsukey' => 'WWjz5q0PJim7y1rLCFzUP2nES3hgiIMpbnBHOr4I7LUUESLUGfBmOE3W2ec2rJnAKATKqOCFYy9K+q8lMvXs/fP4ZFBDOGjwM5ShTUkBmEUCYGtzbGRIlpuEhHNrUKZRCm3X7BAMqQCTIltbBpM/Mnu2iii97ZnY2AmlKoCteP/RY81whALOma8i5jbxdfXehwLW7hbZDJWl444PINA6fw==',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\thinkphp\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/index\view\index\index.html [ array (
+  0 => 'event',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qs_event` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qs_event` ORDER BY id asc [ RunTime:0.000000s ]

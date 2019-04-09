@@ -1,0 +1,95 @@
+﻿{include file="public/head"}
+
+
+
+<!--Page Header-->
+<section class="page_header padding-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 page-content">
+        <h1>北斗GPS双模数据</h1>
+        <p>记录北斗模块的位置，可通过手机APP地图查看。</p>
+        <div class="page_nav">
+      <span>您的位置:</span> <a href="{:url('newdata/user/index')}">数据中心</a> <span><i class="fa fa-angle-double-right"></i>Location</span>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Page Header-->
+
+
+<div class="x-body" style="width:70%; margin: 0 auto">
+        <button onclick="javascript:location.reload()" class="layui-btn layui-btn-small">刷新</button>
+        <span class="x-right" style="line-height:40px">共有数据:<i class="i_count">{$data->total()}</i>条</span>
+<table class="layui-table">
+        <thead>
+          <tr>
+            <th>
+              <div class="header layui-form-checkbox" lay-skin="primary"><i class="layui-icon">&#xe605;</i></div>
+            </th>
+            <th>时间</th>
+            <th>设备序列号</th>
+            <th>纬度</th>
+            <th>经度</th>
+            <th>温度</th>
+            <th>湿度</th>
+            <th>操作</th>
+        </thead>
+        <tbody>
+
+        {volist name="data" id="vo"}
+        	<tr>
+	            <td>
+	              <div class="layui-form-checkbox" lay-skin="primary" data-id='2'><i class="layui-icon">&#xe605;</i></div>
+	            </td>
+	            <td>{$vo.time}</td>
+	            <td>{$vo.device}</td>
+	            <td><p>{$vo.ns} {$vo.latitude}°</p></td>
+                <td><p>{$vo.ew} {$vo.longitude}°</p></td>
+	            <td><p>{$vo.temperature}℃</p></td>
+	            <td><p>{$vo.humidity}%</p></td>
+	            <td>
+	             	<button onclick="delData(this,{$vo.id})" class="layui-btn layui-btn-mini layui-btn-danger">删除</button>
+	           </td>
+	        </tr>
+        {/volist}
+       
+        </tbody>
+      </table>
+	      <div class="page">
+	        <div>
+	        	{$data->render()}
+	        </div>
+	      </div>
+    </div>	  
+	<script>
+
+      function delData(obj,id){
+            //捉到所有被选中的，发异步进行删除
+            $.post("{:url('newdata/index/deletedata2')}", {id: id}, function() {alert("删除成功");location.reload();});
+      }
+	  function delDatas(obj,id){
+        var count = $(".i_count")[0].innerText;
+        layer.confirm('确认要删除吗？',function(index){
+            //捉到所有被选中的，发异步进行删除
+            $.post("{:url('newdata/index/deletedata')}", {id: id}, function(data, textStatus, xhr) {
+          /*optional stuff to do after success */
+              console.log(data);
+              if(data.code==1){
+                  layer.msg(data.msg,{icon:1,time:1000},function(){
+                    $(obj).parents('tr').remove();
+                    $(".i_count").html(count-1);
+                  });
+              }else{
+                  layer.msg(data.msg,{icon:2,time:1000});
+              }
+            
+            });
+        });
+      }
+    </script>	  
+		  
+		  
+<!-- Courses ends -->
+{include file="public/foot"}

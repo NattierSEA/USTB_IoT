@@ -1,0 +1,47 @@
+﻿{include file="public/head"}
+
+<!--Slider-->
+<section class="rev_slider_wrapper text-center">			
+<!-- START REVOLUTION SLIDER 5.0 auto mode -->
+  <div id="rev_slider" class="rev_slider"  data-version="5.0">
+    <ul>	
+    <!-- SLIDE  -->
+      <li data-transition="fade">
+        <!-- MAIN IMAGE -->
+        <img src="__images__/banner1.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgparallax="10" class="rev-slidebg">			
+      </li>
+
+      <li data-transition="fade">
+        <img src="__images__/banner2.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgparallax="10" class="rev-slidebg">				
+      </li>
+    </ul>				
+  </div><!-- END REVOLUTION SLIDER -->
+</section>	
+
+
+<!--ABout US-->
+<section id="about" class="padding">
+  <div class="container">
+    <div class="row">
+    <div class="icon_wrap padding-bottom-half clearfix">
+      <div class="col-sm-4 icon_box text-center heading_space wow fadeInUp" data-wow-delay="100ms" onclick="window.open('{:url('download/index/index')}','_self')">
+         <i class="icon-globe"></i>
+         <h4 class="text-capitalize bottom20 margin10"><a href="{:url('download/index/index')}">下载中心</a></h4>
+         <p class="no_bottom">您可以下载本公司相关产品的介绍文档，以及您所购买产品的学习资料，包括但不仅限于实验指导书等文档，并且提供实验过程中需要使用的辅助软件。</p>
+      </div>
+      <div class="col-sm-4 icon_box text-center heading_space wow fadeInUp" data-wow-delay="200ms" onclick="window.open('{:url('course/index/index')}','_self')">
+         <i class="icon-laptop"></i>
+         <h4 class="text-capitalize bottom20 margin10"><a href="{:url('course/index/index')}">视频学习</a></h4>
+         <p class="no_bottom">您可以通过在线视频进行学习，提高自身的学习效率，完成备课或者课程学习。工程师将为您演示实验并讲解代码，为您的学习提供多样化选择。</p>
+      </div>
+      <div class="col-sm-4 icon_box text-center heading_space wow fadeInUp" data-wow-delay="300ms" onclick="window.open('{:url('platform/user/index')}','_self')">
+         <i class="icon-layers"></i>
+         <h4 class="text-capitalize bottom20 margin10"><a href="{:url('platform/user/index')}">开发者平台</a></h4>
+         <p class="no_bottom">您可以在这里进行在线调试，将您的设备接入互联网，通过本网站来查看终端数据，或者直接操纵终端。本平台支持多种协议的接入，方便您开展实验。</p>
+      </div>
+      </div>
+    </div>
+  </div> 
+</section>
+
+{include file="public/foot"}

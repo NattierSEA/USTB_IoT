@@ -1,0 +1,2710 @@
+---------------------------------------------------------------
+[ 2018-04-30T13:22:24+08:00 ] 172.24.189.12 61.148.245.1 GET /
+[ info ] 39.104.67.26:8901/ [è¿è¡Œæ—¶é—´ï¼š0.031250s][ååç‡ï¼š32.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,287.56kb] [æ–‡ä»¶åŠ è½½ï¼š33]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525009357',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\thinkphp\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T13:22:40+08:00 ] 172.24.189.12 61.148.245.1 GET /data/user/index
+[ info ] 39.104.67.26:8901/data/user/index [è¿è¡Œæ—¶é—´ï¼š0.015625s][ååç‡ï¼š64.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,304.57kb] [æ–‡ä»¶åŠ è½½ï¼š33]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'data',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525009357',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\data\controller\User->index[ C:\thinkphp\application\data\controller\User.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/data\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T13:25:26+08:00 ] 172.24.189.12 61.148.245.1 POST /data/user/login
+[ info ] 39.104.67.26:8901/data/user/login [è¿è¡Œæ—¶é—´ï¼š0.046875s][ååç‡ï¼š21.33req/s] [å†…å­˜æ¶ˆè€—ï¼š2,291.00kb] [æ–‡ä»¶åŠ è½½ï¼š44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'data',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://39.104.67.26:8901/data/user/index',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'host' => '39.104.67.26:8901',
+  'content-length' => '30',
+  'connection' => 'Keep-Alive',
+  'cache-control' => 'no-cache',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525009357; PHPSESSID=de88270f7i48dbk8gseheg49t0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'USTB',
+  'password' => 'iot1024',
+)
+[ info ] [ RUN ] app\data\controller\User->login[ C:\thinkphp\application\data\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `sm_user` WHERE  `username` = 'USTB' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `password` FROM `sm_user` WHERE  `username` = 'USTB' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `sm_user`  SET `last_login_ip`='61.148.245.1',`last_login_time`='2018-04-30 01:25:26'  WHERE  `username` = 'USTB' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-30T13:25:29+08:00 ] 172.24.189.12 61.148.245.1 GET /data/user/index/index
+[ info ] 39.104.67.26:8901/data/user/index/index [è¿è¡Œæ—¶é—´ï¼š0.015625s][ååç‡ï¼š64.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,366.69kb] [æ–‡ä»¶åŠ è½½ï¼š34]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'data',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/data/user/index',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525009357; PHPSESSID=de88270f7i48dbk8gseheg49t0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\data\controller\User->index[ C:\thinkphp\application\data\controller\User.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/data\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T13:25:32+08:00 ] 172.24.189.12 61.148.245.1 GET /data/index/index.html
+[ info ] 39.104.67.26:8901/data/index/index.html [è¿è¡Œæ—¶é—´ï¼š3.046836s][ååç‡ï¼š0.33req/s] [å†…å­˜æ¶ˆè€—ï¼š2,097.73kb] [æ–‡ä»¶åŠ è½½ï¼š42]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'data',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/data/user/index/index',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525009357; PHPSESSID=de88270f7i48dbk8gseheg49t0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\data\controller\Index->index[ C:\thinkphp\application\data\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/data\view\index\index.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group_access` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `sm_auth_group_access` `AuthGroupAccess` LEFT JOIN `sm_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_rule` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `sm_auth_rule` WHERE  `id` IN (1,2,3,103)  AND `type` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.015625s ]
+---------------------------------------------------------------
+[ 2018-04-30T13:25:32+08:00 ] 172.24.189.12 61.148.245.1 GET /public/static/js/jquery-3.2.1.js
+[ info ] 39.104.67.26:8901/public/static/js/jquery-3.2.1.js [è¿è¡Œæ—¶é—´ï¼š0.031250s][ååç‡ï¼š32.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,026.74kb] [æ–‡ä»¶åŠ è½½ï¼š28]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/javascript, */*;q=0.8',
+  'referer' => 'http://39.104.67.26:8901/data/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525009357; PHPSESSID=de88270f7i48dbk8gseheg49t0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T13:25:32+08:00 ] 172.24.189.12 61.148.245.1 GET /public/static/images/p1.jpg
+[ info ] 39.104.67.26:8901/public/static/images/p1.jpg [è¿è¡Œæ—¶é—´ï¼š0.015625s][ååç‡ï¼š64.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,026.83kb] [æ–‡ä»¶åŠ è½½ï¼š28]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://39.104.67.26:8901/data/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525009357; PHPSESSID=de88270f7i48dbk8gseheg49t0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T13:25:32+08:00 ] 172.24.189.12 61.148.245.1 GET /public/static/images/p2.jpg
+[ info ] 39.104.67.26:8901/public/static/images/p2.jpg [è¿è¡Œæ—¶é—´ï¼š0.031250s][ååç‡ï¼š32.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,026.83kb] [æ–‡ä»¶åŠ è½½ï¼š28]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://39.104.67.26:8901/data/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525009357; PHPSESSID=de88270f7i48dbk8gseheg49t0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T13:25:32+08:00 ] 172.24.189.12 61.148.245.1 GET /public/static/images/p3.jpg
+[ info ] 39.104.67.26:8901/public/static/images/p3.jpg [è¿è¡Œæ—¶é—´ï¼š0.015625s][ååç‡ï¼š64.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,026.83kb] [æ–‡ä»¶åŠ è½½ï¼š28]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://39.104.67.26:8901/data/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525009357; PHPSESSID=de88270f7i48dbk8gseheg49t0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T13:25:33+08:00 ] 172.24.189.12 61.148.245.1 GET /public/static/images/tiles/footerclose.png
+[ info ] 39.104.67.26:8901/public/static/images/tiles/footerclose.png [è¿è¡Œæ—¶é—´ï¼š0.031249s][ååç‡ï¼š32.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,027.32kb] [æ–‡ä»¶åŠ è½½ï¼š28]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://39.104.67.26:8901/data/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525009357; PHPSESSID=de88270f7i48dbk8gseheg49t0',
+)
+[ info ] [ PARAM ] array (
+  'tiles' => 'footerclose.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T13:25:33+08:00 ] 172.24.189.12 61.148.245.1 GET /public/static/images/tiles/footeropen.png
+[ info ] 39.104.67.26:8901/public/static/images/tiles/footeropen.png [è¿è¡Œæ—¶é—´ï¼š0.015625s][ååç‡ï¼š64.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,027.33kb] [æ–‡ä»¶åŠ è½½ï¼š28]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://39.104.67.26:8901/data/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525009357; PHPSESSID=de88270f7i48dbk8gseheg49t0',
+)
+[ info ] [ PARAM ] array (
+  'tiles' => 'footeropen.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T13:29:20+08:00 ] 172.24.189.12 61.148.245.1 GET /admin/user/index
+[ info ] 39.104.67.26:8901/admin/user/index [è¿è¡Œæ—¶é—´ï¼š0.015625s][ååç‡ï¼š64.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,366.61kb] [æ–‡ä»¶åŠ è½½ï¼š34]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/data/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=de88270f7i48dbk8gseheg49t0; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ C:\thinkphp\application\admin\controller\User.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/admin\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T13:29:20+08:00 ] 172.24.189.12 61.148.245.1 GET /admin/index/index.html
+[ info ] 39.104.67.26:8901/admin/index/index.html [è¿è¡Œæ—¶é—´ï¼š0.062499s][ååç‡ï¼š16.00req/s] [å†…å­˜æ¶ˆè€—ï¼š2,138.24kb] [æ–‡ä»¶åŠ è½½ï¼š43]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/admin/user/index',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=de88270f7i48dbk8gseheg49t0; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\thinkphp\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/admin\view\index\index.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_rule` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group_access` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `sm_auth_group_access` `AuthGroupAccess` LEFT JOIN `sm_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `sm_auth_rule` WHERE  `id` IN (1,2,3,103)  AND `type` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-30T13:29:20+08:00 ] 172.24.189.12 61.148.245.1 GET /admin/index/welcome.html
+[ info ] 39.104.67.26:8901/admin/index/welcome.html [è¿è¡Œæ—¶é—´ï¼š0.046875s][ååç‡ï¼š21.33req/s] [å†…å­˜æ¶ˆè€—ï¼š2,076.55kb] [æ–‡ä»¶åŠ è½½ï¼š42]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/admin/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=de88270f7i48dbk8gseheg49t0; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ C:\thinkphp\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/admin\view\index\welcome.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_rule` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group_access` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `sm_auth_group_access` `AuthGroupAccess` LEFT JOIN `sm_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `sm_auth_rule` WHERE  `id` IN (1,2,3,103)  AND `type` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-30T13:29:22+08:00 ] 172.24.189.12 61.148.245.1 GET /admin/file_system/index.html
+[ info ] 39.104.67.26:8901/admin/file_system/index.html [è¿è¡Œæ—¶é—´ï¼š0.046874s][ååç‡ï¼š21.33req/s] [å†…å­˜æ¶ˆè€—ï¼š2,261.07kb] [æ–‡ä»¶åŠ è½½ï¼š46]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'file_system',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/admin/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=de88270f7i48dbk8gseheg49t0; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\FileSystem->index[ C:\thinkphp\application\admin\controller\FileSystem.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/admin\view\file_system\index.html [ array (
+  0 => 'menu',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group_access` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `sm_auth_group_access` `AuthGroupAccess` LEFT JOIN `sm_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_rule` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `sm_auth_rule` WHERE  `id` IN (1,2,3,103)  AND `type` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_file` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sm_file` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_file` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-30T13:29:22+08:00 ] 172.24.189.12 61.148.245.1 GET /public/uploads/20180109/57201c4836970c35ed3eed13b7530597.jpg
+[ info ] 39.104.67.26:8901/public/uploads/20180109/57201c4836970c35ed3eed13b7530597.jpg [è¿è¡Œæ—¶é—´ï¼š0.015625s][ååç‡ï¼š64.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,027.03kb] [æ–‡ä»¶åŠ è½½ï¼š28]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '20180109',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://39.104.67.26:8901/admin/file_system/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=de88270f7i48dbk8gseheg49t0; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T13:29:22+08:00 ] 172.24.189.12 61.148.245.1 GET /public/uploads/20180109/9a58b24da7b35462c5d7f5125ac5cae9.jpg
+[ info ] 39.104.67.26:8901/public/uploads/20180109/9a58b24da7b35462c5d7f5125ac5cae9.jpg [è¿è¡Œæ—¶é—´ï¼š0.031250s][ååç‡ï¼š32.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,027.03kb] [æ–‡ä»¶åŠ è½½ï¼š28]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '20180109',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://39.104.67.26:8901/admin/file_system/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=de88270f7i48dbk8gseheg49t0; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T13:29:22+08:00 ] 172.24.189.12 61.148.245.1 GET /public/uploads/20180109/099c801727609fd3d69417b70e0302b8.jpg
+[ info ] 39.104.67.26:8901/public/uploads/20180109/099c801727609fd3d69417b70e0302b8.jpg [è¿è¡Œæ—¶é—´ï¼š0.031249s][ååç‡ï¼š32.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,027.03kb] [æ–‡ä»¶åŠ è½½ï¼š28]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '20180109',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://39.104.67.26:8901/admin/file_system/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=de88270f7i48dbk8gseheg49t0; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T13:29:22+08:00 ] 172.24.189.12 61.148.245.1 GET /public/uploads/20180109/8b4339a3900b49bc4b1d99547bd4eade.jpg
+[ info ] 39.104.67.26:8901/public/uploads/20180109/8b4339a3900b49bc4b1d99547bd4eade.jpg [è¿è¡Œæ—¶é—´ï¼š0.031250s][ååç‡ï¼š32.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,027.03kb] [æ–‡ä»¶åŠ è½½ï¼š28]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '20180109',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://39.104.67.26:8901/admin/file_system/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=de88270f7i48dbk8gseheg49t0; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T13:29:22+08:00 ] 172.24.189.12 61.148.245.1 GET /public/uploads/20180109/ee0b71f4ff2b34e4e28b3ecf08100691.jpg
+[ info ] 39.104.67.26:8901/public/uploads/20180109/ee0b71f4ff2b34e4e28b3ecf08100691.jpg [è¿è¡Œæ—¶é—´ï¼š0.031250s][ååç‡ï¼š32.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,027.03kb] [æ–‡ä»¶åŠ è½½ï¼š28]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '20180109',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://39.104.67.26:8901/admin/file_system/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=de88270f7i48dbk8gseheg49t0; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T13:29:22+08:00 ] 172.24.189.12 61.148.245.1 GET /public/uploads/20180109/6d781405b9283e686ce7c35318296f72.jpg
+[ info ] 39.104.67.26:8901/public/uploads/20180109/6d781405b9283e686ce7c35318296f72.jpg [è¿è¡Œæ—¶é—´ï¼š0.015624s][ååç‡ï¼š64.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,027.03kb] [æ–‡ä»¶åŠ è½½ï¼š28]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '20180109',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://39.104.67.26:8901/admin/file_system/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=de88270f7i48dbk8gseheg49t0; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T13:29:22+08:00 ] 172.24.189.12 61.148.245.1 GET /public/uploads/20180109/278d28de60b3a222b9de9a2feeac1811.jpg
+[ info ] 39.104.67.26:8901/public/uploads/20180109/278d28de60b3a222b9de9a2feeac1811.jpg [è¿è¡Œæ—¶é—´ï¼š0.031250s][ååç‡ï¼š32.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,027.03kb] [æ–‡ä»¶åŠ è½½ï¼š28]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '20180109',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://39.104.67.26:8901/admin/file_system/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=de88270f7i48dbk8gseheg49t0; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T13:29:22+08:00 ] 172.24.189.12 61.148.245.1 GET /public/uploads/20180109/148c62e0934cd97545897fabdc94fb43.jpg
+[ info ] 39.104.67.26:8901/public/uploads/20180109/148c62e0934cd97545897fabdc94fb43.jpg [è¿è¡Œæ—¶é—´ï¼š0.015625s][ååç‡ï¼š64.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,027.03kb] [æ–‡ä»¶åŠ è½½ï¼š28]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '20180109',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://39.104.67.26:8901/admin/file_system/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=de88270f7i48dbk8gseheg49t0; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T13:29:22+08:00 ] 172.24.189.12 61.148.245.1 GET /public/uploads/20180109/c3be19bb67f119378a744246f8547d7d.jpg
+[ info ] 39.104.67.26:8901/public/uploads/20180109/c3be19bb67f119378a744246f8547d7d.jpg [è¿è¡Œæ—¶é—´ï¼š0.031249s][ååç‡ï¼š32.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,027.03kb] [æ–‡ä»¶åŠ è½½ï¼š28]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '20180109',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://39.104.67.26:8901/admin/file_system/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=de88270f7i48dbk8gseheg49t0; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T13:29:24+08:00 ] 172.24.189.12 61.148.245.1 GET /admin/user/userlist.html
+[ info ] 39.104.67.26:8901/admin/user/userlist.html [è¿è¡Œæ—¶é—´ï¼š0.031250s][ååç‡ï¼š32.00req/s] [å†…å­˜æ¶ˆè€—ï¼š2,208.53kb] [æ–‡ä»¶åŠ è½½ï¼š44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/admin/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=de88270f7i48dbk8gseheg49t0; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->userlist[ C:\thinkphp\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/admin\view\user\userlist.html [ array (
+  0 => 'users',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sm_user` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_user` ORDER BY id asc LIMIT 0,12 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-30T13:29:51+08:00 ] 172.24.189.12 61.148.245.1 GET /admin/user/userlist.html
+[ info ] 39.104.67.26:8901/admin/user/userlist.html [è¿è¡Œæ—¶é—´ï¼š0.046874s][ååç‡ï¼š21.33req/s] [å†…å­˜æ¶ˆè€—ï¼š2,208.53kb] [æ–‡ä»¶åŠ è½½ï¼š44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/admin/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=de88270f7i48dbk8gseheg49t0; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->userlist[ C:\thinkphp\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\thinkphp/application/admin\view\user\userlist.html [ array (
+  0 => 'users',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sm_user` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_user` ORDER BY id asc LIMIT 0,12 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-30T14:13:46+08:00 ] 172.24.189.12 106.120.161.68 GET /data/user/index/index
+[ info ] 39.104.67.26/data/user/index/index [è¿è¡Œæ—¶é—´ï¼š0.031250s][ååç‡ï¼š32.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,303.68kb] [æ–‡ä»¶åŠ è½½ï¼š33]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'data',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'referer' => 'http://39.104.67.26:8901/data/user/index/index',
+  'host' => '39.104.67.26',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Tablet PC 2.0)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\data\controller\User->index[ C:\thinkphp\application\data\controller\User.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/data\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T14:14:06+08:00 ] 172.24.189.12 220.181.132.193 GET /
+[ info ] 39.104.67.26:8901/ [è¿è¡Œæ—¶é—´ï¼š0.031249s][ååç‡ï¼š32.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,317.79kb] [æ–‡ä»¶åŠ è½½ï¼š37]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'referer' => 'http://39.104.67.26:8901/',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\thinkphp\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [4]è¯­æ³•é”™è¯¯: unexpected '}'[xÚu‘M›0†ÿÊŞv÷FHÒ­U­T0ØùZì`ˆ/Ø@	FBÄ_¿jUõĞÃH3Ò;3Ï¼óô3½ÅÕËSwé·Õ/™
+%Ó—gß«ú˜‘G¾B5iÅÒî.Q•ñÉ¨ĞÅ¢ö¤ÛJ4ø&*0ğÈ¾‰†´I-Ô–o° 
+9F]p&‡S$Øø0×Îèœ”ò¤U) $Y`0ÊJFÃA~é³`è—7VşAíZ˜à›@óp¥°—wS¯ŞC«|°ÕßçzfåuÈ	fÆ––B”Ô–yª[€<Ö	3˜r…±òÁ€·„ùy:üËâ/0\’K÷H¨”µs‰¿7ıİ‡È[§¿sújÔ£tÔ<KeÿÑøáñ:yfìÖ_LPÆáº9ö51ZÔlÃ½IëJG[,’½Á¼,“%3\Í¬Nb®{8ıÔç$ÓNşØµ¢º÷èÚí¥0oäG¤ÚÁù~ÿa˜ş“WõÅ¼ß&&¹Ş»]æ¿¿?¿¾şø¼µiÑ ÀQì5ÒØƒ¾ö°)(Z
+cËFë;8÷xŒ2»ÂçÓbğn‰Ôˆk”€N”É¡Î`qæ6ĞÛçY+çı¬—œGĞTd‘ì
+«K¿€x¯µYŸŠsƒŞæà²³¸G 6ğRãì‰ó}óµâK®àK"‹õÅë!p®0mAÿÔb"gæZ´ ş:1]
+---------------------------------------------------------------
+[ 2018-04-30T14:14:09+08:00 ] 172.24.189.12 101.199.120.145 GET /
+[ info ] 39.104.67.26:8901/ [è¿è¡Œæ—¶é—´ï¼š0.031250s][ååç‡ï¼š32.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,286.98kb] [æ–‡ä»¶åŠ è½½ï¼š33]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\thinkphp\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T14:14:10+08:00 ] 172.24.189.12 220.181.132.194 GET /data/user/index/index
+[ info ] 39.104.67.26:8901/data/user/index/index [è¿è¡Œæ—¶é—´ï¼š0.031249s][ååç‡ï¼š32.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,350.13kb] [æ–‡ä»¶åŠ è½½ï¼š37]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'data',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\data\controller\User->index[ C:\thinkphp\application\data\controller\User.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/data\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]è¯­æ³•é”™è¯¯: unexpected '}'[xÚu‘M›0†ÿÊŞv÷FHÒ­U­T0ØùZì`ˆ/Ø@	FBÄ_¿jUõĞÃH3Ò;3Ï¼óô3½ÅÕËSwé·Õ/™
+%Ó—gß«ú˜‘G¾B5iÅÒî.Q•ñÉ¨ĞÅ¢ö¤ÛJ4ø&*0ğÈ¾‰†´I-Ô–o° 
+9F]p&‡S$Øø0×Îèœ”ò¤U) $Y`0ÊJFÃA~é³`è—7VşAíZ˜à›@óp¥°—wS¯ŞC«|°ÕßçzfåuÈ	fÆ––B”Ô–yª[€<Ö	3˜r…±òÁ€·„ùy:üËâ/0\’K÷H¨”µs‰¿7ıİ‡È[§¿sújÔ£tÔ<KeÿÑøáñ:yfìÖ_LPÆáº9ö51ZÔlÃ½IëJG[,’½Á¼,“%3\Í¬Nb®{8ıÔç$ÓNşØµ¢º÷èÚí¥0oäG¤ÚÁù~ÿa˜ş“WõÅ¼ß&&¹Ş»]æ¿¿?¿¾şø¼µiÑ ÀQì5ÒØƒ¾ö°)(Z
+cËFë;8÷xŒ2»ÂçÓbğn‰Ôˆk”€N”É¡Î`qæ6ĞÛçY+çı¬—œGĞTd‘ì
+«K¿€x¯µYŸŠsƒŞæà²³¸G 6ğRãì‰ó}óµâK®àK"‹õÅë!p®0mAÿÔb"gæZ´ ş:1]
+---------------------------------------------------------------
+[ 2018-04-30T14:14:22+08:00 ] 172.24.189.12 171.13.14.147 GET /
+[ info ] 39.104.67.26:8901/ [è¿è¡Œæ—¶é—´ï¼š0.015625s][ååç‡ï¼š64.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,318.09kb] [æ–‡ä»¶åŠ è½½ï¼š37]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'referer' => 'http://39.104.67.26:8901/',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'x-forwarded-for' => 'unknown',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\thinkphp\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [4]è¯­æ³•é”™è¯¯: unexpected '}'[xÚu‘M›0†ÿÊŞv÷FHÒ­U­T0ØùZì`ˆ/Ø@	FBÄ_¿jUõĞÃH3Ò;3Ï¼óô3½ÅÕËSwé·Õ/™
+%Ó—gß«ú˜‘G¾B5iÅÒî.Q•ñÉ¨ĞÅ¢ö¤ÛJ4ø&*0ğÈ¾‰†´I-Ô–o° 
+9F]p&‡S$Øø0×Îèœ”ò¤U) $Y`0ÊJFÃA~é³`è—7VşAíZ˜à›@óp¥°—wS¯ŞC«|°ÕßçzfåuÈ	fÆ––B”Ô–yª[€<Ö	3˜r…±òÁ€·„ùy:üËâ/0\’K÷H¨”µs‰¿7ıİ‡È[§¿sújÔ£tÔ<KeÿÑøáñ:yfìÖ_LPÆáº9ö51ZÔlÃ½IëJG[,’½Á¼,“%3\Í¬Nb®{8ıÔç$ÓNşØµ¢º÷èÚí¥0oäG¤ÚÁù~ÿa˜ş“WõÅ¼ß&&¹Ş»]æ¿¿?¿¾şø¼µiÑ ÀQì5ÒØƒ¾ö°)(Z
+cËFë;8÷xŒ2»ÂçÓbğn‰Ôˆk”€N”É¡Î`qæ6ĞÛçY+çı¬—œGĞTd‘ì
+«K¿€x¯µYŸŠsƒŞæà²³¸G 6ğRãì‰ó}óµâK®àK"‹õÅë!p®0mAÿÔb"gæZ´ ş:1]
+---------------------------------------------------------------
+[ 2018-04-30T14:14:28+08:00 ] 172.24.189.12 180.163.220.43 GET /
+[ info ] 39.104.67.26:8901/ [è¿è¡Œæ—¶é—´ï¼š0.031249s][ååç‡ï¼š32.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,286.92kb] [æ–‡ä»¶åŠ è½½ï¼š33]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,*',
+  'host' => '39.104.67.26:8901',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\thinkphp\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T14:14:38+08:00 ] 172.24.189.12 113.10.190.251 GET /data/user/index/index
+[ info ] 39.104.67.26:8901/data/user/index/index [è¿è¡Œæ—¶é—´ï¼š0.015625s][ååç‡ï¼š64.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,350.45kb] [æ–‡ä»¶åŠ è½½ï¼š37]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'data',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.67.26:8901',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'cache-control' => 'max-age=259200',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\data\controller\User->index[ C:\thinkphp\application\data\controller\User.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/data\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]è¯­æ³•é”™è¯¯: unexpected '}'[xÚu‘M›0†ÿÊŞv÷FHÒ­U­T0ØùZì`ˆ/Ø@	FBÄ_¿jUõĞÃH3Ò;3Ï¼óô3½ÅÕËSwé·Õ/™
+%Ó—gß«ú˜‘G¾B5iÅÒî.Q•ñÉ¨ĞÅ¢ö¤ÛJ4ø&*0ğÈ¾‰†´I-Ô–o° 
+9F]p&‡S$Øø0×Îèœ”ò¤U) $Y`0ÊJFÃA~é³`è—7VşAíZ˜à›@óp¥°—wS¯ŞC«|°ÕßçzfåuÈ	fÆ––B”Ô–yª[€<Ö	3˜r…±òÁ€·„ùy:üËâ/0\’K÷H¨”µs‰¿7ıİ‡È[§¿sújÔ£tÔ<KeÿÑøáñ:yfìÖ_LPÆáº9ö51ZÔlÃ½IëJG[,’½Á¼,“%3\Í¬Nb®{8ıÔç$ÓNşØµ¢º÷èÚí¥0oäG¤ÚÁù~ÿa˜ş“WõÅ¼ß&&¹Ş»]æ¿¿?¿¾şø¼µiÑ ÀQì5ÒØƒ¾ö°)(Z
+cËFë;8÷xŒ2»ÂçÓbğn‰Ôˆk”€N”É¡Î`qæ6ĞÛçY+çı¬—œGĞTd‘ì
+«K¿€x¯µYŸŠsƒŞæà²³¸G 6ğRãì‰ó}óµâK®àK"‹õÅë!p®0mAÿÔb"gæZ´ ş:1]
+---------------------------------------------------------------
+[ 2018-04-30T14:22:47+08:00 ] 172.24.189.12 61.148.245.1 GET /
+[ info ] 39.104.67.26:8901/ [è¿è¡Œæ—¶é—´ï¼š0.015625s][ååç‡ï¼š64.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,287.59kb] [æ–‡ä»¶åŠ è½½ï¼š33]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\thinkphp\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T14:22:55+08:00 ] 172.24.189.12 61.148.245.1 GET /data/user/index
+[ info ] 39.104.67.26:8901/data/user/index [è¿è¡Œæ—¶é—´ï¼š0.031250s][ååç‡ï¼š32.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,304.57kb] [æ–‡ä»¶åŠ è½½ï¼š33]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'data',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\data\controller\User->index[ C:\thinkphp\application\data\controller\User.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/data\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T14:22:57+08:00 ] 172.24.189.12 61.148.245.1 POST /data/user/login
+[ info ] 39.104.67.26:8901/data/user/login [è¿è¡Œæ—¶é—´ï¼š0.046875s][ååç‡ï¼š21.33req/s] [å†…å­˜æ¶ˆè€—ï¼š2,291.00kb] [æ–‡ä»¶åŠ è½½ï¼š44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'data',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://39.104.67.26:8901/data/user/index',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'host' => '39.104.67.26:8901',
+  'content-length' => '30',
+  'connection' => 'Keep-Alive',
+  'cache-control' => 'no-cache',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285; PHPSESSID=hfhgr2q2ui4n9souscpths5397',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'USTB',
+  'password' => 'iot1024',
+)
+[ info ] [ RUN ] app\data\controller\User->login[ C:\thinkphp\application\data\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `sm_user` WHERE  `username` = 'USTB' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `password` FROM `sm_user` WHERE  `username` = 'USTB' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `sm_user`  SET `last_login_ip`='61.148.245.1',`last_login_time`='2018-04-30 02:22:57'  WHERE  `username` = 'USTB' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-30T14:23:01+08:00 ] 172.24.189.12 61.148.245.1 GET /data/user/index/index
+[ info ] 39.104.67.26:8901/data/user/index/index [è¿è¡Œæ—¶é—´ï¼š0.031250s][ååç‡ï¼š32.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,366.69kb] [æ–‡ä»¶åŠ è½½ï¼š34]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'data',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/data/user/index',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285; PHPSESSID=hfhgr2q2ui4n9souscpths5397',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\data\controller\User->index[ C:\thinkphp\application\data\controller\User.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/data\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T14:23:04+08:00 ] 172.24.189.12 61.148.245.1 GET /data/index/index.html
+[ info ] 39.104.67.26:8901/data/index/index.html [è¿è¡Œæ—¶é—´ï¼š3.046855s][ååç‡ï¼š0.33req/s] [å†…å­˜æ¶ˆè€—ï¼š2,097.73kb] [æ–‡ä»¶åŠ è½½ï¼š42]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'data',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/data/user/index/index',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285; PHPSESSID=hfhgr2q2ui4n9souscpths5397',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\data\controller\Index->index[ C:\thinkphp\application\data\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/data\view\index\index.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group_access` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `sm_auth_group_access` `AuthGroupAccess` LEFT JOIN `sm_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_rule` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `sm_auth_rule` WHERE  `id` IN (1,2,3,103)  AND `type` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-30T14:23:04+08:00 ] 172.24.189.12 61.148.245.1 GET /public/static/js/jquery-3.2.1.js
+[ info ] 39.104.67.26:8901/public/static/js/jquery-3.2.1.js [è¿è¡Œæ—¶é—´ï¼š0.015625s][ååç‡ï¼š64.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,026.74kb] [æ–‡ä»¶åŠ è½½ï¼š28]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/javascript, */*;q=0.8',
+  'referer' => 'http://39.104.67.26:8901/data/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285; PHPSESSID=hfhgr2q2ui4n9souscpths5397',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T14:23:04+08:00 ] 172.24.189.12 61.148.245.1 GET /public/static/images/p1.jpg
+[ info ] 39.104.67.26:8901/public/static/images/p1.jpg [è¿è¡Œæ—¶é—´ï¼š0.031250s][ååç‡ï¼š32.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,026.83kb] [æ–‡ä»¶åŠ è½½ï¼š28]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://39.104.67.26:8901/data/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285; PHPSESSID=hfhgr2q2ui4n9souscpths5397',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T14:23:04+08:00 ] 172.24.189.12 61.148.245.1 GET /public/static/images/p3.jpg
+[ info ] 39.104.67.26:8901/public/static/images/p3.jpg [è¿è¡Œæ—¶é—´ï¼š0.015625s][ååç‡ï¼š64.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,026.83kb] [æ–‡ä»¶åŠ è½½ï¼š28]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://39.104.67.26:8901/data/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285; PHPSESSID=hfhgr2q2ui4n9souscpths5397',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T14:23:04+08:00 ] 172.24.189.12 61.148.245.1 GET /public/static/images/p2.jpg
+[ info ] 39.104.67.26:8901/public/static/images/p2.jpg [è¿è¡Œæ—¶é—´ï¼š0.015625s][ååç‡ï¼š64.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,026.83kb] [æ–‡ä»¶åŠ è½½ï¼š28]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://39.104.67.26:8901/data/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285; PHPSESSID=hfhgr2q2ui4n9souscpths5397',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T14:23:04+08:00 ] 172.24.189.12 61.148.245.1 GET /public/static/images/tiles/footerclose.png
+[ info ] 39.104.67.26:8901/public/static/images/tiles/footerclose.png [è¿è¡Œæ—¶é—´ï¼š0.031250s][ååç‡ï¼š32.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,027.32kb] [æ–‡ä»¶åŠ è½½ï¼š28]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://39.104.67.26:8901/data/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=hfhgr2q2ui4n9souscpths5397; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285',
+)
+[ info ] [ PARAM ] array (
+  'tiles' => 'footerclose.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T14:23:04+08:00 ] 172.24.189.12 61.148.245.1 GET /public/static/images/tiles/footeropen.png
+[ info ] 39.104.67.26:8901/public/static/images/tiles/footeropen.png [è¿è¡Œæ—¶é—´ï¼š0.015625s][ååç‡ï¼š64.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,027.33kb] [æ–‡ä»¶åŠ è½½ï¼š28]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://39.104.67.26:8901/data/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=hfhgr2q2ui4n9souscpths5397; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285',
+)
+[ info ] [ PARAM ] array (
+  'tiles' => 'footeropen.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T14:23:06+08:00 ] 172.24.189.12 61.148.245.1 GET /admin/user/index
+[ info ] 39.104.67.26:8901/admin/user/index [è¿è¡Œæ—¶é—´ï¼š0.031249s][ååç‡ï¼š32.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,366.61kb] [æ–‡ä»¶åŠ è½½ï¼š34]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/data/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=hfhgr2q2ui4n9souscpths5397; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ C:\thinkphp\application\admin\controller\User.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/admin\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T14:23:06+08:00 ] 172.24.189.12 61.148.245.1 GET /admin/index/index.html
+[ info ] 39.104.67.26:8901/admin/index/index.html [è¿è¡Œæ—¶é—´ï¼š0.046875s][ååç‡ï¼š21.33req/s] [å†…å­˜æ¶ˆè€—ï¼š2,138.24kb] [æ–‡ä»¶åŠ è½½ï¼š43]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/admin/user/index',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=hfhgr2q2ui4n9souscpths5397; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\thinkphp\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/admin\view\index\index.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_rule` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group_access` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `sm_auth_group_access` `AuthGroupAccess` LEFT JOIN `sm_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `sm_auth_rule` WHERE  `id` IN (1,2,3,103)  AND `type` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-30T14:23:06+08:00 ] 172.24.189.12 61.148.245.1 GET /admin/index/welcome.html
+[ info ] 39.104.67.26:8901/admin/index/welcome.html [è¿è¡Œæ—¶é—´ï¼š0.046875s][ååç‡ï¼š21.33req/s] [å†…å­˜æ¶ˆè€—ï¼š2,076.55kb] [æ–‡ä»¶åŠ è½½ï¼š42]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/admin/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=hfhgr2q2ui4n9souscpths5397; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ C:\thinkphp\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/admin\view\index\welcome.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_rule` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group_access` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `sm_auth_group_access` `AuthGroupAccess` LEFT JOIN `sm_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `sm_auth_rule` WHERE  `id` IN (1,2,3,103)  AND `type` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-30T14:23:08+08:00 ] 172.24.189.12 61.148.245.1 GET /
+[ info ] 39.104.67.26:8901/ [è¿è¡Œæ—¶é—´ï¼š0.015625s][ååç‡ï¼š64.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,288.06kb] [æ–‡ä»¶åŠ è½½ï¼š33]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/admin/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=hfhgr2q2ui4n9souscpths5397; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\thinkphp\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T14:23:11+08:00 ] 172.24.189.12 61.148.245.1 GET /data/user/index
+[ info ] 39.104.67.26:8901/data/user/index [è¿è¡Œæ—¶é—´ï¼š0.031250s][ååç‡ï¼š32.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,366.57kb] [æ–‡ä»¶åŠ è½½ï¼š34]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'data',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=hfhgr2q2ui4n9souscpths5397; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\data\controller\User->index[ C:\thinkphp\application\data\controller\User.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/data\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T14:23:14+08:00 ] 172.24.189.12 61.148.245.1 GET /data/index/index.html
+[ info ] 39.104.67.26:8901/data/index/index.html [è¿è¡Œæ—¶é—´ï¼š3.031231s][ååç‡ï¼š0.33req/s] [å†…å­˜æ¶ˆè€—ï¼š2,097.68kb] [æ–‡ä»¶åŠ è½½ï¼š42]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'data',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/data/user/index',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=hfhgr2q2ui4n9souscpths5397; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\data\controller\Index->index[ C:\thinkphp\application\data\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/data\view\index\index.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group_access` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `sm_auth_group_access` `AuthGroupAccess` LEFT JOIN `sm_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_rule` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `sm_auth_rule` WHERE  `id` IN (1,2,3,103)  AND `type` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-30T14:23:14+08:00 ] 172.24.189.12 61.148.245.1 GET /public/static/js/jquery-3.2.1.js
+[ info ] 39.104.67.26:8901/public/static/js/jquery-3.2.1.js [è¿è¡Œæ—¶é—´ï¼š0.031250s][ååç‡ï¼š32.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,026.74kb] [æ–‡ä»¶åŠ è½½ï¼š28]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/javascript, */*;q=0.8',
+  'referer' => 'http://39.104.67.26:8901/data/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=hfhgr2q2ui4n9souscpths5397; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T14:23:14+08:00 ] 172.24.189.12 61.148.245.1 GET /public/static/images/p1.jpg
+[ info ] 39.104.67.26:8901/public/static/images/p1.jpg [è¿è¡Œæ—¶é—´ï¼š0.015625s][ååç‡ï¼š64.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,026.83kb] [æ–‡ä»¶åŠ è½½ï¼š28]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://39.104.67.26:8901/data/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=hfhgr2q2ui4n9souscpths5397; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T14:23:14+08:00 ] 172.24.189.12 61.148.245.1 GET /public/static/images/p2.jpg
+[ info ] 39.104.67.26:8901/public/static/images/p2.jpg [è¿è¡Œæ—¶é—´ï¼š0.015625s][ååç‡ï¼š64.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,026.83kb] [æ–‡ä»¶åŠ è½½ï¼š28]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://39.104.67.26:8901/data/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=hfhgr2q2ui4n9souscpths5397; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T14:23:14+08:00 ] 172.24.189.12 61.148.245.1 GET /public/static/images/p3.jpg
+[ info ] 39.104.67.26:8901/public/static/images/p3.jpg [è¿è¡Œæ—¶é—´ï¼š0.000000s][ååç‡ï¼šâˆreq/s] [å†…å­˜æ¶ˆè€—ï¼š1,026.87kb] [æ–‡ä»¶åŠ è½½ï¼š28]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://39.104.67.26:8901/data/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=hfhgr2q2ui4n9souscpths5397; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T14:23:14+08:00 ] 172.24.189.12 61.148.245.1 GET /public/static/images/tiles/footerclose.png
+[ info ] 39.104.67.26:8901/public/static/images/tiles/footerclose.png [è¿è¡Œæ—¶é—´ï¼š0.015625s][ååç‡ï¼š64.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,027.32kb] [æ–‡ä»¶åŠ è½½ï¼š28]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://39.104.67.26:8901/data/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=hfhgr2q2ui4n9souscpths5397; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285',
+)
+[ info ] [ PARAM ] array (
+  'tiles' => 'footerclose.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T14:23:14+08:00 ] 172.24.189.12 61.148.245.1 GET /public/static/images/tiles/footeropen.png
+[ info ] 39.104.67.26:8901/public/static/images/tiles/footeropen.png [è¿è¡Œæ—¶é—´ï¼š0.015625s][ååç‡ï¼š64.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,027.33kb] [æ–‡ä»¶åŠ è½½ï¼š28]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://39.104.67.26:8901/data/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=hfhgr2q2ui4n9souscpths5397; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285',
+)
+[ info ] [ PARAM ] array (
+  'tiles' => 'footeropen.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T14:23:22+08:00 ] 172.24.189.12 61.148.245.1 GET /data/index/bd
+[ info ] 39.104.67.26:8901/data/index/bd [è¿è¡Œæ—¶é—´ï¼š1.046868s][ååç‡ï¼š0.96req/s] [å†…å­˜æ¶ˆè€—ï¼š2,081.59kb] [æ–‡ä»¶åŠ è½½ï¼š42]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'data',
+    1 => 'index',
+    2 => 'bd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/data/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=hfhgr2q2ui4n9souscpths5397; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\data\controller\Index->bd[ C:\thinkphp\application\data\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/data\view\index\bd.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group_access` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `sm_auth_group_access` `AuthGroupAccess` LEFT JOIN `sm_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_rule` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `sm_auth_rule` WHERE  `id` IN (1,2,3,103)  AND `type` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-30T14:23:23+08:00 ] 172.24.189.12 61.148.245.1 GET /public/static/js/jquery-3.2.1.js
+[ info ] 39.104.67.26:8901/public/static/js/jquery-3.2.1.js [è¿è¡Œæ—¶é—´ï¼š0.031250s][ååç‡ï¼š32.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,026.77kb] [æ–‡ä»¶åŠ è½½ï¼š28]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/javascript, */*;q=0.8',
+  'referer' => 'http://39.104.67.26:8901/data/index/bd',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=hfhgr2q2ui4n9souscpths5397; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T14:23:23+08:00 ] 172.24.189.12 61.148.245.1 GET /public/static/images/tiles/footerclose.png
+[ info ] 39.104.67.26:8901/public/static/images/tiles/footerclose.png [è¿è¡Œæ—¶é—´ï¼š0.031250s][ååç‡ï¼š32.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,027.31kb] [æ–‡ä»¶åŠ è½½ï¼š28]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://39.104.67.26:8901/data/index/bd',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=hfhgr2q2ui4n9souscpths5397; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285',
+)
+[ info ] [ PARAM ] array (
+  'tiles' => 'footerclose.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T14:23:23+08:00 ] 172.24.189.12 61.148.245.1 GET /public/static/images/tiles/footeropen.png
+[ info ] 39.104.67.26:8901/public/static/images/tiles/footeropen.png [è¿è¡Œæ—¶é—´ï¼š0.015625s][ååç‡ï¼š64.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,027.29kb] [æ–‡ä»¶åŠ è½½ï¼š28]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://39.104.67.26:8901/data/index/bd',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=hfhgr2q2ui4n9souscpths5397; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285',
+)
+[ info ] [ PARAM ] array (
+  'tiles' => 'footeropen.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T14:23:23+08:00 ] 172.24.189.12 61.148.245.1 GET /data/index/images/p1.jpg
+[ info ] 39.104.67.26:8901/data/index/images/p1.jpg [è¿è¡Œæ—¶é—´ï¼š0.140624s][ååç‡ï¼š7.11req/s] [å†…å­˜æ¶ˆè€—ï¼š2,115.64kb] [æ–‡ä»¶åŠ è½½ï¼š44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'data',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://39.104.67.26:8901/data/index/bd',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=hfhgr2q2ui4n9souscpths5397; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.093750s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group_access` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `sm_auth_group_access` `AuthGroupAccess` LEFT JOIN `sm_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_rule` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `sm_auth_rule` WHERE  `id` IN (1,2,3,103)  AND `type` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-30T14:23:23+08:00 ] 172.24.189.12 61.148.245.1 GET /data/index/images/p2.jpg
+[ info ] 39.104.67.26:8901/data/index/images/p2.jpg [è¿è¡Œæ—¶é—´ï¼š0.140624s][ååç‡ï¼š7.11req/s] [å†…å­˜æ¶ˆè€—ï¼š2,115.64kb] [æ–‡ä»¶åŠ è½½ï¼š44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'data',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://39.104.67.26:8901/data/index/bd',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=hfhgr2q2ui4n9souscpths5397; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group_access` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `sm_auth_group_access` `AuthGroupAccess` LEFT JOIN `sm_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_rule` [ RunTime:0.015624s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `sm_auth_rule` WHERE  `id` IN (1,2,3,103)  AND `type` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-30T14:23:23+08:00 ] 172.24.189.12 61.148.245.1 GET /data/index/images/p3.jpg
+[ info ] 39.104.67.26:8901/data/index/images/p3.jpg [è¿è¡Œæ—¶é—´ï¼š0.140624s][ååç‡ï¼š7.11req/s] [å†…å­˜æ¶ˆè€—ï¼š2,115.64kb] [æ–‡ä»¶åŠ è½½ï¼š44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'data',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://39.104.67.26:8901/data/index/bd',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=hfhgr2q2ui4n9souscpths5397; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group_access` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `sm_auth_group_access` `AuthGroupAccess` LEFT JOIN `sm_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_rule` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `sm_auth_rule` WHERE  `id` IN (1,2,3,103)  AND `type` = 1 [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-30T14:24:56+08:00 ] 172.24.189.12 61.148.245.1 GET /data/index/bd
+[ info ] 39.104.67.26:8901/data/index/bd [è¿è¡Œæ—¶é—´ï¼š1.046868s][ååç‡ï¼š0.96req/s] [å†…å­˜æ¶ˆè€—ï¼š2,081.61kb] [æ–‡ä»¶åŠ è½½ï¼š42]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'data',
+    1 => 'index',
+    2 => 'bd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/data/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=hfhgr2q2ui4n9souscpths5397; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\data\controller\Index->bd[ C:\thinkphp\application\data\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/data\view\index\bd.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group_access` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `sm_auth_group_access` `AuthGroupAccess` LEFT JOIN `sm_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_rule` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `sm_auth_rule` WHERE  `id` IN (1,2,3,103)  AND `type` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-30T14:24:57+08:00 ] 172.24.189.12 61.148.245.1 GET /public/static/js/jquery-3.2.1.js
+[ info ] 39.104.67.26:8901/public/static/js/jquery-3.2.1.js [è¿è¡Œæ—¶é—´ï¼š0.015625s][ååç‡ï¼š64.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,026.77kb] [æ–‡ä»¶åŠ è½½ï¼š28]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/javascript, */*;q=0.8',
+  'referer' => 'http://39.104.67.26:8901/data/index/bd',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=hfhgr2q2ui4n9souscpths5397; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T14:24:57+08:00 ] 172.24.189.12 61.148.245.1 GET /public/static/images/tiles/footerclose.png
+[ info ] 39.104.67.26:8901/public/static/images/tiles/footerclose.png [è¿è¡Œæ—¶é—´ï¼š0.015625s][ååç‡ï¼š64.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,027.32kb] [æ–‡ä»¶åŠ è½½ï¼š28]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://39.104.67.26:8901/data/index/bd',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=hfhgr2q2ui4n9souscpths5397; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285',
+)
+[ info ] [ PARAM ] array (
+  'tiles' => 'footerclose.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T14:24:57+08:00 ] 172.24.189.12 61.148.245.1 GET /public/static/images/tiles/footeropen.png
+[ info ] 39.104.67.26:8901/public/static/images/tiles/footeropen.png [è¿è¡Œæ—¶é—´ï¼š0.031250s][ååç‡ï¼š32.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,027.32kb] [æ–‡ä»¶åŠ è½½ï¼š28]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://39.104.67.26:8901/data/index/bd',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=hfhgr2q2ui4n9souscpths5397; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285',
+)
+[ info ] [ PARAM ] array (
+  'tiles' => 'footeropen.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T14:24:57+08:00 ] 172.24.189.12 61.148.245.1 GET /data/index/images/p1.jpg
+[ info ] 39.104.67.26:8901/data/index/images/p1.jpg [è¿è¡Œæ—¶é—´ï¼š0.140625s][ååç‡ï¼š7.11req/s] [å†…å­˜æ¶ˆè€—ï¼š2,115.64kb] [æ–‡ä»¶åŠ è½½ï¼š44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'data',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://39.104.67.26:8901/data/index/bd',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=hfhgr2q2ui4n9souscpths5397; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.046875s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group_access` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `sm_auth_group_access` `AuthGroupAccess` LEFT JOIN `sm_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_rule` [ RunTime:0.062500s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `sm_auth_rule` WHERE  `id` IN (1,2,3,103)  AND `type` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-30T14:24:57+08:00 ] 172.24.189.12 61.148.245.1 GET /data/index/images/p2.jpg
+[ info ] 39.104.67.26:8901/data/index/images/p2.jpg [è¿è¡Œæ—¶é—´ï¼š0.140624s][ååç‡ï¼š7.11req/s] [å†…å­˜æ¶ˆè€—ï¼š2,115.64kb] [æ–‡ä»¶åŠ è½½ï¼š44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'data',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://39.104.67.26:8901/data/index/bd',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=hfhgr2q2ui4n9souscpths5397; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group_access` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `sm_auth_group_access` `AuthGroupAccess` LEFT JOIN `sm_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_rule` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `sm_auth_rule` WHERE  `id` IN (1,2,3,103)  AND `type` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.015625s ]
+---------------------------------------------------------------
+[ 2018-04-30T14:24:57+08:00 ] 172.24.189.12 61.148.245.1 GET /data/index/images/p3.jpg
+[ info ] 39.104.67.26:8901/data/index/images/p3.jpg [è¿è¡Œæ—¶é—´ï¼š0.140624s][ååç‡ï¼š7.11req/s] [å†…å­˜æ¶ˆè€—ï¼š2,115.64kb] [æ–‡ä»¶åŠ è½½ï¼š44]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'data',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://39.104.67.26:8901/data/index/bd',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=hfhgr2q2ui4n9souscpths5397; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525065285',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group_access` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `sm_auth_group_access` `AuthGroupAccess` LEFT JOIN `sm_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_rule` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `sm_auth_rule` WHERE  `id` IN (1,2,3,103)  AND `type` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-30T14:25:18+08:00 ] 172.24.189.12 61.148.245.1 GET /
+[ info ] 39.104.67.26:8901/ [è¿è¡Œæ—¶é—´ï¼š0.015625s][ååç‡ï¼š64.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,288.03kb] [æ–‡ä»¶åŠ è½½ï¼š33]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/data/index/bd',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=hfhgr2q2ui4n9souscpths5397; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525069347',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\thinkphp\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T14:25:21+08:00 ] 172.24.189.12 61.148.245.1 GET /admin/user/index
+[ info ] 39.104.67.26:8901/admin/user/index [è¿è¡Œæ—¶é—´ï¼š0.015625s][ååç‡ï¼š64.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,366.52kb] [æ–‡ä»¶åŠ è½½ï¼š34]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=hfhgr2q2ui4n9souscpths5397; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525069347',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ C:\thinkphp\application\admin\controller\User.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/admin\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T14:25:21+08:00 ] 172.24.189.12 61.148.245.1 GET /admin/index/index.html
+[ info ] 39.104.67.26:8901/admin/index/index.html [è¿è¡Œæ—¶é—´ï¼š0.046874s][ååç‡ï¼š21.33req/s] [å†…å­˜æ¶ˆè€—ï¼š2,138.24kb] [æ–‡ä»¶åŠ è½½ï¼š43]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/admin/user/index',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=hfhgr2q2ui4n9souscpths5397; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525069347',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\thinkphp\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/admin\view\index\index.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_rule` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group_access` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `sm_auth_group_access` `AuthGroupAccess` LEFT JOIN `sm_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `sm_auth_rule` WHERE  `id` IN (1,2,3,103)  AND `type` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-30T14:25:21+08:00 ] 172.24.189.12 61.148.245.1 GET /admin/index/welcome.html
+[ info ] 39.104.67.26:8901/admin/index/welcome.html [è¿è¡Œæ—¶é—´ï¼š0.046875s][ååç‡ï¼š21.33req/s] [å†…å­˜æ¶ˆè€—ï¼š2,076.55kb] [æ–‡ä»¶åŠ è½½ï¼š42]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/admin/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=hfhgr2q2ui4n9souscpths5397; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525069347',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ C:\thinkphp\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/admin\view\index\welcome.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_rule` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group_access` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `sm_auth_group_access` `AuthGroupAccess` LEFT JOIN `sm_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `sm_auth_rule` WHERE  `id` IN (1,2,3,103)  AND `type` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-30T14:25:22+08:00 ] 172.24.189.12 61.148.245.1 GET /
+[ info ] 39.104.67.26:8901/ [è¿è¡Œæ—¶é—´ï¼š0.015625s][ååç‡ï¼š64.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,288.06kb] [æ–‡ä»¶åŠ è½½ï¼š33]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/admin/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=hfhgr2q2ui4n9souscpths5397; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525069347',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\thinkphp\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T14:25:25+08:00 ] 172.24.189.12 61.148.245.1 GET /data/user/index
+[ info ] 39.104.67.26:8901/data/user/index [è¿è¡Œæ—¶é—´ï¼š0.015624s][ååç‡ï¼š64.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,366.57kb] [æ–‡ä»¶åŠ è½½ï¼š34]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'data',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=hfhgr2q2ui4n9souscpths5397; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525069347',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\data\controller\User->index[ C:\thinkphp\application\data\controller\User.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/data\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T14:25:28+08:00 ] 172.24.189.12 61.148.245.1 GET /data/index/index.html
+[ info ] 39.104.67.26:8901/data/index/index.html [è¿è¡Œæ—¶é—´ï¼š3.046856s][ååç‡ï¼š0.33req/s] [å†…å­˜æ¶ˆè€—ï¼š2,097.68kb] [æ–‡ä»¶åŠ è½½ï¼š42]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'data',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://39.104.67.26:8901/data/user/index',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=hfhgr2q2ui4n9souscpths5397; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525069347',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\data\controller\Index->index[ C:\thinkphp\application\data\controller\Index.php ]
+[ info ] [ VIEW ] C:\thinkphp/application/data\view\index\index.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group_access` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `sm_auth_group_access` `AuthGroupAccess` LEFT JOIN `sm_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_rule` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `sm_auth_rule` WHERE  `id` IN (1,2,3,103)  AND `type` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-30T14:25:28+08:00 ] 172.24.189.12 61.148.245.1 GET /public/static/js/jquery-3.2.1.js
+[ info ] 39.104.67.26:8901/public/static/js/jquery-3.2.1.js [è¿è¡Œæ—¶é—´ï¼š0.031250s][ååç‡ï¼š32.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,026.74kb] [æ–‡ä»¶åŠ è½½ï¼š28]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/javascript, */*;q=0.8',
+  'referer' => 'http://39.104.67.26:8901/data/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=hfhgr2q2ui4n9souscpths5397; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525069347',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T14:25:28+08:00 ] 172.24.189.12 61.148.245.1 GET /public/static/images/p1.jpg
+[ info ] 39.104.67.26:8901/public/static/images/p1.jpg [è¿è¡Œæ—¶é—´ï¼š0.015625s][ååç‡ï¼š64.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,026.83kb] [æ–‡ä»¶åŠ è½½ï¼š28]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://39.104.67.26:8901/data/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=hfhgr2q2ui4n9souscpths5397; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525069347',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T14:25:28+08:00 ] 172.24.189.12 61.148.245.1 GET /public/static/images/p3.jpg
+[ info ] 39.104.67.26:8901/public/static/images/p3.jpg [è¿è¡Œæ—¶é—´ï¼š0.031250s][ååç‡ï¼š32.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,026.83kb] [æ–‡ä»¶åŠ è½½ï¼š28]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://39.104.67.26:8901/data/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=hfhgr2q2ui4n9souscpths5397; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525069347',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T14:25:28+08:00 ] 172.24.189.12 61.148.245.1 GET /public/static/images/p2.jpg
+[ info ] 39.104.67.26:8901/public/static/images/p2.jpg [è¿è¡Œæ—¶é—´ï¼š0.015624s][ååç‡ï¼š64.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,026.83kb] [æ–‡ä»¶åŠ è½½ï¼š28]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://39.104.67.26:8901/data/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=hfhgr2q2ui4n9souscpths5397; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525069347',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T14:25:28+08:00 ] 172.24.189.12 61.148.245.1 GET /public/static/images/tiles/footerclose.png
+[ info ] 39.104.67.26:8901/public/static/images/tiles/footerclose.png [è¿è¡Œæ—¶é—´ï¼š0.031250s][ååç‡ï¼š32.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,027.28kb] [æ–‡ä»¶åŠ è½½ï¼š28]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://39.104.67.26:8901/data/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=hfhgr2q2ui4n9souscpths5397; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525069347',
+)
+[ info ] [ PARAM ] array (
+  'tiles' => 'footerclose.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T14:25:28+08:00 ] 172.24.189.12 61.148.245.1 GET /public/static/images/tiles/footeropen.png
+[ info ] 39.104.67.26:8901/public/static/images/tiles/footeropen.png [è¿è¡Œæ—¶é—´ï¼š0.015624s][ååç‡ï¼š64.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,027.33kb] [æ–‡ä»¶åŠ è½½ï¼š28]
+[ info ] [ LANG ] C:\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://39.104.67.26:8901/data/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '39.104.67.26:8901',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'UM_distinctid=16311a5d4035f3-090bf58efa8cad-677b7726-1fa400-16311a5d404b1b; PHPSESSID=hfhgr2q2ui4n9souscpths5397; CNZZDATA155540=cnzz_eid%3D752851019-1525006142-http%253A%252F%252F39.104.67.26%253A8901%252F%26ntime%3D1525069347',
+)
+[ info ] [ PARAM ] array (
+  'tiles' => 'footeropen.png',
+)
+[ info ] [ LOG ] INIT File

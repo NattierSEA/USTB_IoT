@@ -1,0 +1,42 @@
+﻿{include file="public/head"}
+
+
+<!--Page Header-->
+<section class="page_header padding-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 page-content">
+        <h1>物联网实验箱教学视频</h1>
+        <p>包含超过200课时学习视频，内容涵盖实验箱配置的二十多种传感器，三种执行器以，三种识别模块以及其中其中无线传输模块的实验，网关及终端的实验应有尽有。</p>
+        <div class="page_nav">
+      <span>您的位置:</span> <a href="{:url('course/index/index')}">视频课程中心</a> <span><i class="fa fa-angle-double-right"></i><a href="{:url('course/index/course1')}">物联网实验箱教学视频</a> </span>
+	  <span><i class="fa fa-angle-double-right"></i>{$data.name}</span>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Page Header-->
+
+<!-- Courses -->
+<section id="course_all" class="padding-bottom">
+  <div class="container">
+  <div class="col-md-12">
+  <h2 class="heading heading_space wow fadeInDown"><a href="{:url('course/index/study1?course='.$data['id'])}">{$data.name}</a><span class="divider-left"></span></h2>
+	<p>{$data.brief}</p>
+  </div>
+<video width="90%" height="600" controls autoplay>
+  <source src="{$data.video}" type="video/mp4">
+  <object data="{$data.video}" width="320" height="240">
+    <embed width="320" height="240" src="movie.swf">
+  </object>
+</video>
+
+  </div>
+  
+  
+  
+</section>
+<!-- Courses ends -->
+
+{include file="public/foot"}

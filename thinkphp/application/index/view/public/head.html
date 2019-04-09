@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<title>百科荣创云平台</title>
+<link rel="stylesheet" type="text/css" href="__static__/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="__static__/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="__static__/css/edua-icons.css">
+<link rel="stylesheet" type="text/css" href="__static__/css/animate.min.css">
+<link rel="stylesheet" type="text/css" href="__static__/css/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="__static__/css/owl.transitions.css">
+<link rel="stylesheet" type="text/css" href="__static__/css/cubeportfolio.min.css">
+<link rel="stylesheet" type="text/css" href="__static__/css/settings.css">
+<link rel="stylesheet" type="text/css" href="__static__/css/bootsnav.css">
+<link rel="stylesheet" type="text/css" href="__static__/css/style.css">
+<link rel="stylesheet" type="text/css" href="__static__/css/loader.css">
+
+<link rel="icon" href="__images__/pan.png">
+
+
+
+
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+<!--Loader-->
+<div class="loader">
+  <div class="bouncybox">
+      <div class="bouncy"></div>
+    </div>
+</div>
+
+<div class="topbar">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="pull-left">
+        <span class="info"><a href="#.">帮助</a></span>
+        <span class="info">010-68949731/32</span>
+        <span class="info">bjbkrc@r8c.com</span>
+        </div>
+        <ul class="social_top pull-right">
+          {if $Think.session.username == null}
+		  <span class="info"><a href="{:url('index/index/user')}">登 录</a></span>
+		  {else /}
+		  <span class="info">欢迎使用</span>
+		  <span class="info"><a href="{:url('admin/user/index')}"><img src="{$userdata.propic}" style="height:20px;width:20px;border-radius:10px"/>
+		   {$Think.session.username}</a></span>
+		   <span class="info"><a href="{:url('index/index/logout')}">注 销</a></span>
+		  {/if}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Header-->
+<header>
+  <nav class="navbar navbar-default navbar-fixed white no-background bootsnav">
+    <div class="container"> 
+       <div class="search_btn btn_common"><i class="icon-icons185"></i></div>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+          <i class="fa fa-bars"></i>
+        </button>
+        <a class="navbar-brand" href="index/index/index"><img src="__images__/logo-white.png" alt="logo" class="logo logo-display">
+        <img src="__images__/logo-black.png" class="logo logo-scrolled" alt="">
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-menu">
+        <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOut">
+			<li><a href="{:url('index/index/index')}">首页</a></li>
+			<li><a href="http://www.r8c.com/">官网</a></li>
+			<li class="dropdown">
+				<a href="{:url('download/index/index')}" class="dropdown-toggle" data-toggle="dropdown" >下载中心</a>
+				<ul class="dropdown-menu">
+					<li><a href="{:url('download/index/index')}">文档</a></li>
+					<li><a href="{:url('download/index/windows')}">软件</a></li>
+					<li><a href="{:url('download/index/android')}">安卓APP</a></li>
+				</ul>
+			</li>
+			<li><a href="{:url('course/index/index')}">视频学习</a></li>
+			<li><a href="{:url('platform/user/index')}">开发者平台</a></li>
+			<li><a href="{:url('admin/user/index')}">用户管理</a></li>
+        </ul>
+      </div>
+    </div>   
+  </nav>
+</header>
+

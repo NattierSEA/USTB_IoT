@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+<title>NB-IoT检测</title>
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+</head>
+<body>
+  <div >
+    <form action="clearrfid.php" method="POST">
+      <button type="submit" name="submit" value="insert">清空</button>
+    </form>
+      <?php
+      $mysqli = mysqli_connect("localhost", "root", "root", "mysql");
+      $Nownode=0;
+      if (mysqli_connect_errno()) {
+      printf("Connect failed: %s\n", mysqli_connect_error());
+      exit();
+      }
+      else {
+      $sql = "SELECT * FROM RFID ORDER BY node ASC,id DESC";
+      $res = mysqli_query($mysqli, $sql);
+      if ($res) 
+      {
+      while ($newArray = mysqli_fetch_array($res, MYSQLI_ASSOC)) 
+      {
+			$time  = $newArray['time'];
+			$node = $newArray['node'];
+			$number = $newArray['number'];
+            if($node != $Nownode && $Nownode != 0){
+            echo '</table><hr color="#666666" >';
+            }
+            if($node != $Nownode){
+            $Nownode=$node;
+            echo '<table cellspacing="0" border="0" width="100%" bordercolor="#000000" align="center"><tr align="center"><td width="20%">'.$node.'号节点</td><td width="30%">时间</td width="20%"><td width="30%">卡号</td><td width="20%"></td></tr>';
+            }
+			echo "<tr align=\"center\"><td></td><td>".$time."</td><td>".$number."</td></tr>";
+       }
+            echo "</table>";
+       } 
+        mysqli_free_result($res);
+        mysqli_close($mysqli);
+     }
+     ?>
+    <hr color="#666666" >
+  </div>
+</body>
+</html>

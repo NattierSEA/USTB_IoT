@@ -1,0 +1,484 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+<title>NB-IoT检测</title>
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<mate http-equiv="Pragma" content="no-cache">
+<mate http-equiv"Cache-Control" content="no-cache">
+<mate http-equiv="Expires" content="0">
+</head>
+<body onload="opener.location.reload()">
+  <div id="sensordata">
+    <form action="clearsensor.php" method="POST">
+      <button type="submit" name="submit" value="insert">清空</button>
+    </form>
+     <div id="container"></div>
+    <table cellspacing="0" border="0" width="100%" bordercolor="#000000" align="center">
+      <tr align="center">
+        <td width="20%">时间</td>
+        <td width="16%">节点号</td>
+        <td width="16%">温度</td >
+        <td width="16%">湿度</td>
+        <td width="16%">光照强度</td>
+        <td width="16%">空气质量</td>
+      </tr>
+      <?php
+      $tempdata=']';
+      $humdata=']';
+      $lightdata=']';
+      $airdata=']';
+      $mysqli = mysqli_connect("localhost", "root", "root", "mysql");
+      
+      if (mysqli_connect_errno()) {
+      printf("Connect failed: %s\n", mysqli_connect_error());
+      exit();
+      }
+      else {
+      $sql = "SELECT * FROM Sensor ORDER BY temperature DESC";
+      $res = mysqli_query($mysqli, $sql);
+      if ($res) 
+      {
+      while ($newArray = mysqli_fetch_array($res, MYSQLI_ASSOC)) 
+      {
+			$time  = $newArray['time'];
+			$nodenum = $newArray['nodenum'];
+			$temperature = $newArray['temperature'];
+			$humidity = $newArray['humidity'];
+			$light = $newArray['light'];
+			$air = $newArray['air'];
+            if($nodenum <100)
+            {
+            $tempdata=$temperature.','.$tempdata;
+            $humdata=$humidity.','.$humdata;
+            $lightdata=$light.','.$lightdata;
+            $airdata=$air.','.$airdata;
+			echo "<tr align=\"center\"><td>".$time."</td><td>".$nodenum."</td><td>".$temperature." ℃</td><td>".$humidity." %RH</td><td>".$light." lx</td><td>".$air." ppm</td></tr>";
+            }
+       }
+       $tempdata='['.$tempdata;
+       $humdata='['.$humdata;
+       $lightdata='['.$lightdata;
+       $airdata='['.$airdata;
+       } 
+       else
+       {
+		printf("Could not retrieve records: %s\n", mysqli_error($mysqli));
+        }
+        mysqli_free_result($res);
+        mysqli_close($mysqli);
+     }
+     ?>
+    </table>
+        <script language="JavaScript">
+$(function(){
+   var chart= {
+            backgroundColor: '#f5f5f5',
+            type: 'line'
+   };
+   var title = {
+       text: '传感器数据'   
+   };
+   var subtitle = {
+        text: 'SENSORDATA'
+   };
+   var xAxis = {
+   };
+   var yAxis = {
+      title: {
+         text: 'DATA'
+      },
+      plotLines: [{
+         value: 0,
+         width: 1,
+         color: '#808080'
+      }]
+   };   
+
+   var tooltip = {
+   }
+
+   var legend = {
+      layout: 'vertical',
+      align: 'right',
+      verticalAlign: 'middle',
+      borderWidth: 0
+   };
+
+   var series =  [
+      {
+         name: 'Temperature',
+         data: <?php echo $tempdata; ?>
+      }, 
+      {
+         name: 'Humidity',
+         data: <?php echo $humdata; ?>
+      }, 
+      {
+         name: 'Illumination',
+         data: <?php echo $lightdata; ?>
+      }, 
+      {
+         name: 'Air Quality',
+         data: <?php echo $airdata; ?>
+      }
+   ];
+   
+   var credits= {  
+          enabled:false ,
+   };
+   
+
+   var json = {};
+
+   json.chart = chart;
+   json.credits = credits;
+   json.title = title;
+   json.subtitle = subtitle;
+   json.xAxis = xAxis;
+   json.yAxis = yAxis;
+   json.tooltip = tooltip;
+   json.legend = legend;
+   json.series = series;
+
+   $('#container').highcharts(json);
+})
+</script>
+    <hr color="#666666" >
+  </div>
+  
+        <?php
+            $state = 0;
+      $Nownode=0;
+      $mysqli = mysqli_connect("localhost", "root", "root", "mysql");
+      
+      if (mysqli_connect_errno()) {
+      printf("Connect failed: %s\n", mysqli_connect_error());
+      exit();
+      }
+      else {
+      $sql = "SELECT * FROM Sensor ORDER BY nodenum ASC, temperature DESC";
+      $res = mysqli_query($mysqli, $sql);
+      if ($res) 
+      {
+      while ($newArray = mysqli_fetch_array($res, MYSQLI_ASSOC)) 
+      {
+			$time  = $newArray['time'];
+			$nodenum = $newArray['nodenum'];
+			$temperature = $newArray['temperature'];
+			$humidity = $newArray['humidity'];
+			$light = $newArray['light'];
+			$air = $newArray['air'];
+            
+            
+            
+            
+            if($nodenum != $Nownode)
+            {
+            if($Nownode == 0)
+            {
+            $datedata=']';
+            $humdata=']';
+            $lightdata=']';
+            $airdata=']';
+            $tempdata=']';
+             echo'<div id="container'.$nodenum.'"></div>';
+            $Nownode=$nodenum;
+            }
+            
+            if($Nownode != 0 &&  $state == 1)
+            {
+            $datedata='['.$datedata;
+            $tempdata='['.$tempdata;
+            $humdata='['.$humdata;
+            $lightdata='['.$lightdata;
+            $airdata='['.$airdata;
+            echo "<script language=\"JavaScript\">
+$(function(){
+   var chart= {
+            backgroundColor: '#f5f5f5',
+            type: 'line'
+   };
+   var title = {
+       text: '".$Nownode."号节点数据'   
+   };
+   var subtitle = {
+        text: 'SENSORDATA'
+   };
+   var xAxis = {
+	   categories: ".$datedata."
+   };
+   var yAxis = {
+      title: {
+         text: 'DATA'
+      },
+      plotLines: [{
+         value: 0,
+         width: 1,
+         color: '#808080'
+      }]
+   };   
+
+   var tooltip = {
+   }
+
+   var legend = {
+      layout: 'vertical',
+      align: 'right',
+      verticalAlign: 'middle',
+      borderWidth: 0
+   };
+
+   var series =  [
+      {
+         name: 'Temperature',
+         data: ".$tempdata."
+      }, 
+      {
+         name: 'Humidity',
+         data: ".$humdata."
+      }, 
+      {
+         name: 'Illumination',
+         data: ".$lightdata."
+      }, 
+      {
+         name: 'Air Quality',
+         data: ".$airdata."
+      }
+   ];
+   
+   var credits= {  
+          enabled:false ,
+   };
+   
+
+   var json = {};
+
+   json.chart = chart;
+   json.credits = credits;
+   json.title = title;
+   json.subtitle = subtitle;
+   json.xAxis = xAxis;
+   json.yAxis = yAxis;
+   json.tooltip = tooltip;
+   json.legend = legend;
+   json.series = series;
+
+   $('#container".$Nownode."').highcharts(json);
+})
+</script>";
+            $Nownode=$nodenum;
+
+            echo'<hr color="#666666" ><div id="container'.$nodenum.'"></div>';
+            $datedata=']';
+            $humdata=']';
+            $lightdata=']';
+            $airdata=']';
+            $tempdata=']';
+            }
+            
+            if($Nownode != 0 &&  $state == 0)
+            {
+             $state = 1;
+            $datedata='['.$datedata;
+            $tempdata='['.$tempdata;
+            $humdata='['.$humdata;
+            $lightdata='['.$lightdata;
+            $airdata='['.$airdata;
+            echo "<script language=\"JavaScript\">
+$(function(){
+   var chart= {
+            backgroundColor: '#f5f5f5',
+            type: 'line'
+   };
+   var title = {
+       text: '".$Nownode."号节点数据'   
+   };
+   var subtitle = {
+        text: 'SENSORDATA'
+   };
+   var xAxis = {
+	   categories: ".$datedata."
+   };
+   var yAxis = {
+      title: {
+         text: 'DATA'
+      },
+      plotLines: [{
+         value: 0,
+         width: 1,
+         color: '#808080'
+      }]
+   };   
+
+   var tooltip = {
+   }
+
+   var legend = {
+      layout: 'vertical',
+      align: 'right',
+      verticalAlign: 'middle',
+      borderWidth: 0
+   };
+
+   var series =  [
+      {
+         name: 'Temperature',
+         data: ".$tempdata."
+      }, 
+      {
+         name: 'Humidity',
+         data: ".$humdata."
+      }, 
+      {
+         name: 'Illumination',
+         data: ".$lightdata."
+      }, 
+      {
+         name: 'Air Quality',
+         data: ".$airdata."
+      }
+   ];
+   
+   var credits= {  
+          enabled:false ,
+   };
+   
+
+   var json = {};
+
+   json.chart = chart;
+   json.credits = credits;
+   json.title = title;
+   json.subtitle = subtitle;
+   json.xAxis = xAxis;
+   json.yAxis = yAxis;
+   json.tooltip = tooltip;
+   json.legend = legend;
+   json.series = series;
+
+   $('#container".$Nownode."').highcharts(json);
+})
+</script>";
+
+            echo'<div id="container'.$nodenum.'"></div>';
+            $datedata=']';
+            $humdata=']';
+            $lightdata=']';
+            $airdata=']';
+            $tempdata=']';
+            }
+            
+            
+            }
+            
+            $datedata="'".$time."',".$datedata;
+            $tempdata=$temperature.','.$tempdata;
+            $humdata=$humidity.','.$humdata;
+            $lightdata=$light.','.$lightdata;
+            $airdata=$air.','.$airdata;
+       }
+       
+            $datedata='['.$datedata;
+            $tempdata='['.$tempdata;
+            $humdata='['.$humdata;
+            $lightdata='['.$lightdata;
+            $airdata='['.$airdata;
+            echo "<script language=\"JavaScript\">
+$(function(){
+   var chart= {
+            backgroundColor: '#f5f5f5',
+            type: 'line'
+   };
+   var title = {
+       text: '".$Nownode."号节点数据'   
+   };
+   var subtitle = {
+        text: 'SENSORDATA'
+   };
+   var xAxis = {
+	   categories: ".$datedata."
+   };
+   var yAxis = {
+      title: {
+         text: 'DATA'
+      },
+      plotLines: [{
+         value: 0,
+         width: 1,
+         color: '#808080'
+      }]
+   };   
+
+   var tooltip = {
+   }
+
+   var legend = {
+      layout: 'vertical',
+      align: 'right',
+      verticalAlign: 'middle',
+      borderWidth: 0
+   };
+
+   var series =  [
+      {
+         name: 'Temperature',
+         data: ".$tempdata."
+      }, 
+      {
+         name: 'Humidity',
+         data: ".$humdata."
+      }, 
+      {
+         name: 'Illumination',
+         data: ".$lightdata."
+      }, 
+      {
+         name: 'Air Quality',
+         data: ".$airdata."
+      }
+   ];
+   
+   var credits= {  
+          enabled:false ,
+   };
+   
+
+   var json = {};
+
+   json.chart = chart;
+   json.credits = credits;
+   json.title = title;
+   json.subtitle = subtitle;
+   json.xAxis = xAxis;
+   json.yAxis = yAxis;
+   json.tooltip = tooltip;
+   json.legend = legend;
+   json.series = series;
+
+   $('#container".$Nownode."').highcharts(json);
+})
+</script>";
+       } 
+       else
+       {
+		printf("Could not retrieve records: %s\n", mysqli_error($mysqli));
+        }
+        mysqli_free_result($res);
+        mysqli_close($mysqli);
+     }
+     ?>
+  
+  
+  
+</body>
+</html>

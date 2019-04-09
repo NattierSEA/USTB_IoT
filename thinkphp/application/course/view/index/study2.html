@@ -1,0 +1,42 @@
+﻿{include file="public/head"}
+
+
+<!--Page Header-->
+<section class="page_header padding-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 page-content">
+        <h1>STM32基础实验</h1>
+        <p>STM32是一款广泛使用的高性能芯片，在全球的嵌入式开发行业中尤为重要。掌握STM32的基础编程，既可以使用它调用传感器，也可以与其他芯片联用进行物联网产品开发。</p>
+        <div class="page_nav">
+      <span>您的位置:</span> <a href="{:url('course/index/index')}">视频课程中心</a> <span><i class="fa fa-angle-double-right"></i><a href="{:url('course/index/course2')}">STM32基础实验</a> </span>
+	  <span><i class="fa fa-angle-double-right"></i>{$data.name}</span>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Page Header-->
+
+<!-- Courses -->
+<section id="course_all" class="padding-bottom">
+  <div class="container">
+  <div class="col-md-12">
+  <h2 class="heading heading_space wow fadeInDown"><a href="{:url('course/index/study1?course='.$data['id'])}">{$data.name}</a><span class="divider-left"></span></h2>
+	<p>{$data.brief}</p>
+  </div>
+<video width="90%" height="600" controls autoplay>
+  <source src="{$data.video}" type="video/mp4">
+  <object data="{$data.video}" width="320" height="240">
+    <embed width="320" height="240" src="movie.swf">
+  </object>
+</video>
+
+  </div>
+  
+  
+  
+</section>
+<!-- Courses ends -->
+
+{include file="public/foot"}

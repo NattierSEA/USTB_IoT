@@ -1,0 +1,101 @@
+{include file='public/head'}
+<div class="x-body">
+
+            <table class="layui-table"  lay-skin="nob">
+                <thead>
+                    <tr>
+                        <th colspan="3" scope="col">
+                            您的信息
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th width="100px">
+                            用户名
+                        </th>
+                        <td width="200px">
+                            {$user.username}
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr ondblclick="tClick(1)" id="1">
+                        <td>
+                            头像
+                        </td>
+                        <td class="url">
+                            <img src="{$user.propic}" style="height:100px;width:100px">
+                        </td>
+                        <td>
+                            <button class="layui-btn" 
+							onclick="x_admin_show('上传头像','upload.html',500,500)">
+							更改</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            注册邮箱
+                        </td>
+                        <td>
+                            {$user.email}
+                        </td>
+                        <td>
+                            <button class="layui-btn" 
+							onclick="x_admin_show('更改邮箱','email.html',500,350)">
+							更改</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            创建时间
+                        </td>
+                        <td>
+                            {$user.create_time}
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            最新登录时间
+                        </td>
+                        <td>
+                            {$user.last_login_time}
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            最新登录IP
+                        </td>
+                        <td>
+                            {$user.last_login_ip}
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+    </fieldset>
+    <blockquote class="layui-elem-quote layui-quote-nm">
+        北京科技大学 物联网与电子工程系
+    </blockquote>
+</div>
+<script>
+
+      function tClick(id){
+          var url = $('#'+id).children('td').children('img').attr('src');
+          //页面层
+          layer.open({
+            type: 1,
+            skin: '', //加上边框
+            area: ['900px', '648px'], //宽高
+            content: "<center style='margin-top:40px;'><img src="+url+"></center>"
+          });
+      }
+</script>
+{include file='public/foot'}
